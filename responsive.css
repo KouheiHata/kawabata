@@ -188,6 +188,8 @@
 
     .sub-menu {
         position: relative;
+        max-height: 200px;
+        overflow-y: scroll;
     }
 
     .sub-menu .menu-item {
