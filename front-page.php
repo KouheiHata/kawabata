@@ -210,6 +210,15 @@ Template Name: 川端工務店フロントページ
 			    <a data-pin-do="embedUser" data-pin-lang="ja" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.jp/kawabatakoumuten226577/"></a>
 			</div>
 
+			<div class="pt-2 pb-5">
+			    <h4 class="text-left inst pb-3">
+			    <img src="<?php echo get_template_directory_uri(); ?>/images/icon_line.png" width="30px">
+			    LINE@
+			    </h4>
+				<div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@kawabata0778226577" data-count="true" data-home="true" style="display: none;"></div>
+ <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+			</div>
+
 			</div>
 
 			</div>  <!-- row -->
