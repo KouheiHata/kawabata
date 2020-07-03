@@ -30,7 +30,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<meta name="google-site-verification" content="pfS2MJ3FKZwjaewn5tDTRd3EeSgwWEDA033TYvl6a70" />
+<!-- google search console -->
+<meta name="google-site-verification" content="kzwKpww0YrhS42jeKtEOEwBkSzd08Y4LcfAcg9H1vlM" />
 </head>
 <body <?php body_class (); ?>>
 <?php wp_head(); ?>
