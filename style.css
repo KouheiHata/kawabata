@@ -1309,6 +1309,29 @@ dd.con:after {
     transform: scale(1.1);
 }
 
+.z-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 70px;
+    border: solid 2px #D3CDC7;
+}
+.z-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+.z-crosssection-img {
+    width: 600px;
+    height: auto;
+}
+.pb40 {
+    padding-bottom: 40px;
+}
 /* -------------------------------------------------------------------------------- */
 /*	10.	Single Page
 /* -------------------------------------------------------------------------------- */
@@ -1433,7 +1456,15 @@ a:hover.white {
 .boxShadow {
     box-shadow: 1px 1px 8px;
 }
-
+.bg-lightbrown {
+    background-color: #faf7f1;
+}
+.text-brown {
+    color: #B28B63;
+}
+.text-darkbrown {
+    color: #51422c;
+}
 /* -------------------------------------------------------------------------------- */
 /*	15.	Margin/Padding
 /* -------------------------------------------------------------------------------- */
