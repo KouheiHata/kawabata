@@ -70,6 +70,11 @@ Template Name: Z空調の家ページテンプレート
                     </div>
                 </div>
             </div>
+            <div>
+                <div class="text-center">
+                    <a href="https://www.hinokiya.jp/z/" class="h5 url border-btn">詳しくはこちら</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
