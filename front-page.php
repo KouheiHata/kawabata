@@ -6,7 +6,7 @@ Template Name: 川端工務店フロントページ
 ?>
 
 
-<?php get_header('top'); ?>
+<?php get_header(); ?>
 
 
 <img src="<?php echo get_template_directory_uri(); ?>/images/top-img2.jpg" alt="トップ画像" width="100%">
