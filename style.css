@@ -1314,16 +1314,14 @@ dd.con:after {
     font-weight: 600;
     margin-top: 60px;
     margin-bottom: 60px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 40px 90px;
     border-radius: 70px;
     border: solid 2px #D3CDC7;
 }
 .z-text {
     font-size: 24px;
     font-weight: 600;
+    line-height: 1.7;
 }
 .z-crosssection-img {
     width: 900px;
@@ -1337,12 +1335,25 @@ dd.con:after {
 .z-card-title {
     font-weight: 600;
     padding-left: 10px;
+    line-height: 1.7;
 }
 .z-card-text {
     font-size: 18px;
     padding-top: 30px;
     padding-left: 10px;
     line-height: 1.7;
+}
+.z-btn {
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #373841;
+    padding: 20px 55px;
+    transition: .3s;
+}
+.z-btn:hover {
+    color: #fff;
+    opacity: .6;
+    transition: .3s;
 }
 .pt30 {
     padding-top: 30px;

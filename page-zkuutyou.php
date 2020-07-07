@@ -37,7 +37,7 @@ Template Name: Z空調の家ページテンプレート
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="d-inline-block text-lightgreen z-card-title">家中で温度差がない健康的な生活</h3>
+                            <h3 class="d-inline-block text-lightgreen z-card-title">家中で温度差がない<br class="d-block d-md-none">健康的な生活</h3>
                             <p class="card-text d-inline-block z-card-text">Z空調は家の中の温度が常に適温で安定。<br>夏場は就寝中に気になる冷風も直接感じない涼やかさで朝までぐっすり眠ることができ、熱中症リスクを軽減します。また冬場は、温度差によるヒートショックのリスクを軽減することができます。</p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ Template Name: Z空調の家ページテンプレート
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="d-inline-block text-lightgreen z-card-title">部屋全体に空気が循環して年中快適</h3>
+                            <h3 class="d-inline-block text-lightgreen z-card-title">部屋全体に空気が循環して<br class="d-block d-md-none">年中快適</h3>
                             <p class="card-text d-inline-block z-card-text">夏はルーバーを通常位置で使用し、風が天井伝いに流れるようにします。頭上からの風が部屋全体を涼しくします<br><br>冬はルーバーを一番手前まで引出し、垂直に風を流します。これにより、空気の流れをつくり足元からくる冷えを防ぎます。</p>
                         </div>
                     </div>
@@ -65,14 +65,15 @@ Template Name: Z空調の家ページテンプレート
                     <div class="col-md-8">
                         <div class="card-body">
                             <h3 class="d-inline-block text-lightgreen z-card-title">導入費用も月々の電気代も<br>驚きの低コスト</h3>
-                            <p class="card-text d-inline-block z-card-text">イニシャルコストは 一般的な全館空調の “約半額”。<br>月々の光熱費も、総務省家計調査データとZ 空調搭載住宅実測値の比較したところ、Z 空調搭載住宅の方が低コストであることが実証されました。</p>
+                            <p class="card-text d-inline-block z-card-text">イニシャルコストは 一般的な全館空調の <br class="d-none d-md-block d-lg-none">“約半額”。<br>月々の光熱費も、総務省家計調査データとZ 空調搭載住宅実測値の比較したところ、Z 空調搭載住宅の方が低コストであることが実証されました。</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="text-center">
-                    <a href="https://www.hinokiya.jp/z/" class="h5 url border-btn">詳しくはこちら</a>
+                    <a href="https://www.hinokiya.jp/z/" class="url z-btn">詳しくはこちらから</a>
+                    <p class="text-center pt30">※別サイトにジャンプします</p>
                 </div>
             </div>
         </div>

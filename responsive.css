@@ -295,13 +295,57 @@
     .news-box-img {
         margin-bottom: 10px;
     }
+    .z-text {
+        font-size: 18px;
+    }
+    .z-title {
+        font-size: 24px;
+        padding: 20px 30px;
+    }
+    .z-card {
+        padding: 10px;
+    }
+    .z-card-title {
+        font-size: 16px;
+    }
+    .z-card-text {
+        font-size: 12px;
+    }
+    .z-btn {
+        font-size: 1rem;
+        padding: 20px 30px;
+    }
 }
 
-@media screen and (min-width: 576px) and (max-width: 767.98px) {}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .z-text {
+        font-size: 18px;
+    }
+    .z-title {
+        font-size: 24px;
+        padding: 20px 30px;
+    }
+    .z-card {
+        padding: 10px;
+    }
+    .z-card-title {
+        font-size: 16px;
+    }
+    .z-card-text {
+        font-size: 12px;
+    }
+    .z-btn {
+        font-size: 1rem;
+        padding: 20px 30px;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     .nrhd-time {
         margin-top: 10px;
+    }
+    .z-text {
+        font-size: 20px;
     }
 }
 
