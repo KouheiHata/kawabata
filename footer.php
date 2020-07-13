@@ -174,6 +174,20 @@ $(window).on('scroll',function(){
 });
 });
 </script>
+<script>
+$(function () {
+    setTimeout('arrow()'); //アニメーションを実行
+});
+
+function arrow() {
+    $('#arrow').animate({
+        marginTop: '-=20px'
+    }, 800).animate({
+        marginTop: '+=20px'
+    }, 800);
+    setTimeout('arrow()', 1600); //アニメーション
+}
+</script>
 
 <?php wp_footer(); ?>
 </body>

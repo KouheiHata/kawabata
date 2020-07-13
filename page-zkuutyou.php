@@ -8,8 +8,8 @@ Template Name: Z空調の家ページテンプレート
 
 
 <?php get_header(); ?>
-
-<img src="<?php echo get_template_directory_uri(); ?>/images/top-img2.jpg" alt="トップ画像" width="100%">
+<div id="arrow" class="arrow"></div>
+<img src="<?php echo get_template_directory_uri(); ?>/images/zkuchou.jpg" alt="家中心地よい、しかも経済的｜空調革命　Z空調" width="100%">
 
 <div class="container-fluid bg-lightbrown py80">
 <div class="container">
