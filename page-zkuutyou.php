@@ -51,8 +51,8 @@ Template Name: Z空調の家ページテンプレート
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="d-inline-block text-lightgreen z-card-title">部屋全体に空気が循環して<br class="d-block d-sm-none">年中快適</h3>
-                            <p class="card-text d-inline-block z-card-text">夏はルーバーを通常位置で使用し、風が天井伝いに流れるようにします。頭上からの風が部屋全体を涼しくします<br><br>冬はルーバーを一番手前まで引出し、垂直に風を流します。これにより、空気の流れをつくり足元からくる冷えを防ぎます。</p>
+                            <h3 class="d-inline-block text-lightgreen z-card-title">循環して一年中快適</h3>
+                            <p class="card-text d-inline-block z-card-text">夏は風が天井伝いに流れるようにします。頭上からの風が部屋全体を涼しくします<br><br>冬は垂直に風を流します。これにより、空気の流れをつくり足元からくる冷えを防ぎます。</p>
                         </div>
                     </div>
                 </div>
