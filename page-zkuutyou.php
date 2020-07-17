@@ -9,7 +9,7 @@ Template Name: Z空調の家ページテンプレート
 
 <?php get_header(); ?>
 <div id="arrow" class="arrow"></div>
-<img src="<?php echo get_template_directory_uri(); ?>/images/zkuchou.jpg" alt="家中心地よい、しかも経済的｜空調革命　Z空調" width="100%">
+<img src="<?php echo get_template_directory_uri(); ?>/images/zkuchou_2.jpg" alt="家中心地よい、しかも経済的｜空調革命　Z空調" width="100%">
 
 <div class="container-fluid bg-lightbrown py80">
 <div class="container">
@@ -52,7 +52,8 @@ Template Name: Z空調の家ページテンプレート
                     <div class="col-md-8">
                         <div class="card-body">
                             <h3 class="d-inline-block text-lightgreen z-card-title">循環して一年中快適</h3>
-                            <p class="card-text d-inline-block z-card-text">夏は風が天井伝いに流れるようにします。頭上からの風が部屋全体を涼しくします<br><br>冬は垂直に風を流します。これにより、空気の流れをつくり足元からくる冷えを防ぎます。</p>
+                            <p class="card-text d-inline-block z-card-text mb-5">夏は風が天井伝いに流れるようにします。頭上からの風が部屋全体を涼しくします</p>
+                            <p class="card-text d-inline-block z-card-text mt-3">冬は垂直に風を流します。これにより、空気の流れをつくり足元からくる冷えを防ぎます。</p>
                         </div>
                     </div>
                 </div>

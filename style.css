@@ -1335,7 +1335,7 @@ dd.con:after {
 .z-card-title {
     font-weight: 600;
     padding-left: 10px;
-    line-height: 1.7;
+    line-height: 1.25;
 }
 .z-card-text {
     font-size: 18px;
@@ -1448,7 +1448,7 @@ dd.con:after {
     border-color: transparent transparent #000 #000;
     transform: rotate(-45deg);
     position: absolute;
-    top: 700px;
+    top: 950px;
     left: 48%;
 }
 /* -------------------------------------------------------------------------------- */
