@@ -321,6 +321,10 @@
         font-size: 1rem;
         padding: 20px 30px;
     }
+    .ll-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -350,6 +354,10 @@
         font-size: 1rem;
         padding: 20px 30px;
     }
+    .ll-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -372,6 +380,10 @@
     .z-text {
         font-size: 20px;
     }
+    .ll-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
@@ -380,6 +392,10 @@
     }
     .z-img1 {
         padding-top: 25px !important;
+    }
+    .ll-container {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
