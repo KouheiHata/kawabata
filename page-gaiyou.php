@@ -64,7 +64,7 @@ Template Name: 川端工務店会社概要
 			<hr class="d-xl-none d-lg-none d-md-none d-sm-inline">
 		</div>
 		<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 mb-3">
-			〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline">福井県越前市四郎丸町31-2-9　<br class="d-xl-none d-lg-none d-md-none d-sm-inline">→<a href="/access">アクセス</a>
+			〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline">福井県越前市四郎丸町31-2-9　<br class="d-xl-none d-lg-none d-md-none d-sm-inline">　<a href="/access"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_googlemap.jpg" alt="Google Map" width="50px" /></a>
 		</div>
 		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-3 text-success">
 			<hr class="d-xl-none d-lg-none d-md-none d-sm-inline">
