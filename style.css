@@ -616,6 +616,18 @@ nav {
     color: #666666;
 }
 
+.top-img2-pc {
+	width: 100%;
+}
+
+.top-img2-res {
+	display: none;
+}
+
+.top-zkuchou-res {
+	display: none;
+}
+
 .bg-top {
     position: absolute;
     top: 0;

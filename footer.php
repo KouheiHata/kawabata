@@ -121,6 +121,9 @@
 <!-- match height -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.matchHeight.js"></script>
 
+<!-- JQuery-rwdImageMaps -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js" integrity="sha512-eZB7hQa0bRlrKMQ2njpP0d/Klu6o30Gsr8e5FUCjUT3fSlnVkm/1J14n58BuwgaMuObrGb7SvUfQuF8qFsPU4g==" crossorigin="anonymous"></script>
+
 <script>
 $(function($){
 	$('.news-img').matchHeight();
@@ -187,6 +190,11 @@ function arrow() {
     }, 800);
     setTimeout('arrow()', 1600); //アニメーション
 }
+</script>
+
+<!-- rwdImageMaps -->
+<script>
+	$('img[usemap]').rwdImageMaps();
 </script>
 
 <?php wp_footer(); ?>

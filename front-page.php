@@ -8,8 +8,16 @@ Template Name: 川端工務店フロントページ
 
 <?php get_header(); ?>
 
+<!-- スマホサイト -->
+<img src="<?php echo get_template_directory_uri(); ?>/images/top-img2.jpg" alt="自分らしく素直になれる家" class="top-img2-res" />
+<a href="<?php home_url(); ?>/zkuutyou/"><img src="<?php echo get_template_directory_uri(); ?>/images/top-zkuchou.jpg" alt="新時代冷暖房システム Z空調" class="top-zkuchou-res" /></a>
 
-<img src="<?php echo get_template_directory_uri(); ?>/images/top-img2.jpg" alt="トップ画像" width="100%">
+<!-- PCサイト -->
+<img src="<?php echo get_template_directory_uri(); ?>/images/top-img2z.jpg" usemap="#ImageMap" alt="自分らしく素直になれる家" class="top-img2-pc" />
+<map name="ImageMap">
+  <area shape="rect" coords="62,789,617,1134" href="<?php home_url(); ?>/zkuutyou/" alt="詳しい内容" />
+  <area shape="rect" coords="292,705,610,788" href="<?php home_url(); ?>/zkuutyou/" alt="Z空調" />
+</map>
 
 <div class="container">
     <div class="row">
