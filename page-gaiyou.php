@@ -64,7 +64,7 @@ Template Name: 川端工務店会社概要
 			<hr class="d-xl-none d-lg-none d-md-none d-sm-inline">
 		</div>
 		<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 mb-3">
-			〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline">福井県越前市四郎丸町31-2-9　<br class="d-xl-none d-lg-none d-md-none d-sm-inline">→<a href="/access">アクセス</a>
+			〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline">福井県越前市四郎丸町31-2-9　<br class="d-xl-none d-lg-none d-md-none d-sm-inline">　<a href="/access"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_googlemap.jpg" alt="Google Map" width="50px" /></a>
 		</div>
 		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-3 text-success">
 			<hr class="d-xl-none d-lg-none d-md-none d-sm-inline">
@@ -92,7 +92,7 @@ Template Name: 川端工務店会社概要
 			<hr class="d-xl-none d-lg-none d-md-none d-sm-inline">
 		</div>
 		<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 mb-3">
-			一級建築士：3名　二級建築士：5名<br />
+			一級建築士：4名　二級建築士：5名<br />
 			一級建築施工管理技士：2名　<br class="d-xl-none d-lg-none d-md-none d-sm-inline">二級建築施工管理技士：2名<br />
 			福井県木造住宅耐震診断士：2名　<br class="d-xl-none d-lg-none d-md-none d-sm-inline">応急危険度判定士：2名<br />
 			一級土木施工管理技士：2名　<br class="d-xl-none d-lg-none d-md-none d-sm-inline">二級土木施工管理技士：3名<br />
@@ -108,7 +108,7 @@ Template Name: 川端工務店会社概要
 		<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 mb-3">
 			1級建築士事務所<br />
 			宅地建物取引業免許　福井県知事 (7) 第1056<br />
-			福井県知事　建設業許可 (建築特-26、土木般-21) 第5378号<br />
+			福井県知事　建設業許可 (建築特-1、土木般-1) 第5378号<br />
 			住宅瑕疵担保責任保険　登録業者<br />
 			ハウスプラス住宅保証(株)<br />
 			(財)住宅保証機構<br />
@@ -129,7 +129,7 @@ Template Name: 川端工務店会社概要
 			<hr class="d-xl-none d-lg-none d-md-none d-sm-inline">
 		</div>
 		<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 mb-3">
-			8億8千万円（平成30年度実績）
+			7億2千万円（R1年度実績）
 		</div>
 		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-3 text-success">
 			<hr class="d-xl-none d-lg-none d-md-none d-sm-inline">
