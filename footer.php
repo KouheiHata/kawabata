@@ -23,69 +23,7 @@
           </div>
     </nav>
 
-<!--
-       <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark d-none d-md-block">
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav w-100 nav-justified">
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo home_url() ?>">トップページ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/news">お知らせ</a>
-                </li>
-                <li class="nav-item dropdown yamm-fw">
-                    <a class="nav-link dropdown-toggle" href="#"data-toggle="dropdown">実績</a>
-                    <ul class="dropdown-menu">
-                        <li>
-					<div class="yamm-content">
-					<div class="row">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 py-3"><a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/works/">施工実績</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/renovation/">リフォーム実績</a></div>
-					</div>
-					</div>
-					</li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown yamm-fw">
-                    <a class="nav-link dropdown-toggle" href="#"data-toggle="dropdown">私たちについて</a>
-                    <ul class="dropdown-menu">
-                        <li>
-					<div class="yamm-content">
-					<div class="row">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 py-3"><a class="dropdown-item" href="<?php echo home_url() ?>/greeting">ご挨拶</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/gaiyou">企業情報</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/staff">スタッフ紹介</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/syokunin">職人紹介</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/watashitatino">私たちの家づくり</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/nagare">家づくりの流れ</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/longlife">長期優良住宅</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/naruhodo">なるほど住まい館</a></div>
-					</div>
-					</div>
-					</li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo home_url() ?>/realestate/">不動産情報</a>
-                </li>
-                <li class="nav-item dropdown yamm-fw end">
-                    <a class="nav-link dropdown-toggle" href="<?php echo get_template_directory_uri(); ?>/contact"data-toggle="dropdown">お問い合わせ</a>
-                    <ul class="dropdown-menu">
-                        <li>
-					<div class="yamm-content">
-					<div class="row">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 py-3"><a class="dropdown-item" href="<?php echo home_url() ?>/contact">お問い合わせ</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/gaiyou">企業情報</a></div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-3"><a class="dropdown-item" href="<?php echo home_url() ?>/access">アクセス</a></div>
-					</div>
-					</div>
-					</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
--->
+
 
 	</div>
 
@@ -93,7 +31,7 @@
 	<img src="<?php echo get_template_directory_uri(); ?>/images/logo_w.png" width="400px" alt="株式会社　川端工務店"><br />
 		<div class="h5">
 		〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline">福井県越前市四郎丸町31-2-9<br>
-		<i class="fas fa-phone-square"></i>&nbsp;0778-22-6577
+		<a href="tel:0778-22-6577" class="text-white"><i class="fas fa-phone-square"></i>&nbsp;0778-22-6577</a>
 		</div>
 	</div>
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">

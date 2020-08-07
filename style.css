@@ -1448,7 +1448,7 @@ dd.con:after {
     border-color: transparent transparent #000 #000;
     transform: rotate(-45deg);
     position: absolute;
-    top: 950px;
+    top: 138vh;
     left: 48%;
 }
 /* -------------------------------------------------------------------------------- */
