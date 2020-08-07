@@ -52,6 +52,7 @@
 </div>
       <nav>
       <a href="<?php echo home_url(); ?>" class="navbar-brand d-inline-block d-md-none align-items-center"><img class="navbar-brand" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="株式会社　川端工務店"></a>
+      <a href="tel:0778-22-6577" class="tel-i d-md-none em200"><i class="fas fa-phone-square"></i></a>
        <div id="ham" class="ham d-lg-none">
            <span class="ham_line ham_line1"></span>
            <span class="ham_line ham_line2"></span>
