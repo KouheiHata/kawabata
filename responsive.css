@@ -343,6 +343,9 @@
     .z-card-title {
         font-size: 16px;
     }
+    .summer {
+        margin-bottom: 0;
+    }
     .z-img1 {
         padding-top: 10px !important;
     }
@@ -375,6 +378,9 @@
     }
     .z-card-title {
         font-size: 16px;
+    }
+    .summer {
+        margin-bottom: 0;
     }
     .z-img1 {
         padding-top: 10px !important;
