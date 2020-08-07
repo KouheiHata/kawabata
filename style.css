@@ -1358,10 +1358,17 @@ dd.con:after {
 .btn-box {
     padding-bottom: 100px;
 }
+.z-bg {
+    background-color: #009a59;
+    cursor: pointer;
+    cursor: hand;
+}
+.z-bg2 {
+    background-color: #888;
+}
 .z-btn {
     font-size: 1.4rem;
     color: #fff;
-    background-color: #888;
     padding: 20px 55px;
     transition: .1s;
 }

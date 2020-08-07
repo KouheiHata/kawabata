@@ -74,12 +74,12 @@ Template Name: Z空調の家ページテンプレート
             <div>
                 <div class="text-center btn-box">
                     <div>
-                        <a href="<?php echo home_url('/contact'); ?>"><button class="text-center url z-btn">Z空調についての<br>お問い合わせ</button></a>
+                        <a href="<?php echo home_url('/contact'); ?>"><button class="text-center url z-btn z-bg">Z空調についての<br>お問い合わせ</button></a>
                     </div>
                 </div>
                 <div class="text-center">
                     <div>
-                        <a href="https://www.hinokiya.jp/z/" class="url z-btn" target="_blank" rel="noopener">詳しくはこちら</a>
+                        <a href="https://www.hinokiya.jp/z/" class="url z-btn z-bg2" target="_blank" rel="noopener">詳しくはこちら</a>
                         <p class="text-center pt30">※別サイトにジャンプします</p>
                     </div>
                 </div>
