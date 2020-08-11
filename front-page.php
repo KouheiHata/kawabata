@@ -15,8 +15,8 @@ Template Name: 川端工務店フロントページ
 <!-- PCサイト -->
 <img src="<?php echo get_template_directory_uri(); ?>/images/top-img2z.jpg" usemap="#ImageMap" alt="自分らしく素直になれる家" class="top-img2-pc" />
 <map name="ImageMap">
-  <area shape="rect" coords="62,789,617,1134" href="<?php home_url(); ?>/zkuutyou/" alt="詳しい内容" />
-  <area shape="rect" coords="292,705,610,788" href="<?php home_url(); ?>/zkuutyou/" alt="Z空調" />
+  <area shape="rect" coords="62,789,617,1134" href="<?php home_url('/zkuutyou/'); ?>" alt="詳しい内容" />
+  <area shape="rect" coords="292,705,610,788" href="<?php home_url('/zkuutyou/'); ?>" alt="Z空調" />
 </map>
 
 <div class="container">
@@ -99,7 +99,7 @@ Template Name: 川端工務店フロントページ
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
                     <div class="text-center">
-                        <a href="<?php echo home_url() ?>/realestate" class="h5 url border-btn">More</a>
+                        <a href="<?php echo home_url('/realestate/') ?>" class="h5 url border-btn">More</a>
                     </div>
                 </div><!-- 不動産情報 end -->
 
@@ -188,13 +188,13 @@ Template Name: 川端工務店フロントページ
                     <div class="bg-mask">
                         <h5 class="font-weight-bold text-white">家づくりの流れ</h5>
                     </div>
-                    <a href="<?php echo home_url() ?>/nagare"></a>
+                    <a href="<?php echo home_url('/nagare/') ?>"></a>
                 </div><!-- 家づくりの流れ end -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-test my-5">
                     <div class="bg-mask">
                         <h5 class="font-weight-bold text-white">長期優良住宅について</h5>
                     </div>
-                    <a href="<?php echo home_url() ?>/longlife"></a>
+                    <a href="<?php echo home_url('/longlife') ?>"></a>
                 </div><!-- 長期優良住宅について end -->
 
                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 pr-3">

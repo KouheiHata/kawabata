@@ -35,8 +35,8 @@
 		</div>
 	</div>
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-		<a class="btn btn-ghost my-4  white" role="button" href="<?php echo home_url() ?>/access"><i class="fas fa-map-marker-alt "></i>&nbsp;アクセス</a>
-		<a class="btn btn-ghost my-2 white" role="button" href="<?php echo home_url() ?>/contact"><i class="far fa-envelope"></i>&nbsp;お問い合わせ</a><br />
+		<a class="btn btn-ghost my-4  white" role="button" href="<?php echo home_url('/access/') ?>"><i class="fas fa-map-marker-alt "></i>&nbsp;アクセス</a>
+		<a class="btn btn-ghost my-2 white" role="button" href="<?php echo home_url('/contact/') ?>"><i class="far fa-envelope"></i>&nbsp;お問い合わせ</a><br />
 	</div>
 
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center md-5 txtWhite">
