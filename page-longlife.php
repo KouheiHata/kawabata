@@ -14,35 +14,34 @@ Template Name: 川端工務店長期優良住宅について
 <?php } ?>
 <?php echo do_shortcode('[metaslider id="903"]'); ?>
 
-<div class="container construction-top ll-container">
+<div class="container construction-top">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h4 class="top-title">長期優良住宅について<span class="h6"> -Long-life quality housing-</span></h4>
         </div>
 
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h5 class="text-center ll-title"><span class="text-info bold">川端工務店の長期優良住宅</span><br class="d-xl-none d-lg-none d-md-none d-sm-inline">とは・・・？</h5>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
+            <h5 class="text-center mb-5"><span class="text-info bold">川端工務店の長期優良住宅</span><br class="d-xl-none d-lg-none d-md-none d-sm-inline">とは・・・？</h5>
 
-			<h6 class="text-left line15">近年に住宅事情は、「作っては壊す」時代から「長持ちさせる」家づくりの時代へ移り変わろうとしています。<br>
-長持ちさせるということは、住宅としての資産価値が失われない、<br>つまり“住宅＝資産”として考えられるようになっていたということです。<br><br>
+			<h6 class="text-center">近年に住宅事情は、「作っては壊す」時代から「長持ちさせる」家づくりの時代へ移り変わろうとしています。<br />
+長持ちさせるということは、住宅としての資産価値が失われない、つまり“住宅＝資産”として考えられるようになっていたということです。<br />
 長期優良住宅を選ぶことにより、将来的に住宅を売ったり、貸したりが比較的容易にできるようになると考えられます。</h6>
-            <div class="text-center llbtn-box">
-                <a class="d-inline-block llbtn" href="<?php echo get_template_directory_uri(); ?>/images/yuryou.pdf">詳細はこちら</a>
-            </div>
-			<h5 class="text-center text-info bold ll-title">長期優良住宅のメリットとは？</h5>
 
-			<span class="text-info h5 bold">1.住宅の資産価値を守る</span><br><br>
-			<div class="h6 mb-5 line15">日本の住宅は、築20年を過ぎると資産価値がなくなると言われています。<br>
-でも「長期優良住宅制度」を用いた性能評価の高い住宅は、中古住宅としても資産価値を評価されることが期待されます。</div>
+			<a class="btn btn-info mt-3 mb-5" href="<?php echo get_template_directory_uri(); ?>/images/yuryou.pdf" style="width:220px; display: block; margin:0 auto;" role="button">詳細はこちら</a><br />
 
-			<span class="text-info h5 bold">2.ライフサイクルコストの低減</span><br><br>
-			<div class="h6 mb-5 line15">建物の生涯にかかるコストを「ライフサイクルコスト」と言います。<br>
-「長期優良住宅」は、耐久性や省エネ性が高く、使用期間中のランニングコストを抑えることができるので、<br>結果として「ライフサイクルコスト」が低く抑えられます。
-            </div>
+			<h5 class="text-center text-info bold mb-3">長期優良住宅のメリットとは？</h5><br />
 
-			<span class="text-info h5 bold">3.住宅税制、住宅ローン減税、金利の優遇</span><br><br>
-			<div class="h6 mb-5 line15">「長期優良住宅」は、長持ちさせるための住宅機能を採用しているため、<br>一般的住宅より建築コストが高くなる傾向にあります。<br>
-しかし、次世代へ継承できる良質な住宅と考え、税金など様々な優遇措置がとられています。</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/icons8-1-filled-100.png" width="60px" style="vertical-align:middle;"><span class="text-info h5 bold">住宅の資産価値を守る</span><br />
+			<div class="h6 mb-3">日本の住宅は、築20年を過ぎると資産価値がなくなると言われています。<br />
+でも「長期優良住宅制度」を用いた性能評価の高い住宅は、中古住宅としても資産価値を評価されることが期待されます。</div><br />
+
+			<img src="<?php echo get_template_directory_uri(); ?>/images/icons8-2-filled-100.png" width="60px" style="vertical-align:middle;"><span class="text-info h5 bold">ライフサイクルコストの低減</span><br />
+			<div class="h6 mb-3">建物の生涯にかかるコストを「ライフサイクルコスト」と言います。<br />
+「長期優良住宅」は、耐久性や省エネ性が高く、使用期間中のランニングコストを抑えることができるので、結果として「ライフサイクルコスト」が低く抑えられます。</div><br />
+
+			<img src="<?php echo get_template_directory_uri(); ?>/images/icons8-3-filled-100.png" width="60px" style="vertical-align:middle;"><span class="text-info h5 bold">住宅税制、住宅ローン減税、金利の優遇</span><br />
+			<div class="h6 mb-3">「長期優良住宅」は、長持ちさせるための住宅機能を採用しているため、一般的住宅より建築コストが高くなる傾向にあります。<br />
+しかし、次世代へ継承できる良質な住宅と考え、税金など様々な優遇措置がとられています。</div><br />
 
 <!--			
 <div class="text-info bold">住宅税制 （〜平成28年3月31日）</div>
