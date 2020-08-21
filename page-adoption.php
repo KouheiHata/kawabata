@@ -13,7 +13,9 @@ Template Name: 採用情報ページテンプレート
             <div class="adop-titlebox">
                 <h3>《戸建住宅の現場監督》福井近隣エリアにおける現場の監督業務</h3>
                 <p class="d-inline-block">正社員</p>
-                <img>
+                <div>
+                    <img src="http://www.kawabata-koumuten.com/wp-content/uploads/2019/04/news20170616.jpg" alt="現場イメージ">
+                </div>
             </div>
             <div class="adop-textbox">
                 <h4>弊社と共に、現場の指揮・監督の担当者として、ご活躍いただける方を募集します。</h4>
