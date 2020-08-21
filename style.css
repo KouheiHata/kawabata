@@ -1411,6 +1411,28 @@ dd.con:after {
     text-decoration: none;
     transition: .3s;
 }
+.adop-top p {
+    margin-top: 30px;
+    line-height: 1.8;
+    letter-spacing: .08em;
+}
+.adop-top h3,.adop-top h4 {
+    color: #666;
+}
+.adop-titlebox h3 {
+    border-bottom: 1px solid #666;
+}
+.adop-titlebox p {
+    padding: 0 8px;
+    border: 1px solid #000;
+}
+.table-box {
+    margin-top: 100px;
+}
+.table th {
+    width: 25%;
+    background-color: #faf7f1;
+}
 .pt30 {
     padding-top: 30px;
 }
