@@ -49,8 +49,88 @@ Template Name: 採用情報ページテンプレート
                         <th scope="row">昇給</th>
                         <td>テストテストテスト</td>
                     </tr>
+                    <tr>
+                        <th scope="row">賞与</th>
+                        <td>テストテストテスト</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">勤務地</th>
+                        <td>テストテストテスト</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">勤務時間</th>
+                        <td>テストテストテスト</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">休日休暇</th>
+                        <td>テストテストテスト</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">保険</th>
+                        <td>テストテストテスト</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">福利厚生/社内制度</th>
+                        <td>テストテストテスト</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">試用期間</th>
+                        <td>テストテストテスト</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">職場情報</th>
+                        <td>テストテストテスト</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">採用フロー</th>
+                        <td>テストテストテスト</td>
+                    </tr>
                 </tbody>
             </table>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 entry-box">
+            <div class="adop-titlebox">
+                <h3>求人エントリーフォーム</h3>
+            </div>
+            <div>
+                <p>※は必須入力項目</p>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th scope="row">氏名（漢字）※</th>
+                            <td>テストテストテスト</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">氏名（カナ）※</th>
+                            <td>テストテストテスト</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">性別※</th>
+                            <td>テストテストテスト</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">生年月日※</th>
+                            <td>テストテストテスト</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">保有資格／経験業務</th>
+                            <td>テストテストテスト</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">メールアドレス※</th>
+                            <td>テストテストテスト</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">電話番号※</th>
+                            <td>テストテストテスト</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">備考／メッセージ</th>
+                            <td>テストテストテスト</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>

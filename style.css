@@ -1426,12 +1426,16 @@ dd.con:after {
     padding: 0 8px;
     border: 1px solid #000;
 }
-.table-box {
+.table-box,.entry-box {
     margin-top: 100px;
 }
-.table th {
+.table-box th {
     width: 25%;
     background-color: #faf7f1;
+}
+.entry-box th {
+    width: 25%;
+    background-color: #f2eade;
 }
 .pt30 {
     padding-top: 30px;
