@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: 採用情報ページテンプレート
+Template Name: 川端工務店採用情報ページ
 */
 ?>
 
