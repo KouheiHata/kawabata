@@ -511,22 +511,25 @@ nav {
 }
 
 /*クリック後の処理*/
-.clicked .ham_line1 {
+.navi-btn-on .ham_line1 {
     transform: rotate(45deg);
     top: 50%;
 }
 
-.clicked .ham_line2 {
+.navi-btn-on .ham_line2 {
     width: 0;
 }
 
-.clicked .ham_line3 {
+.navi-btn-on .ham_line3 {
     transform: rotate(-45deg);
     top: 50%;
 }
 
 
 /* カスタムメニュー */
+#global_nav {
+	display:none;
+}
 
 .global_menu,
 .footer_menu {

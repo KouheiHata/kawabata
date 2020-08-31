@@ -68,6 +68,21 @@ $(function($){
 });
 </script>
 
+<!-- スマホ用メニューのフェードイン・フェードアウト -->
+<script>
+$(function() {
+  $("#ham").click(function(){
+    if (!$("#ham").hasClass("navi-btn-on")) {
+      $("#ham").addClass("navi-btn-on");
+      $("#global_nav").fadeIn();
+    } else {
+      $("#ham").removeClass("navi-btn-on")
+      $("#global_nav").fadeOut();
+    }
+  });
+});
+</script>
+
 <!-- Yamm3 -->
 <script>
 jQuery(document).on('click', '.yamm .dropdown-menu', function(e) {

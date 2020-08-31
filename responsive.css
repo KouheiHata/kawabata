@@ -130,8 +130,6 @@
     .global_menu .menu-item {
         display: block;
         width: 100%;
-        left: -100%;
-        position: relative;
         transition: all 0.8s;
     }
     
@@ -189,13 +187,7 @@
     .global_menu .menu-item {
         display: block;
         width: 100%;
-        left: -100%;
-        position: relative;
         transition: all 0.8s
-    }
-
-    .clicked .global_menu .menu-item {
-        left: 0;
     }
 
     .sub-menu {
@@ -236,13 +228,7 @@
     .global_menu .menu-item {
         display: block;
         width: 100%;
-        left: -100%;
-        position: relative;
         transition: all 0.8s
-    }
-
-    .clicked .global_menu .menu-item {
-        left: 0;
     }
 
     .sub-menu {
