@@ -1416,7 +1416,7 @@ dd.con:after {
     line-height: 1.8;
     letter-spacing: .08em;
 }
-.adop-top h3,.adop-top h4 {
+.adop-titlebox h3,.adop-textbox h4 {
     color: #666;
 }
 .adop-titlebox h3 {
@@ -1437,8 +1437,48 @@ dd.con:after {
     width: 25%;
     background-color: #f2eade;
 }
+.text-red {
+	color: #ed1c24;
+}
+div.wpcf7 input, .wpcf7 textarea {
+	border-radius: 5px;
+}
+div.wpcf7 input.wpcf7-submit {
+	width: 250px;
+	background: #888 !important;
+	transition: .3s;
+}
+div.wpcf7 input.wpcf7-submit:hover {
+    background: rgba(255, 117, 10, 1) !important;
+	transition: .3s;
+}
+.entry-btn {
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+}
+.entry-btn:focus {
+	outline: 0;
+}
+.wpcf7-form input:focus,.wpcf7-form textarea:focus {
+	outline: 0;
+	box-shadow: 0 0 0 2px rgba(255, 117, 10, .8);
+}
+.slider-recruit {
+	text-align: center;
+	margin: 50px auto;
+	max-width: 800px;
+}
 .pt30 {
     padding-top: 30px;
+}
+.pt50 {
+	 padding-top: 50px;
+}
+.mt50 {
+	margin-top: 50px;
+}
+.mt100 {
+	margin-top: 100px;
 }
 .pb10 {
     padding-bottom: 10px;
@@ -1448,6 +1488,12 @@ dd.con:after {
 }
 .pb40 {
     padding-bottom: 40px;
+}
+.pb80 {
+	padding-bottom: 80px;
+}
+.mb80 {
+	margin-bottom: 80px;
 }
 .py80 {
     padding-top: 80px;
