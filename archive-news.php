@@ -24,6 +24,7 @@ Template Name: 川端工務店お知らせページ
         <?php
   $args = array(
     'post_type' => 'news', // 投稿タイプのスラッグを指定
+    'post_status' => 'publish'
   );
   $the_query = new WP_Query($args); 
         if($the_query->have_posts()):

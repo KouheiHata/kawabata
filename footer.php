@@ -68,6 +68,21 @@ $(function($){
 });
 </script>
 
+<!-- スマホ用メニューのフェードイン・フェードアウト -->
+<script>
+$(function() {
+  $("#ham").click(function(){
+    if (!$("#ham").hasClass("navi-btn-on")) {
+      $("#ham").addClass("navi-btn-on");
+      $("#global_nav").fadeIn();
+    } else {
+      $("#ham").removeClass("navi-btn-on")
+      $("#global_nav").fadeOut();
+    }
+  });
+});
+</script>
+
 <!-- Yamm3 -->
 <script>
 jQuery(document).on('click', '.yamm .dropdown-menu', function(e) {
@@ -102,19 +117,21 @@ ham.addEventListener('click', function() {
 </script>
     
 <script>
-$(function(){
-var startPos = 0,winScrollTop = 0;
-$(window).on('scroll',function(){
-    winScrollTop = $(this).scrollTop();
-    if (winScrollTop >= startPos) {
-        $('#navbar').addClass('hide');
-    } else {
-        $('#navbar').removeClass('hide');
-    }
-    startPos = winScrollTop;
-});
-});
-</script>
+$(function() {
+	var headerHeight = $('#navbar').outerHeight(),
+		startPos = 0;
+	$(window).on('load scroll', function() {
+		var scrollPos = $(this).scrollTop();
+		if ( scrollPos > startPos && scrollPos > headerHeight ) {
+			$('#navbar').css('top', '-' + headerHeight + 'px');
+		} else {
+			$('#navbar').css('top', '0');
+		}
+		startPos = scrollPos;
+	});
+});	
+</script> 
+    
 <script>
 $(function () {
     setTimeout('arrow()'); //アニメーションを実行

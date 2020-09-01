@@ -130,8 +130,6 @@
     .global_menu .menu-item {
         display: block;
         width: 100%;
-        left: -100%;
-        position: relative;
         transition: all 0.8s;
     }
     
@@ -189,13 +187,7 @@
     .global_menu .menu-item {
         display: block;
         width: 100%;
-        left: -100%;
-        position: relative;
         transition: all 0.8s
-    }
-
-    .clicked .global_menu .menu-item {
-        left: 0;
     }
 
     .sub-menu {
@@ -236,13 +228,7 @@
     .global_menu .menu-item {
         display: block;
         width: 100%;
-        left: -100%;
-        position: relative;
         transition: all 0.8s
-    }
-
-    .clicked .global_menu .menu-item {
-        left: 0;
     }
 
     .sub-menu {
@@ -363,6 +349,25 @@
         padding-left: 0;
         padding-right: 0;
     }
+	.adop-titlebox h3 {
+		font-size: 22px;
+	}
+	.adop-textbox h4 {
+		font-size: 20px;
+	}
+	.table-bordered td,.entry-box th {
+		display: block;
+	}
+	.entry-box th {
+		width: 100%;
+	}
+	.table-box th {
+		display: block;
+		width: 100%;
+	}
+	.adop-top {
+		margin-top: 50px !important;
+	}
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -399,6 +404,25 @@
         padding-left: 0;
         padding-right: 0;
     }
+	.adop-titlebox h3 {
+		font-size: 22px;
+	}
+	.adop-textbox h4 {
+		font-size: 20px;
+	}
+	.table-bordered td,.entry-box th {
+		display: block;
+	}
+	.entry-box th {
+		width: 100%;
+	}
+	.table-box th {
+		display: block;
+		width: 100%;
+	}
+	.adop-top {
+		margin-top: 50px !important;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -425,6 +449,15 @@
         padding-left: 40px;
         padding-right: 40px;
     }
+	.adop-titlebox h3 {
+		font-size: 22px;
+	}
+	.adop-textbox h4 {
+		font-size: 20px;
+	}
+	.adop-top {
+		margin-top: 50px !important;
+	}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
