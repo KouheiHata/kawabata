@@ -130,6 +130,18 @@ $(window).on('scroll',function(){
 });
 });
 </script>
+
+<script>
+$(function($) {
+    $(window).scroll(function () {
+        var x = $(this).scrollTop();
+        if(x == 0) {
+        $('#navbar').removeClass('hide');
+        } 
+    });
+});
+</script>    
+    
 <script>
 $(function () {
     setTimeout('arrow()'); //アニメーションを実行
