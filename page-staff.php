@@ -93,17 +93,6 @@ Template Name: 川端工務店スタッフ紹介
 		</div>
 
 		<div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-12 mb-3">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/staff_iwata.jpg" alt="工事部　岩田昇馬" align="left">
-		</div>
-		<div class="col-xl-9 col-lg-9 col-md-8 col-sm-7 col-xs-12 mb-5">
-			<div class="h3 text-info">お客様に喜んで頂けるように。</div>
-			<div class="h5 bold">工事部&nbsp;&nbsp;岩田&nbsp;昇馬</div>
-			<div class="h6"><br />
-			<br />
-			お客様が喜んで頂けるような仕事を心がけています。先輩方の背中を追いかけ沢山の経験を積みお客様のお手伝いができるよう頑張ります。</div>
-		</div>
-
-		<div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-12 mb-3">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/staff_watanabem.jpg" alt="工事部　渡辺真" align="left">
 		</div>
 		<div class="col-xl-9 col-lg-9 col-md-8 col-sm-7 col-xs-12 mb-5">
