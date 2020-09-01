@@ -8,13 +8,15 @@ Template Name: 内覧会予約
 <?php get_header(); ?>
 
 <?php if (wp_is_mobile()) { //モバイルデバイスでアクセスされた場合 ?>
-<div class="key_top"><img src="<?php echo get_template_directory_uri(); ?>/images/keyword_smart.png" alt="人｜地元とのつながりを第一に"></div>
+
 <?php } else { //それ以外でアクセスされた場合 ?>
 <div class="key_top"><img src="<?php echo get_template_directory_uri(); ?>/images/keyword.png" alt="人｜地元とのつながりを第一に"></div>
 <?php } ?>
 <?php echo do_shortcode('[metaslider id="903"]'); ?>
 
-<div class="container access-top">
+<img src="http://www.kawabata-koumuten.com/wp-content/uploads/2020/08/6f9aaf0537e25498ace88c1e8b172a4c.jpg" style="display:block; margin: 0 auto; width: 90vw;">
+
+<div class="container">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h4 class="top-title">来場予約<span class="h6"> -reserve-</span></h4>

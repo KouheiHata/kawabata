@@ -527,8 +527,8 @@ nav {
 
 
 /* カスタムメニュー */
-#global_nav {
-	display:none;
+.global_nav {
+	display:block;
 }
 
 .global_menu,

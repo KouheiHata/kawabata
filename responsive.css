@@ -121,6 +121,10 @@
         float: left;
         margin-top: 0.75rem;
     }
+
+	.global_nav {
+		display:none;
+	}
     
     .menu_wrapper {
         height: 0;
@@ -180,6 +184,10 @@
         float: left;
     }
 
+	.global_nav {
+		display:none;
+	}
+
     .menu_wrapper {
         margin-top: 10px;
         height: 0;
@@ -224,6 +232,10 @@
     .menu_wrapper {
         height: 1rem;
     }
+
+	.global_nav {
+		display:none;
+	}
 
     .global_menu .menu-item {
         display: block;
