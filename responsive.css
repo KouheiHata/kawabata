@@ -140,13 +140,6 @@
     .clicked .global_menu .menu-item {
         left: 0;
     }
-    
-    .menu-item-has-children::before {
-        font-family: "Font Awesome 5 Free";
-        content: "\f055";
-        margin-right: 5px;
-        font-weight: bold;
-    }
 
     .sub-menu {
         position: relative;
@@ -204,13 +197,6 @@
         width: 100%;
         transition: all 0.8s
     }
-    
-    .menu-item-has-children::before {
-        font-family: "Font Awesome 5 Free";
-        content: "\f055";
-        margin-right: 5px;
-        font-weight: bold;
-    }
 
     .sub-menu {
         position: relative;
@@ -255,12 +241,6 @@
         display: block;
         width: 100%;
         transition: all 0.8s
-    }
-    .menu-item-has-children::before {
-        font-family: "Font Awesome 5 Free";
-        content: "\f055";
-        margin-right: 5px;
-        font-weight: bold;
     }
 
     .sub-menu {
