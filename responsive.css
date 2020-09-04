@@ -147,16 +147,30 @@
     }
 
     .menu-item {
+        text-align: left;
+        padding-left: 3em;
         background-color: rgba(51, 51, 51, 1);
+    }
+    
+    .menu-item-has-children > a::after {
+        font-family: "Font Awesome 5 Free";
+        content: '\f055';
+        font-weight: bold;
+        position: absolute;
+        right: calc(100vw / 50 * 7);
+    }
+    
+    .menu-item-has-children:active > a::after,
+    .menu-item-has-children:hover > a::after {
+        content: '\f056';
     }
 
     .sub-menu {
         position: relative;
-        max-height: 200px;
-        overflow-y: scroll;
     }
 
     .sub-menu .menu-item {
+        background: rgb(170, 170, 170);
         width: 100%;
     }
 
@@ -207,11 +221,34 @@
         width: 100%;
         transition: all 0.8s
     }
+    
+    .global_menu > .menu-item:first-of-type,
+    .footer_menu > .menu-item:first-of-type {
+        background-color: rgba(255, 117, 10, 1);
+    }
+    
+    .menu-item {
+        text-align: left;
+        padding-left: 3em;
+        background-color: rgba(51, 51, 51, 1);
+    }
+    
+    .menu-item-has-children > a::after {
+        font-family: "Font Awesome 5 Free";
+        content: '\f055';
+        font-weight: bold;
+        position: absolute;
+        right: calc(100vw / 50 * 7);
+    }
+    
+    .menu-item-has-children:active > a::after,
+    .menu-item-has-children:hover > a::after {
+        content: '\f056';
+    }
 
     .sub-menu {
         position: relative;
-        max-height: 200px;
-        overflow-y: scroll;
+        background: rgb(170, 170, 170);
     }
 
     .sub-menu .menu-item {
@@ -252,12 +289,22 @@
         width: 100%;
         transition: all 0.8s
     }
+    
+    .global_menu > .menu-item:first-of-type,
+    .footer_menu > .menu-item:first-of-type {
+        background-color: rgba(255, 117, 10, 1);
+    }
+    
+    .menu-item {
+        background-color: rgba(51, 51, 51, 1);
+    }
 
     .sub-menu {
         position: relative;
     }
 
     .sub-menu .menu-item {
+        background: rgb(103, 103, 103);
         width: 100%;
     }
 
