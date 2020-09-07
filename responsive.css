@@ -167,11 +167,22 @@
 
     .sub-menu {
         position: relative;
+        max-height: 200px;
+        overflow-y: scroll;
+        background: rgb(170, 170, 170);
+    }
+    .sub-menu::-webkit-scrollbar {
+        width: 5px;
+    }
+    .sub-menu::-webkit-scrollbar-thumb {
+        background: #000;
+        border-radius: 3px;
     }
 
     .sub-menu .menu-item {
-        background: rgb(170, 170, 170);
         width: 100%;
+        background: rgb(170, 170, 170);
+        border-bottom: 1px solid rgb(255, 255, 255);
     }
 
     .footer_menu {
@@ -248,11 +259,24 @@
 
     .sub-menu {
         position: relative;
+        max-height: 200px;
         background: rgb(170, 170, 170);
+        overflow-y: scroll;
+    }
+    
+    .sub-menu::-webkit-scrollbar {
+        width: 5px;
+    }
+    
+    .sub-menu::-webkit-scrollbar-thumb {
+        background: #000;
+        border-radius: 3px;
     }
 
     .sub-menu .menu-item {
         width: 100%;
+        background: rgb(170, 170, 170);
+        border-bottom: 1px solid rgb(255, 255, 255);
     }
 
     .footer_menu {
@@ -301,11 +325,13 @@
 
     .sub-menu {
         position: relative;
+        background: rgb(170, 170, 170);
     }
 
     .sub-menu .menu-item {
         background: rgb(103, 103, 103);
         width: 100%;
+        border-bottom: 1px solid rgb(255, 255, 255);
     }
 
     .footer_menu {
