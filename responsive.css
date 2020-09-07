@@ -172,13 +172,12 @@
         background: rgb(170, 170, 170);
     }
     .sub-menu::-webkit-scrollbar {
-        width: 5px;
+        width: 10px;
     }
     .sub-menu::-webkit-scrollbar-thumb {
-        background: #000;
+        background: rgba(255, 255, 255, 1);
         border-radius: 3px;
     }
-
     .sub-menu .menu-item {
         width: 100%;
         background: rgb(170, 170, 170);
@@ -265,11 +264,11 @@
     }
     
     .sub-menu::-webkit-scrollbar {
-        width: 5px;
+        width: 10px;
     }
     
     .sub-menu::-webkit-scrollbar-thumb {
-        background: #000;
+        background: rgba(255, 255, 255, 1);
         border-radius: 3px;
     }
 
