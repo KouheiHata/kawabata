@@ -629,11 +629,21 @@
     .arrow {
         top: 50vh;
     }
+
+    .news_video iframe {
+        width: 768px;
+        height: 432px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .arrow {
         top: calc(100vh / 50 * 30);
+    }
+
+    .news_video iframe {
+        width: 580px;
+        height: 326px;
     }
 }
 
@@ -644,6 +654,11 @@
         border: 5px solid;
         border-color: transparent transparent #000 #000;
         top: calc(100vh / 50 * 26);
+    }
+
+    .news_video iframe {
+        width: 320px;
+        height: 180px;
     }
 }
 
