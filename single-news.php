@@ -6,13 +6,6 @@ Template Name: 川端工務店固定ページ
 ?>
 
 <?php get_header(); ?>
- 
-<?php if (wp_is_mobile()) { //モバイルデバイスでアクセスされた場合 ?>
-<div class="key_top"><img src="<?php echo get_template_directory_uri(); ?>/images/keyword_smart.png" alt="人｜地元とのつながりを第一に"></div>
-<?php } else { //それ以外でアクセスされた場合 ?>
-<div class="key_top"><img src="<?php echo get_template_directory_uri(); ?>/images/keyword.png" alt="人｜地元とのつながりを第一に"></div>
-<?php } ?>
-<?php echo do_shortcode('[metaslider id="903"]'); ?>
 
 <div class="container single-top">
     <div class="row">

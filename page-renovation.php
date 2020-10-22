@@ -7,13 +7,6 @@ Template Name: 川端工務店リフォーム実績ページ
 
 <?php get_header(); ?>
 
-<?php if (wp_is_mobile()) { //モバイルデバイスでアクセスされた場合 ?>
-<div class="key_top"><img src="<?php echo get_template_directory_uri(); ?>/images/keyword_smart.png" alt="人｜地元とのつながりを第一に"></div>
-<?php } else { //それ以外でアクセスされた場合 ?>
-<div class="key_top"><img src="<?php echo get_template_directory_uri(); ?>/images/keyword.png" alt="人｜地元とのつながりを第一に"></div>
-<?php } ?>
-<?php echo do_shortcode('[metaslider id="903"]'); ?>
-
 <div class="container construction-top">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -39,6 +32,9 @@ Template Name: 川端工務店リフォーム実績ページ
                 <a class="rnb-text url" href="<?php the_permalink(); ?>"><p class="font-weight-bold py-2 rnb-title"><?php echo get_the_title(); ?></p></a>
             </div>
         </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-3">
+            <hr style="border:none;background-color: #5b667a;height:1px;">
+		</div>
         <?php endwhile; ?>
 
 <?php else: ?>

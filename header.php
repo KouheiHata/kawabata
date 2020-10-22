@@ -36,7 +36,7 @@
 <body <?php body_class (); ?>>
 <?php wp_head(); ?>
 
-<div class="sticky-top bg-white"  id="navbar">
+<div class="sticky-top bg-white"  id="navbar">     
 <div class="container d-none d-md-block logo">
 	<div class="row d-flex align-items-center">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-2">

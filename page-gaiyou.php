@@ -8,7 +8,6 @@ Template Name: 川端工務店会社概要
 
 <?php get_header(); ?>
 
-            <img class="gaiyouTop" src="<?php echo get_template_directory_uri(); ?>/images/keyword.png" alt="人｜地元とのつながりを第一に">
 				<video muted controlslist="nodownload" autoplay playsinline preload="metadata" src="<?php echo get_template_directory_uri(); ?>/images/DJI_0037_1.mp4" id="video" width="100%">
 					<p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
 				</video>

@@ -7,13 +7,6 @@ Template Name: 川端工務店長期優良住宅について
 
 <?php get_header(); ?>
 
-<?php if (wp_is_mobile()) { //モバイルデバイスでアクセスされた場合 ?>
-<div class="key_top"><img src="<?php echo get_template_directory_uri(); ?>/images/keyword_smart.png" alt="人｜地元とのつながりを第一に"></div>
-<?php } else { //それ以外でアクセスされた場合 ?>
-<div class="key_top"><img src="<?php echo get_template_directory_uri(); ?>/images/keyword.png" alt="人｜地元とのつながりを第一に"></div>
-<?php } ?>
-<?php echo do_shortcode('[metaslider id="903"]'); ?>
-
 <div class="container construction-top">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -23,13 +16,11 @@ Template Name: 川端工務店長期優良住宅について
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
             <h5 class="text-center mb-5"><span class="text-info bold">川端工務店の長期優良住宅</span><br class="d-xl-none d-lg-none d-md-none d-sm-inline">とは・・・？</h5>
 
-			<h6 class="text-center">近年に住宅事情は、「作っては壊す」時代から「長持ちさせる」家づくりの時代へ移り変わろうとしています。<br />
+			<h6 class="text-center mb-3">近年に住宅事情は、「作っては壊す」時代から「長持ちさせる」家づくりの時代へ移り変わろうとしています。<br />
 長持ちさせるということは、住宅としての資産価値が失われない、つまり“住宅＝資産”として考えられるようになっていたということです。<br />
 長期優良住宅を選ぶことにより、将来的に住宅を売ったり、貸したりが比較的容易にできるようになると考えられます。</h6>
 
-			<a class="btn btn-info mt-3 mb-5" href="<?php echo get_template_directory_uri(); ?>/images/yuryou.pdf" style="width:220px; display: block; margin:0 auto;" role="button">詳細はこちら</a><br />
-
-			<h5 class="text-center text-info bold mb-3">長期優良住宅のメリットとは？</h5><br />
+			<h5 class="text-center text-info bold mt-5 mb-3">長期優良住宅のメリットとは？</h5><br />
 
 			<img src="<?php echo get_template_directory_uri(); ?>/images/icons8-1-filled-100.png" width="60px" style="vertical-align:middle;"><span class="text-info h5 bold">住宅の資産価値を守る</span><br />
 			<div class="h6 mb-3">日本の住宅は、築20年を過ぎると資産価値がなくなると言われています。<br />

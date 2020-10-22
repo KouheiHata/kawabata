@@ -82,7 +82,7 @@ Template Name: 川端工務店フロントページ
                         <?php if(has_post_thumbnail()): ?>
                         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
                         <?php else: ?>
-                        <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.jpg" alt="川端工務店｜画像"></a>
+                        <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
                         <?php endif; ?>
                     </div>
                     <div class="">

@@ -19,7 +19,7 @@ get_header(); ?>
 				the_post_thumbnail('thumbnail');
 			}
 			else {
-				echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/no-image.jpg" />';
+				echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/no-image.png" />';
 			}
 			?>
 		</div>
