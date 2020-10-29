@@ -8,7 +8,7 @@ Template Name: 川端工務店スタッフ紹介
 
 <?php get_header(); ?>
 
-<div class="container access-top">
+<div class="container access-top" style="margin-bottom: 0px;">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h4 class="top-title">スタッフ紹介<span class="h6"> -staff-</span></h4>
@@ -26,6 +26,17 @@ Template Name: 川端工務店スタッフ紹介
 			<div class="h6">一級建築士／一級建築施工管理技士／一級土木施工管理技士／宅地建物取引士／インテリアコーディネーター／住宅ローンアドバイザー／測量士<br />
 			<br />
 契約時の「あなたに任せた」、お引渡し時の「あなたに任せて良かった」。双方共に重みがある言葉であり、やりがいを強く感じています。そのやりがいが、地域で一番の“質”の追求につながっていると思います。普段の生活や住宅、土地など、“住まい”の悩みや相談、専門的意見を聞きたい時は、気軽にお尋ねください。</div>
+		</div>
+
+		<div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-12 mb-3">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/staff_kawabata.jpg" alt="株式会社川端工務店　会長　川端富士雄" align="left">
+		</div>
+		<div class="col-xl-9 col-lg-9 col-md-8 col-sm-7 col-xs-12 mb-5">
+			<div class="h3 text-info">信頼される地元企業として。</div>
+			<div class="h5 bold">会長&nbsp;&nbsp;川端&nbsp;富士雄</div>
+			<div class="h6">一級建築士／二級建築施工管理技士<br />
+			<br />
+			昭和57年の創業以来、地元の方に愛され信頼される企業となるべく、今もなお努力を続けております。経営理念の「信頼」を第一に考え、“継続は力なり”をモットーに、皆様に喜んでいただける住宅建築を提案できるよう、日々精進してまいります。</div>
 		</div>
 
 		<div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-12 mb-3">
@@ -130,28 +141,6 @@ Template Name: 川端工務店スタッフ紹介
 			<br />
 			住宅建設に関わるお金や契約書の作成を担当しています。複雑な計算がたくさんありますが元気と笑顔で丁寧でわかりやすくお客様に伝えていきたいと心がけています。
 </div>
-		</div>
-
-		<div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-12 mb-3">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/staff_kawabata.jpg" alt="株式会社川端工務店　会長　川端富士雄" align="left">
-		</div>
-		<div class="col-xl-9 col-lg-9 col-md-8 col-sm-7 col-xs-12 mb-5">
-			<div class="h3 text-info">信頼される地元企業として。</div>
-			<div class="h5 bold">株式会社川端工務店&nbsp;会長<br><div class="text-justify">株式会社リフォームかわばた</div>社長&nbsp;&nbsp;川端&nbsp;富士雄</div>
-			<div class="h6">一級建築士／二級建築施工管理技士<br />
-			<br />
-			昭和57年の創業以来、地元の方に愛され信頼される企業となるべく、今もなお努力を続けております。経営理念の「信頼」を第一に考え、“継続は力なり”をモットーに、皆様に喜んでいただける住宅建築を提案できるよう、日々精進してまいります。</div>
-		</div>
-
-		<div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-12 mb-3">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/staff_ishikawa.jpg" alt="石川　栄" align="left">
-		</div>
-		<div class="col-xl-9 col-lg-9 col-md-8 col-sm-7 col-xs-12 mb-5">
-			<div class="h3 text-info">何事も真剣に取り組む。</div>
-			<div class="h5 bold"><div class="text-justify">株式会社リフォームかわばた</div>石川&nbsp;栄</div>
-			<div class="h6">二級土木施工管理技士<br />
-			<br />
-			リフォームをすることで暮らしはもちろん、人生さえも変わってしまうことがあります。それほどに大切なことだからこそ間違いのない土木工事や、雑務であっても真剣に取り組んでいます。そして、確実な仕事をするには自身の健康も大切だと考えています。</div>
 		</div>
 
 	</div>
