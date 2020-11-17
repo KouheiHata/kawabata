@@ -1429,6 +1429,37 @@ div.wpcf7 input.wpcf7-submit:hover {
 	margin: 50px auto;
 	max-width: 800px;
 }
+.lh-box p {
+    color: #888889;
+    font-size: 18px;
+    letter-spacing: 0.15em;
+    line-height: 1.7;
+}
+.lh-box h2 {
+    color: #67bcc9;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+.bg-lhtop {
+    height: 160px;
+    background-image: url(images/LH/lh-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.lh-title {
+    margin-top: 100px;
+}
+.lh-top-text {
+    letter-spacing: 0.28em !important;
+}
+.lh-sub-text {
+    line-height: 2.3 !important;
+}
+.box-bottom {
+    position: absolute;
+    bottom: 0;
+}
 .pt30 {
     padding-top: 30px;
 }
@@ -1459,6 +1490,18 @@ div.wpcf7 input.wpcf7-submit:hover {
 .py80 {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+.pl55 {
+    padding-left: 55px;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.pt2 {
+    padding-top: 2rem;
+}
+.pt8 {
+    padding-top: 8rem;
 }
 /* -------------------------------------------------------------------------------- */
 /*	10.	Single Page

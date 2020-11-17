@@ -613,6 +613,11 @@
     .z-img1 {
         padding-top: 25px !important;
     }
+    .bg-lhtop {
+        height: 180px;
+        background-position: right;
+        background-size: cover;
+    }
 }
 
 /* -------------------------------------------------------------------------------- */
