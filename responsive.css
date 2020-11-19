@@ -607,6 +607,13 @@
         padding-left: 40px;
         padding-right: 40px;
     }
+    .lh-title {
+        margin-top: 55px;
+    }
+    .box-bottom img {
+        width: auto;
+        height: 110px;
+    }
 }
 
 @media screen and (min-width:1200px) {

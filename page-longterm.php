@@ -24,7 +24,7 @@ Template Name: 長期優良住宅ページテンプレート
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-2.png" alt="見出し" width="220px">
-                <p class="lh-sub-text pt2">長期優良住宅とは、長い間安心して心地よく暮らせるよう<br>国の定めた技術基準をみたした認定住宅です。<br>認定を受けた住宅はメリットもたくさん。<br>補助金、住宅ローンの金利引き下げ、税の特例や<br>地震保険料の割引などを受けることもできます。</p>
+                <p class="lh-sub-text pt2">長期優良住宅とは、長い間安心して心地よく暮らせるよう<br class="d-none d-xl-block">国の定めた技術基準をみたした認定住宅です。<br>認定を受けた住宅はメリットもたくさん。<br class="d-none d-xl-block">補助金、住宅ローンの金利引き下げ、税の特例や<br class="d-none d-xl-block">地震保険料の割引などを受けることもできます。</p>
                 <div class="box-bottom"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px"></div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
