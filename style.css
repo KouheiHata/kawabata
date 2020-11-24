@@ -1435,6 +1435,12 @@ div.wpcf7 input.wpcf7-submit:hover {
     letter-spacing: 0.15em;
     line-height: 1.7;
 }
+.lh-box2 p {
+    color: #888889;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    line-height: 1.9;
+}
 .lh-box h2 {
     color: #595757;
     font-weight: bold;
@@ -1462,6 +1468,25 @@ div.wpcf7 input.wpcf7-submit:hover {
 .box-bottom {
     position: absolute;
     bottom: 0;
+}
+.img-btn1,.img-btn2,.img-btn3,.img-btn4 {
+    position: absolute;
+}
+.img-btn1 {
+    top: 28px;
+    left: 15px;
+}
+.img-btn2 {
+    top: 28px;
+    left: 257px;
+}
+.img-btn3 {
+    top: 94px;
+    left: 15px;
+}
+.img-btn4 {
+    top: 94px;
+    left: 257px;
 }
 .pt30 {
     padding-top: 30px;

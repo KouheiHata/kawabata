@@ -25,7 +25,13 @@ Template Name: 長期優良住宅ページテンプレート
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-2.png" alt="見出し" width="220px">
                 <p class="lh-sub-text pt2">長期優良住宅とは、長い間安心して心地よく暮らせるよう<br class="d-none d-xl-block">国の定めた技術基準をみたした認定住宅です。<br>認定を受けた住宅はメリットもたくさん。<br class="d-none d-xl-block">補助金、住宅ローンの金利引き下げ、税の特例や<br class="d-none d-xl-block">地震保険料の割引などを受けることもできます。</p>
-                <div class="box-bottom"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px"></div>
+                <div class="box-bottom">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
+                    <a href="#" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
+                    <a href="#" class="img-btn2"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn2.png" alt="ボタン" width="227px"></a>
+                    <a href="#" class="img-btn3"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn3.png" alt="ボタン" width="227px"></a>
+                    <a href="#" class="img-btn4"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn4.png" alt="ボタン" width="227px"></a>
+                </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k1@2x.png" alt="イメージ画像" width="600px">
