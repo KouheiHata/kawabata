@@ -8,15 +8,8 @@ Template Name: 長期優良住宅ページテンプレート
 <?php get_header(); ?>
 
 <div class="container-fluid p-0 my-5 lh-box">
-    <div class="bg-lhtop">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 lh-title">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-1.png" alt="タイトル" width="700px">
-                </div>
-            </div>
-        </div>
-    </div>
+    <img class="d-none d-lg-inline-block" src="<?php echo get_template_directory_uri(); ?>/images/LH/1200@2x.png" alt="タイトル" width="100%">
+    <img class="d-none d-md-inline-block d-lg-none" src="<?php echo get_template_directory_uri(); ?>/images/LH/768@2x.png" alt="タイトル" width="100%">
     <div class="container">
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-4">
