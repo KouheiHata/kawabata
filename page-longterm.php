@@ -108,6 +108,11 @@ Template Name: 長期優良住宅ページテンプレート
                     <p>（令和４ 年３月 31 日 までに新築された住宅が対象）<br>新築住宅に係る固定資産税の減額措置の適用期間を一般住宅より延長する。</p>
                 </div>
             </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
+                <div class="text-center py100">
+                    <a href="#" class="url z-btn z-bg2">お問い合わせ</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

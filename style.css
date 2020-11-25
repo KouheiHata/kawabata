@@ -1519,6 +1519,10 @@ div.wpcf7 input.wpcf7-submit:hover {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+.py100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .pl55 {
     padding-left: 55px;
 }
