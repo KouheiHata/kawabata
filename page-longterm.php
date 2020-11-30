@@ -19,7 +19,7 @@ Template Name: 長期優良住宅ページテンプレート
                 <img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-2.png" alt="見出し" width="220px">
                 <p class="lh-sub-text pt2">長期優良住宅とは、長い間安心して心地よく暮らせるよう<br class="d-none d-xl-block">国の定めた技術基準をみたした認定住宅です。<br>認定を受けた住宅はメリットもたくさん。<br class="d-none d-xl-block">補助金、住宅ローンの金利引き下げ、税の特例や<br class="d-none d-xl-block">地震保険料の割引などを受けることもできます。</p>
                 <div class="box-bottom">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
+                    <img class="img-figure" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
                     <a href="#" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
                     <a href="#" class="img-btn2"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn2.png" alt="ボタン" width="227px"></a>
                     <a href="#" class="img-btn3"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn3.png" alt="ボタン" width="227px"></a>
@@ -48,16 +48,17 @@ Template Name: 長期優良住宅ページテンプレート
 </div>
 
 <div class="container-fluid p-0 lh-box">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-5.png" alt="タイトル">
+    <img class="d-none d-md-inline-block" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-5.png" alt="タイトル">
+    <img class="d-inline-block d-md-none" src="<?php echo get_template_directory_uri(); ?>/images/LH/13@2x.png" alt="タイトル">
     <div class="container mb-5">
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-4">
                 <h2 class="text-center text-lb">その他長期優良住宅の特徴</h2>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="d-block" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-6.png" alt="吹き出し" width="156px">
+                <img class="d-block img-speech" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-6.png" alt="吹き出し" width="156px">
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
+                    <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">住宅ローン減税の拡充</h2>
                 </div>
                 <div class="pl55">
@@ -67,7 +68,7 @@ Template Name: 長期優良住宅ページテンプレート
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
+                    <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">投資減税型の特別控除</h2>
                 </div>
                 <div class="pl55">
@@ -76,7 +77,7 @@ Template Name: 長期優良住宅ページテンプレート
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
+                    <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">登録免許税</h2>
                 </div>
                 <div class="pl55">
@@ -85,7 +86,7 @@ Template Name: 長期優良住宅ページテンプレート
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
+                    <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">不動産取得税</h2>
                 </div>
                 <div class="pl55">
@@ -94,7 +95,7 @@ Template Name: 長期優良住宅ページテンプレート
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
+                    <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">固定資産税</h2>
                 </div>
                 <div class="pl55">
