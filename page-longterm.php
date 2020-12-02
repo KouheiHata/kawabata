@@ -10,15 +10,16 @@ Template Name: 長期優良住宅ページテンプレート
 <div class="container-fluid p-0 my-5 lh-box">
     <img class="d-none d-lg-inline-block" src="<?php echo get_template_directory_uri(); ?>/images/LH/1200@2x.png" alt="タイトル" width="100%">
     <img class="d-none d-md-inline-block d-lg-none" src="<?php echo get_template_directory_uri(); ?>/images/LH/768@2x.png" alt="タイトル" width="100%">
+    <img class="d-inline-block d-md-none" src="<?php echo get_template_directory_uri(); ?>/images/LH/12@2x.png" alt="タイトル" width="100%">
     <div class="container">
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-4">
-                <p class="lh-top-text">長く安心して住むことができる、国の技術基準をみたした住居「長期優良住宅」。<br>川端工務店は、品質が保証された本当に良い家で、お客様の暮らしを支えます。</p>
+                <p class="lh-top-text">長く安心して住むことができる、国の技術基準をみたした住居「長期優良住宅」。<br class="d-none d-md-block">川端工務店は、品質が保証された本当に良い家で、お客様の暮らしを支えます。</p>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-2.png" alt="見出し" width="220px">
+                <img class="w-120" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-2.png" alt="見出し" width="220px">
                 <p class="lh-sub-text pt2">長期優良住宅とは、長い間安心して心地よく暮らせるよう<br class="d-none d-xl-block">国の定めた技術基準をみたした認定住宅です。<br>認定を受けた住宅はメリットもたくさん。<br class="d-none d-xl-block">補助金、住宅ローンの金利引き下げ、税の特例や<br class="d-none d-xl-block">地震保険料の割引などを受けることもできます。</p>
-                <div class="box-bottom">
+                <div class="box-bottom d-none d-lg-block">
                     <img class="img-figure" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
                     <a href="#" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
                     <a href="#" class="img-btn2"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn2.png" alt="ボタン" width="227px"></a>
@@ -28,6 +29,13 @@ Template Name: 長期優良住宅ページテンプレート
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k1@2x.png" alt="イメージ画像" width="600px">
+                <div class="pt-4 text-center box-bottom d-block d-lg-none">
+                    <img class="img-figure" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
+                    <a href="#" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
+                    <a href="#" class="img-btn2"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn2.png" alt="ボタン" width="227px"></a>
+                    <a href="#" class="img-btn3"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn3.png" alt="ボタン" width="227px"></a>
+                    <a href="#" class="img-btn4"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn4.png" alt="ボタン" width="227px"></a>
+                </div>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5">
                 <div>
@@ -49,7 +57,7 @@ Template Name: 長期優良住宅ページテンプレート
 
 <div class="container-fluid p-0 lh-box">
     <img class="d-none d-md-inline-block" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-5.png" alt="タイトル">
-    <img class="d-inline-block d-md-none" src="<?php echo get_template_directory_uri(); ?>/images/LH/13@2x.png" alt="タイトル">
+    <img class="d-inline-block d-md-none" src="<?php echo get_template_directory_uri(); ?>/images/LH/13@2x.png" alt="タイトル" width="100%">
     <div class="container mb-5">
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-4">
@@ -71,7 +79,7 @@ Template Name: 長期優良住宅ページテンプレート
                     <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">投資減税型の特別控除</h2>
                 </div>
-                <div class="pl55">
+                <div class="pt-3 pl55">
                     <p>（平成 21 年 6 月 4 日から令和 3 年 12 月 31 日までに入居した者が対象）<br>個人が、長期優良住宅の普及の促進に関する法律に規定する認定長期優良住宅の新築等をして、<br>居住の用に供した場合には、標準的な性能強化費用相当額 の 10 ％相当額を、<br>その年分の所得税額から控除（当該控除をしてもなお控除しきれない金額がある場合には、<br>翌年分の所得税額から控除）する。</p>
                 </div>
             </div>
@@ -80,7 +88,7 @@ Template Name: 長期優良住宅ページテンプレート
                     <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">登録免許税</h2>
                 </div>
-                <div class="pl55">
+                <div class="pt-3 pl55">
                     <p>（令和４年３月 31 日までに取得した者が対象）<br>住宅用家屋の所有権保存登記等に係る税率を一般住宅特例より引き下げる。</p>
                 </div>
             </div>
@@ -89,7 +97,7 @@ Template Name: 長期優良住宅ページテンプレート
                     <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">不動産取得税</h2>
                 </div>
-                <div class="pl55">
+                <div class="pt-3 pl55">
                     <p>（令和４ 年３月 31 日までに新築された住宅が対象）<br>新築住宅に係る不動産取得税について、課税標準からの控除額を一般住宅特例より増額する。</p>
                 </div>
             </div>
@@ -98,7 +106,7 @@ Template Name: 長期優良住宅ページテンプレート
                     <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">固定資産税</h2>
                 </div>
-                <div class="pl55">
+                <div class="pt-3 pl55">
                     <p>（令和４ 年３月 31 日 までに新築された住宅が対象）<br>新築住宅に係る固定資産税の減額措置の適用期間を一般住宅より延長する。</p>
                 </div>
             </div>

@@ -477,6 +477,67 @@
     .adop-top {
         margin-top: 50px !important;
     }
+    .lh-box p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .lh-box h2 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .lh-top-text {
+        letter-spacing: 0.15em !important;
+    }
+    .lh-sub-text {
+        line-height: 1.4 !important;
+    }
+    .box-bottom {
+        position: static;
+    }
+    .img-btn1 {
+        width: 132px;
+        top: auto;
+        bottom: 43px;
+        left: 21px;
+    }
+    .img-btn2 {
+        width: 132px;
+        top: auto;
+        bottom: 43px;
+        left: 167px;
+    }
+    .img-btn3 {
+        width: 132px;
+        top: auto;
+        bottom: 6px;
+        left: 21px;
+    }
+    .img-btn4 {
+        width: 132px;
+        top: auto;
+        bottom: 6px;
+        left: 167px;
+    }
+    .img-speech {
+        width: 64px;
+        margin: 10px 0;
+    }
+    .img-home {
+        width: 18px;
+        margin-bottom: 3px;
+    }
+    .w-120 {
+        width: 120px;
+    }
+    .pt2 {
+        padding-top: 20px;
+    }
+    .pt8 {
+        padding-top: 50px;
+    }
+    .pl55 {
+        padding: 0;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -556,11 +617,53 @@
         font-size: 14px;
         line-height: 1.4;
     }
+    .lh-top-text {
+        letter-spacing: 0.15em !important;
+    }
+    .lh-sub-text {
+        line-height: 1.4 !important;
+    }
+    .box-bottom {
+        position: static;
+    }
+    .img-btn1 {
+        top: auto;
+        bottom: 74px;
+        left: 30px;
+    }
+    .img-btn2 {
+        width: 227px;
+        top: auto;
+        bottom: 74px;
+        left: 280px;
+    }
+    .img-btn3 {
+        top: auto;
+        bottom: 10px;
+        left: 30px;
+    }
+    .img-btn4 {
+        width: 227px;
+        top: auto;
+        bottom: 10px;
+        left: 280px;
+    }
     .img-speech {
         width: 64px;
+        margin: 10px 0;
     }
     .img-home {
         width: 18px;
+        margin-bottom: 3px;
+    }
+    .w-120 {
+        width: 120px;
+    }
+    .pt2 {
+        padding-top: 20px;
+    }
+    .pt8 {
+        padding-top: 50px;
     }
     .pl55 {
         padding: 0;
@@ -610,7 +713,27 @@
         margin-top: 50px !important;
     }
     .box-bottom {
-        display: none;
+        position: static;
+    }
+    .img-btn1 {
+        top: auto;
+        bottom: 74px;
+        left: 122px;
+    }
+    .img-btn2 {
+        top: auto;
+        bottom: 74px;
+        left: 369px;
+    }
+    .img-btn3 {
+        top: auto;
+        bottom: 10px;
+        left: 122px;
+    }
+    .img-btn4 {
+        top: auto;
+        bottom: 10px;
+        left: 369px;
     }
 }
 
