@@ -28,7 +28,9 @@ Template Name: 長期優良住宅ページテンプレート
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k1@2x.png" alt="イメージ画像" width="600px">
+                <div class="cross-section">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/LH/k1@2x.png" alt="イメージ画像" width="600px">
+                </div>
                 <div class="pt-4 text-center box-bottom d-block d-lg-none">
                     <img class="img-figure" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
                     <a href="#" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
