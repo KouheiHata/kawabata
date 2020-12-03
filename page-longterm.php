@@ -60,8 +60,8 @@ Template Name: 長期優良住宅ページテンプレート
     <img class="d-inline-block d-md-none" src="<?php echo get_template_directory_uri(); ?>/images/LH/13@2x.png" alt="タイトル" width="100%">
     <div class="container mb-5">
         <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-4">
-                <h2 class="text-center text-lb">その他長期優良住宅の特徴</h2>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-4 text-center">
+                <h2 class="text-lb border-gray">その他長期優良住宅の特徴</h2>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <img class="d-block img-speech" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-6.png" alt="吹き出し" width="156px">

@@ -1488,6 +1488,11 @@ div.wpcf7 input.wpcf7-submit:hover {
     top: 94px;
     left: 257px;
 }
+.border-gray {
+    display: inline-block;
+    border-bottom: solid 2px #000;
+    opacity: .6;
+}
 .pt30 {
     padding-top: 30px;
 }
