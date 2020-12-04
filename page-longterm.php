@@ -82,7 +82,7 @@ Template Name: 長期優良住宅ページテンプレート
                     <h2 class="d-inline">投資減税型の特別控除</h2>
                 </div>
                 <div class="pt-3 pl55">
-                    <p>（平成 21 年 6 月 4 日から令和 3 年 12 月 31 日までに入居した者が対象）<br class="d-none d-md-inline">個人が、長期優良住宅の普及の促進に関する法律に規定する認定長期優良住宅の新築等をして、<br class="d-none d-md-inline">居住の用に供した場合には、標準的な性能強化費用相当額 の 10 ％相当額を、<br class="d-none d-md-inline">その年分の所得税額から控除（当該控除をしてもなお控除しきれない金額がある場合には、<br class="d-none d-md-inline">翌年分の所得税額から控除）する。</p>
+                    <p>（平成 21 年 6 月 4 日から令和 3 年 12 月 31 日までに入居した者が対象）<br class="d-none d-lg-inline">個人が、長期優良住宅の普及の促進に関する法律に規定する認定長期優良住宅の新築等をして、<br class="d-none d-lg-inline">居住の用に供した場合には、標準的な性能強化費用相当額 の 10 ％相当額を、<br class="d-none d-lg-inline">その年分の所得税額から控除（当該控除をしてもなお控除しきれない金額がある場合には、<br class="d-none d-lg-inline">翌年分の所得税額から控除）する。</p>
                 </div>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
