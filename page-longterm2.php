@@ -35,7 +35,7 @@ Template Name: 長期優良住宅ページ2テンプレート
         <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 pt8" id="lh-home3">
             <img class="d-none d-md-inline-block" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-10.png" alt="見出し" width="384px">
             <img class="d-inline-block d-md-none" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-13.png" alt="見出し" width="216px">
-            <p class="pt2">構造躯体に比べて耐用年数が短い内装・設備について、<br>維持管理※1を容易に行うために必要な措置が講じられていること。<br>（専用配管について）<br>※構造躯体などに影響を与えることなく、配管の維持管理を<br>&emsp;行うことができること。<br>※高人事の工事が軽減される措置が講じられていること等。<br>※1…清掃・点検・更新</p>
+            <p class="pt2">構造躯体に比べて耐用年数が短い内装・設備について、<br>維持管理※1を容易に行うために必要な措置が講じられていること。<br>（専用配管について）<br>※構造躯体などに影響を与えることなく、配管の維持管理を<br>&emsp;行うことができること。<br>※更新時の工事が軽減される措置が講じられていること等。<br>※1…清掃・点検・更新</p>
         </div>
         <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 pt8 mt-5">
             <div class="cross-section">
