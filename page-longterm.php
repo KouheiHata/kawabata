@@ -18,7 +18,7 @@ Template Name: 長期優良住宅ページテンプレート
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
                 <img class="w-120" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-2.png" alt="見出し" width="220px">
-                <p class="lh-sub-text pt2">長期優良住宅とは、長い間安心して心地よく暮らせるよう<br class="d-none d-xl-block">国の定めた技術基準をみたした認定住宅です。<br>認定を受けた住宅はメリットもたくさん。<br class="d-none d-xl-block">補助金、住宅ローンの金利引き下げ、税の特例や<br class="d-none d-xl-block">地震保険料の割引などを受けることもできます。</p>
+                <p class="lh-sub-text pt2">長期優良住宅とは、長い間安心して心地よく暮らせるよう<br class="d-none d-xl-block">国の定めた技術基準をみたした認定住宅です。<br class="d-block d-lg-none d-xl-block">認定を受けた住宅はメリットもたくさん。<br class="d-none d-sm-block d-md-none d-xl-block">補助金、住宅ローンの金利引き下げ、税の特例や<br class="d-none d-xl-block">地震保険料の割引などを受けることもできます。</p>
                 <div class="box-bottom d-none d-lg-block">
                     <img class="img-figure" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
                     <a href="#" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
@@ -42,15 +42,15 @@ Template Name: 長期優良住宅ページテンプレート
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5">
                 <div>
                     <h2 class="text-lb">維持保全計画</h2>
-                    <p>建築時から将来を見据えて、定期的な点検・補修などに関する計画が策定されていること。</p>
+                    <p style="max-width:800px;">建築時から将来を見据えて、<br class="d-none d-lg-block d-xl-none">定期的な点検・補修などに関する計画が策定されていること。</p>
                 </div>
                 <div class="pt-3">
                     <h2 class="text-lb">住戸面積</h2>
-                    <p>良好な居住水準を確保するために必要な規模を有すること。<br>住戸の少なくとも1の階の床面積（階段部分の面積を除く）が40㎡以上であること。</p>
+                    <p style="max-width:800px;">良好な居住水準を確保するために必要な規模を有すること。<br>住戸の少なくとも1の階の床面積（階段部分の面積を除く）が40㎡以上であること。</p>
                 </div>
                 <div class="pt-3">
                     <h2 class="text-lb">居住環境</h2>
-                    <p>良好な景観の形成、そのほかの地域における居住環境の維持及び向上に配置されたものであること。</p>
+                    <p style="max-width:800px;">良好な景観の形成、そのほかの地域における居住環境の維持及び向上に配置されたものであること。</p>
                 </div>
             </div>
         </div>
@@ -81,8 +81,8 @@ Template Name: 長期優良住宅ページテンプレート
                     <img class="img-home" src="<?php echo get_template_directory_uri(); ?>/images/LH/k4@2x.png" alt="吹き出し" width="49px">
                     <h2 class="d-inline">投資減税型の特別控除</h2>
                 </div>
-                <div class="pt-3 pl55">
-                    <p>（平成 21 年 6 月 4 日から令和 3 年 12 月 31 日までに入居した者が対象）<br class="d-none d-lg-inline">個人が、長期優良住宅の普及の促進に関する法律に規定する認定長期優良住宅の新築等をして、<br class="d-none d-lg-inline">居住の用に供した場合には、標準的な性能強化費用相当額 の 10 ％相当額を、<br class="d-none d-lg-inline">その年分の所得税額から控除（当該控除をしてもなお控除しきれない金額がある場合には、<br class="d-none d-lg-inline">翌年分の所得税額から控除）する。</p>
+                <div class="pt-3 pl55" style="max-width:870px;">
+                    <p>（平成 21 年 6 月 4 日から令和 3 年 12 月 31 日までに入居した者が対象）<br class="d-none d-lg-inline">個人が、長期優良住宅の普及の促進に関する法律に規定する認定長期優良住宅の新築等をして、居住の用に供した場合には、標準的な性能強化費用相当額 の 10 ％相当額を、その年分の所得税額から控除（当該控除をしてもなお控除しきれない金額がある場合には、翌年分の所得税額から控除）する。</p>
                 </div>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
