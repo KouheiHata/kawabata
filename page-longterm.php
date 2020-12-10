@@ -21,10 +21,10 @@ Template Name: 長期優良住宅ページテンプレート
                 <p class="lh-sub-text pt2">長期優良住宅とは、長い間安心して心地よく暮らせるよう<br class="d-none d-xl-block">国の定めた技術基準をみたした認定住宅です。<br class="d-block d-lg-none d-xl-block">認定を受けた住宅はメリットもたくさん。<br class="d-none d-sm-block d-md-none d-xl-block">補助金、住宅ローンの金利引き下げ、税の特例や<br class="d-none d-xl-block">地震保険料の割引などを受けることもできます。</p>
                 <div class="box-bottom d-none d-lg-block">
                     <img class="img-figure" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
-                    <a href="#" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
-                    <a href="#" class="img-btn2"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn2.png" alt="ボタン" width="227px"></a>
-                    <a href="#" class="img-btn3"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn3.png" alt="ボタン" width="227px"></a>
-                    <a href="#" class="img-btn4"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn4.png" alt="ボタン" width="227px"></a>
+                    <a href="<?php echo home_url('/longlife2#lh-home1'); ?>" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
+                    <a href="<?php echo home_url('/longlife2#lh-home2'); ?>" class="img-btn2"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn2.png" alt="ボタン" width="227px"></a>
+                    <a href="<?php echo home_url('/longlife2#lh-home3'); ?>" class="img-btn3"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn3.png" alt="ボタン" width="227px"></a>
+                    <a href="<?php echo home_url('/longlife2#lh-home4'); ?>" class="img-btn4"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn4.png" alt="ボタン" width="227px"></a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt8">
@@ -33,10 +33,10 @@ Template Name: 長期優良住宅ページテンプレート
                 </div>
                 <div class="pt-4 text-center box-bottom d-block d-lg-none">
                     <img class="img-figure" src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-4.png" alt="図" width="500px">
-                    <a href="#" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
-                    <a href="#" class="img-btn2"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn2.png" alt="ボタン" width="227px"></a>
-                    <a href="#" class="img-btn3"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn3.png" alt="ボタン" width="227px"></a>
-                    <a href="#" class="img-btn4"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn4.png" alt="ボタン" width="227px"></a>
+                    <a href="<?php echo home_url('/longlife2#lh-home1'); ?>" class="img-btn1"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn1.png" alt="ボタン" width="227px"></a>
+                    <a href="<?php echo home_url('/longlife2#lh-home2'); ?>" class="img-btn2"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn2.png" alt="ボタン" width="227px"></a>
+                    <a href="<?php echo home_url('/longlife2#lh-home3'); ?>" class="img-btn3"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn3.png" alt="ボタン" width="227px"></a>
+                    <a href="<?php echo home_url('/longlife2#lh-home4'); ?>" class="img-btn4"><img src="<?php echo get_template_directory_uri(); ?>/images/LH/lh-btn4.png" alt="ボタン" width="227px"></a>
                 </div>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5">
@@ -114,7 +114,7 @@ Template Name: 長期優良住宅ページテンプレート
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
                 <div class="text-center py100">
-                    <a href="#" class="url z-btn z-bg2">お問い合わせ</a>
+                    <a href="<?php echo home_url('/contact'); ?>" class="url z-btn z-bg2">お問い合わせ</a>
                 </div>
             </div>
         </div>
