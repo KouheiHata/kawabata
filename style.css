@@ -1488,6 +1488,11 @@ div.wpcf7 input.wpcf7-submit:hover {
     top: 94px;
     left: 257px;
 }
+.subsidy-box p {
+    font-size: 24px;
+    line-height: 1.04;
+    letter-spacing: 0.04em;
+}
 .border-gray {
     display: inline-block;
     border-bottom: solid 2px #000;
@@ -1504,6 +1509,12 @@ div.wpcf7 input.wpcf7-submit:hover {
 }
 .mt100 {
 	margin-top: 100px;
+}
+.mt130 {
+    margin-top: 130px;
+}
+.mt250 {
+    margin-top: 250px;
 }
 .pb10 {
     padding-bottom: 10px;
@@ -1527,6 +1538,10 @@ div.wpcf7 input.wpcf7-submit:hover {
 .py100 {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.my150 {
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 .pl55 {
     padding-left: 55px;
