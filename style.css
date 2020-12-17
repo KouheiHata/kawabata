@@ -1488,10 +1488,36 @@ div.wpcf7 input.wpcf7-submit:hover {
     top: 94px;
     left: 257px;
 }
-.subsidy-box p {
-    font-size: 24px;
+.subsidy-box p,.subsidy-box a {
+    color: #231815;
+    font-weight: 500;
     line-height: 1.04;
     letter-spacing: 0.04em;
+}
+.subsidy-box h3 {
+    color: #231815;
+    font-weight: 500;
+}
+.sm-text-block p ,.sm-text-block h4 {
+    color: #231815;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em !important;
+}
+.sm-text-block p {
+    font-size: 14px !important;
+}
+.sm-text-block h4 {
+    font-size: 18px;
+}
+.subsidy-btn {
+    text-decoration: none !important;
+    border-bottom: solid 2px #231815;
+    transition: .3s;
+}
+.subsidy-btn:hover {
+    opacity: .6;
+    transition: .3s;
 }
 .border-gray {
     display: inline-block;
@@ -1530,6 +1556,9 @@ div.wpcf7 input.wpcf7-submit:hover {
 }
 .mb80 {
 	margin-bottom: 80px;
+}
+.mb100 {
+    margin-bottom: 100px;
 }
 .py80 {
     padding-top: 80px;

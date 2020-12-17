@@ -529,6 +529,14 @@
     .cross-section {
         text-align: center;
     }
+    .subsidy-box p,.subsidy-box a {
+        font-size: 11px;
+        letter-spacing: 0.02em;
+    }
+    .subsidy-box .z-img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     .w-120 {
         width: 120px;
     }
@@ -547,6 +555,25 @@
     }
     .pl55 {
         padding: 0;
+    }
+    .subsidy-box .mt130 {
+        margin-top: 20px;
+    }
+    .subsidy-box .mt100 {
+        margin-top: 50px;
+    }
+    .subsidy-box .mb100 {
+        margin-bottom: 0;
+    }
+    .subsidy-box .my150 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .subsidy-box .mt-5 {
+        margin-top: 1rem !important;
+    }
+    .subsidy-box .mt-4 {
+        margin-top: .5rem !important;
     }
 }
 
@@ -669,6 +696,14 @@
     .cross-section {
         text-align: center;
     }
+    .subsidy-box p,.subsidy-box a {
+        font-size: 11px;
+        letter-spacing: 0.02em;
+    }
+    .subsidy-box .z-img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     .w-120 {
         width: 120px;
     }
@@ -687,6 +722,25 @@
     }
     .pl55 {
         padding: 0;
+    }
+    .subsidy-box .mt130 {
+        margin-top: 20px;
+    }
+    .subsidy-box .mt100 {
+        margin-top: 50px;
+    }
+    .subsidy-box .mb100 {
+        margin-bottom: 0;
+    }
+    .subsidy-box .my150 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .subsidy-box .mt-5 {
+        margin-top: 1rem !important;
+    }
+    .subsidy-box .mt-4 {
+        margin-top: .5rem !important;
     }
 }
 
@@ -766,6 +820,10 @@
         margin-top: 50px !important;
         margin-bottom: 50px !important;
     }
+    .subsidy-box p,.subsidy-box a {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
@@ -796,6 +854,9 @@
     .img-btn2,.img-btn4 {
         left: 250px;
     }
+    .subsidy-box p,.subsidy-box a {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -806,6 +867,9 @@
         height: 180px;
         background-position: right;
         background-size: cover;
+    }
+    .subsidy-box p,.subsidy-box a {
+        font-size: 24px;
     }
 }
 
