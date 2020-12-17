@@ -14,10 +14,10 @@ Template Name: 補助金ページ
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
             <div class="d-none d-md-block mt250">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img1.png" alt="説明">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img1.png" alt="補助金の加算例">
             </div>
             <div class="d-block d-md-none pt30">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img10.png" alt="説明">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img10.png" alt="補助金の加算例">
             </div>
             <div class="mt130 text-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img2.png" alt="吹き出し">
@@ -25,10 +25,10 @@ Template Name: 補助金ページ
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
             <div class="d-none d-md-block">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img3.png" alt="図">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img3.png" alt="30万円　基本補助金額">
             </div>
             <div class="d-block d-md-none">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img14.png" alt="図">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img14.png" alt="30万円　基本補助金額">
             </div>
             <div class="mt-5">
                 <p>※1&emsp;2020年4月1日時点で婚姻から3年経過しない夫婦</p>
@@ -80,7 +80,7 @@ Template Name: 補助金ページ
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt100">
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img8.png" alt="吹き出し">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img8.png" alt="木にこだわるのは当たり前　これからは機能性の時代">
             </div>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none d-md-block my150">
