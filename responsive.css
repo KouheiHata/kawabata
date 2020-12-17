@@ -894,6 +894,12 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+	.lh-row {
+		padding-top: 0px;
+	}
+}
+
 @media screen and (max-width: 768px) {
     .arrow {
         top: calc(100vh / 50 * 30);
