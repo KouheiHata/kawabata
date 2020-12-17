@@ -25,10 +25,10 @@ Template Name: 補助金ページ
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
             <div class="d-none d-md-block">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img3.png" alt="30万円　基本補助金額">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img3.png" alt="最大140万円が補助されます">
             </div>
             <div class="d-block d-md-none">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img14.png" alt="30万円　基本補助金額">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img14.png" alt="最大140万円が補助されます">
             </div>
             <div class="mt-5">
                 <p>※1&emsp;2020年4月1日時点で婚姻から3年経過しない夫婦</p>
