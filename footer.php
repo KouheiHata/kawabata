@@ -1,5 +1,5 @@
 <footer class="bgWood">
-<div class="container">
+<div class="container footer-box">
 	<div class="row text-center">
 
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-5 py-3 navbar_footer" style="font-size: 0.85rem;">

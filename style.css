@@ -1698,6 +1698,10 @@ div.wpcf7 input.wpcf7-submit:hover {
 /* -------------------------------------------------------------------------------- */
 /*	13.	Footer
 /* -------------------------------------------------------------------------------- */
+.footer-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .bgWood {
     background-image: url("images/back_wood.jpg");
     background-size: cover;
