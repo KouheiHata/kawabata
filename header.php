@@ -92,7 +92,7 @@
             <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 logo">
                 <p class="font-weight-bold text-md-right h5 mt-2">
                 <a href="tel:0778-22-6577"><i class="fas fa-phone-square"></i>&nbsp;0778-22-6577</a></p>
-            <p class="font-weight-bold text-md-right h5 mt-2"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a></p>
+            <p class="d-none d-sm-block font-weight-bold text-md-right h5 mt-2"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a></p>
             </div>
         </div>
     </div>
