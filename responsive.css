@@ -95,11 +95,6 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 575.98px) {
-    .tel-i {
-        position: relative;
-        left: 0.5em;
-        bottom: 3px;
-    }
 
     .navbar-brand {
         width: 180px;
@@ -116,6 +111,14 @@
     .yamm-content {
         text-align: center;
     }
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 2.5em;
+    }
+    .logo-img {
+        max-width: 250px;
+    }
 
     .ham {
         float: left;
@@ -124,6 +127,8 @@
 
     .global_nav {
         display: none;
+        margin-top: 5em;
+        overflow-y: scroll;
     }
 
     .menu_wrapper {
@@ -190,10 +195,10 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-    .tel-i {
-        position: relative;
-        left: 0.5em;
-        bottom: 3px;
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 4em;
     }
 
     .navbar-brand {
@@ -219,6 +224,7 @@
 
     .global_nav {
         display: none;
+        margin-top: 3.5em;
     }
 
     .menu_wrapper {
@@ -284,12 +290,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
-    .tel-i {
-        position: relative;
-        left: 0.5em;
-        bottom: 3px;
-    }
-
     .logo-img {
         width: 250px;
     }
@@ -302,9 +302,16 @@
     .menu_wrapper {
         height: 1rem;
     }
-
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 4em;
+    }
     .global_nav {
         display: none;
+        margin-top: 2.5em;
+        max-height: 100vh;
+        overflow-y: scroll;
     }
 
     .global_menu .menu-item {
@@ -325,6 +332,7 @@
     .sub-menu {
         position: relative;
         background: rgb(170, 170, 170);
+        overflow-y: scroll;
     }
 
     .sub-menu .menu-item {

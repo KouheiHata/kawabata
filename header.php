@@ -36,7 +36,8 @@
 <body <?php body_class (); ?>>
 <?php wp_head(); ?>
 
-<div class="sticky-top bg-white"  id="navbar">     
+<!--
+<div class="sticky-top bg-white"  id="navbar">
 <div class="container d-none d-md-block logo">
 	<div class="row d-flex align-items-center">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-2">
@@ -48,8 +49,10 @@
             <p class="font-weight-bold text-right h5 mt-2"><i class="fas fa-phone-square"></i>&nbsp;0778-22-6577</p>
             <p class="font-weight-bold text-right h5 mt-2"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a></p>
         </div>
+    </div>
 	</div>
 </div>
+
       <nav>
       <a href="<?php echo home_url(); ?>" class="navbar-brand d-inline-block d-md-none align-items-center"><img class="navbar-brand" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="株式会社　川端工務店"></a>
       <a href="tel:0778-22-6577" class="tel-i d-md-none em200"><i class="fas fa-phone-square"></i></a>
@@ -76,4 +79,47 @@
           </div>
         
     </nav>
+-->
+    
+<header id="f-header" class="f-header">
+    <div class="container logo">
+        <div class="row align-item-center">
+            <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
+                <a href="<?php echo home_url(); ?>">
+                    <img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="株式会社　川端工務店">
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 logo">
+                <p class="font-weight-bold text-md-right h5 mt-2">
+                <a href="tel:0778-22-6577"><i class="fas fa-phone-square"></i>&nbsp;0778-22-6577</a></p>
+            <p class="font-weight-bold text-md-right h5 mt-2"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a></p>
+            </div>
+        </div>
     </div>
+</header>
+<nav>
+       <div id="ham" class="ham d-lg-none">
+           <span class="ham_line ham_line1"></span>
+           <span class="ham_line ham_line2"></span>
+           <span class="ham_line ham_line3"></span>
+       </div>
+       <div id="menu_wrapper" class="menu_wrapper">
+        <?php
+          $args = array(
+            'theme_location' => 'global_nav',
+            'container' => 'div',
+            'container_class' => 'global_nav',
+            'container_id' => 'global_nav',
+            'menu_class' => 'global_menu',
+            'menu_id' => 'global_menu',
+            'before' => '', // 各メニューテキストの前に表示される要素
+            'after' => '', // 各メニューテキストの後ろに表示される要素
+            'link_before' => '', // <a>タグの前に付ける要素
+            'link_after' => '', // <a>タグの後ろに付ける要素
+          );
+          wp_nav_menu($args); ?>
+          </div>
+        
+    </nav>
+
+    
