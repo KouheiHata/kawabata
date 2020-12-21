@@ -98,7 +98,7 @@ Template Name: 補助金ページ
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb100">
             <div class="text-center">
-                <a class="subsidy-btn" href="#">詳しくはこちら</a>
+                <a class="subsidy-btn" href="<?php echo esc_url( home_url( '/zkuutyou' ) ); ?>">詳しくはこちら</a>
             </div>
         </div>
     </div>
