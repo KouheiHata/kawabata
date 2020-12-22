@@ -112,7 +112,7 @@
         text-align: center;
     }
     nav {
-        position: fixed;
+        position: absolute;
         width: 100%;
         top: 5px;
     }
@@ -196,7 +196,7 @@
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     nav {
-        position: fixed;
+        position: absolute;
         width: 100%;
         top: 15px;
     }
@@ -303,9 +303,9 @@
         height: 1rem;
     }
     nav {
-        position: fixed;
+        position: absolute;
         width: 100%;
-        top: 20px;
+        top: 10px;
     }
     .global_nav {
         display: none;

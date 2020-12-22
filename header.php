@@ -80,8 +80,8 @@
         
     </nav>
 -->
-    
-<header id="f-header" class="f-header sticky-top bg-white">
+<div class="sticky-top bg-white" id="navbar">    
+<header id="f-header" class="f-header">
     <div class="container logo">
         <div class="row align-item-center">
             <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
@@ -121,5 +121,4 @@
           </div>
         
     </nav>
-
-    
+    </div>

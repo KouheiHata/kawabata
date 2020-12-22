@@ -118,14 +118,14 @@ ham.addEventListener('click', function() {
     
 <script>
 $(function() {
-	var headerHeight = $('#f-header').outerHeight(),
+	var headerHeight = $('#navbar').outerHeight(),
 		startPos = 0;
 	$(window).on('load scroll', function() {
 		var scrollPos = $(this).scrollTop();
 		if ( scrollPos > startPos && scrollPos > headerHeight ) {
-			$('#f-header').css('top', '-' + headerHeight + 'px');
+			$('#navbar').css('top', '-' + headerHeight + 'px');
 		} else {
-			$('#f-header').css('top', '0');
+			$('#navbar').css('top', '0');
 		}
 		startPos = scrollPos;
 	});
