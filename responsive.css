@@ -96,8 +96,9 @@
 
 @media screen and (max-width: 575.98px) {
     .logo-sm {
-        max-width: 300px;
+        max-width: 280px;
         z-index: 1001;
+        padding-right: 0;
     }
     .navbar-brand {
         width: 180px;
