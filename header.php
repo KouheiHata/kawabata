@@ -84,7 +84,7 @@
 <header id="f-header" class="f-header">
     <div class="container logo">
         <div class="row align-item-center">
-            <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 logo-sm">
                 <a href="<?php echo home_url(); ?>">
                     <img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="株式会社　川端工務店">
                 </a>

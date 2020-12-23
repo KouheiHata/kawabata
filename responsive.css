@@ -95,7 +95,10 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 575.98px) {
-
+    .logo-sm {
+        max-width: 300px;
+        z-index: 1001;
+    }
     .navbar-brand {
         width: 180px;
     }
@@ -195,6 +198,10 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .logo-sm {
+        max-width: 300px;
+        z-index: 1001;
+    }
     nav {
         position: absolute;
         width: 100%;
