@@ -7,7 +7,7 @@ Template Name: 内覧会予約
 
 <?php get_header(); ?>
 
-<img src="http://www.kawabata-koumuten.com/wp-content/uploads/2020/08/6f9aaf0537e25498ace88c1e8b172a4c.jpg" style="display:block; margin: 0 auto; width: 90vw;">
+<img src="http://www.kawabata-koumuten.com/wp-content/uploads/2021/01/152cca98f51b219d3390b60131288970.jpg" style="display:block; margin: 0 auto; width: 90vw;">
 
 <div class="container news-top">
     <div class="row">
