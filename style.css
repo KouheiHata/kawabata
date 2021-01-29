@@ -556,20 +556,15 @@ nav {
     width: 20%;
 }
 
-.global_menu > .menu-item:first-of-type,
-.footer_menu > .menu-item:first-of-type {
-    font-weight: bold;
-    background-color: rgba(255, 117, 10, 0.8);
-}
-
 .menu-item {
-    color: #fff;
+    color: #000;
+    font-weight: bold;
     text-align: center;
     letter-spacing: 0.25em;
     font-size: 18px;
     padding-top: 1em;
     padding-bottom: 1em;
-    background: rgba(0, 0, 0, .4);
+    background: #fff;
 }
 .footer_menu .menu-item {
     font-size: 14px;
@@ -578,13 +573,17 @@ nav {
 .menu-item a {
     text-decoration: none;
     text-align: center;
-    color: #fff;
+    color: #000;
+}
+.menu-item a:hover {
+    color: #58A4B0;
 }
 
-.menu-item a:hover {
-    color: #eee;
-    letter-spacing: 0.5em;
-    transition: 0.8s;
+.current-menu-item,.current_page_item {
+    background-color: #58A4B0;
+}
+.current-menu-item a,.current_page_item a {
+    color: #fff;
 }
 
 .sub-menu {
