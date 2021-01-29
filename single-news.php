@@ -23,7 +23,7 @@ Template Name: 川端工務店固定ページ
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-3">
 			<div style="padding: 10px; margin-bottom: 10px; border: 1px dashed #333333; border-radius: 5px; line-height: 1.5;">
-			【新型コロナウイルスに関する対応について】<br />
+			【新型コロナウイルスに関する内覧会での対応について】<br />
 			■１時間あたり２組様限定でご案内いたします。
 			■スタッフの検温やアルコール消毒を徹底し、マスク着用で接客をさせていただきます。<br />
 			■ご来場いただいたお客様には、アルコール消毒及び、手袋・マスクの着用をお願い致します。<br />
