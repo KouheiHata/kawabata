@@ -89,7 +89,7 @@
                     <img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="株式会社　川端工務店">
                 </a>
             </div>
-            <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 logo">
+            <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 logo d-none d-md-block">
                 <p class="font-weight-bold text-md-right h5 mt-2">
                 <a href="tel:0778-22-6577"><i class="fas fa-phone-square"></i>&nbsp;0778-22-6577</a></p>
             <p class="d-none d-sm-block font-weight-bold text-md-right h5 mt-2"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a></p>

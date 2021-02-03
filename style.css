@@ -494,8 +494,6 @@ nav {
     width: 40px;
     height: 40px;
     cursor: pointer;
-    border: 2px solid #989898;
-    border-radius: 4px;
 }
 
 .ham_line {
@@ -503,7 +501,7 @@ nav {
     left: 24%;
     width: 20px;
     height: 2px;
-    background-color: #989898;
+    background-color: #000;
     transition: all 0.3s;
 }
 
@@ -578,24 +576,35 @@ nav {
 .menu-item a:hover {
     color: #58A4B0;
 }
-
 .current-menu-item,.current_page_item {
     background-color: #58A4B0;
 }
 .current-menu-item a,.current_page_item a {
     color: #fff;
 }
-
+.current-menu-item a:hover,.current_page_item a:hover {
+    color: #fff !important;
+}
 .sub-menu {
     margin-top: 1em;
     display: none;
     position: absolute;
 }
-
 .sub-menu .menu-item {
-    background-color: rgba(51, 51, 51, .8);
+    background-color: rgba(255, 255, 255, .6);
 }
-
+.sub-menu .menu-item a {
+    color: #666;
+}
+.sub-menu .menu-item a:hover {
+    color: #58A4B0;
+}
+.current-menu-item .sub-menu .menu-item {
+    background-color: rgba(88, 164, 176, .4);
+}
+.current-menu-item .sub-menu .menu-item a {
+    color: #fff;
+}
 .menu-item-has-children:hover .sub-menu,
 .menu-item-has-children:active .sub-menu {
     display: block;
