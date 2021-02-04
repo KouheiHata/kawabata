@@ -171,7 +171,7 @@
     .menu-item .sub-menu a {
         color: #58A4B0 !important;
     }
-    .menu-item-home:hover {
+    .menu-item:hover {
         padding-bottom: 0;
     }
     .menu-item-home .sub-menu {
@@ -200,6 +200,7 @@
     }
     .sub-menu .menu-item {
         text-align: center !important;
+        border: none;
     }
     .sub-menu::-webkit-scrollbar {
         width: 10px;
@@ -231,6 +232,9 @@
     }
     .sub-menu .menu-item a {
         margin-left: 0;
+    }
+    .menu-item-home .sub-menu .menu-item {
+        background-color: transparent;
     }
 }
 
