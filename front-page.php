@@ -13,58 +13,64 @@ Template Name: 川端工務店フロントページ
 <a href="<?php echo home_url('/zkuutyou/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/top-zkuchou.jpg" alt="新時代冷暖房システム Z空調" class="top-zkuchou-res" /></a>
 
 <!-- PCサイト -->
-<img src="<?php echo get_template_directory_uri(); ?>/images/top-img2z.jpg" usemap="#ImageMap" alt="自分らしく素直になれる家" class="top-img2-pc" />
+<img src="<?php echo get_template_directory_uri(); ?>/images/top-pc.png" usemap="#ImageMap" alt="自分らしく素直になれる家" class="top-img2-pc" />
 <map name="ImageMap">
-  <area shape="rect" coords="62,789,617,1134" href="<?php echo home_url('/zkuutyou/'); ?>" alt="詳しい内容" />
-  <area shape="rect" coords="292,705,610,788" href="<?php echo home_url('/zkuutyou/'); ?>" alt="Z空調" />
+  <area shape="rect" coords="151,331,401,537" href="<?php echo home_url('/hojyokin/'); ?>" alt="補助金" />
+  <area shape="rect" coords="478,329,722,534" href="<?php echo home_url('/zkuutyou/'); ?>" alt="Z空調" />
+  <area shape="rect" coords="802,333,1041,535" href="<?php echo home_url('/longlife/'); ?>" alt="長期優良住宅" />
 </map>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
                 <div class="row">
-                   
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-4">
-                        <h6 class="text-center news">News<br><span class="h5">お知らせ</span></h6>
-                    </div>
+                    <div class="h5 bold text-center top-midashi-back top-index-padding" style="background-color: #58A4B0;">お知らせ</div>
 
                     <?php
   $args = array(
     'post_type' => 'news', // 投稿タイプのスラッグを指定
-    'posts_per_page' => '4' // 投稿件数の指定
+    'posts_per_page' => '6' // 投稿件数の指定
   );
   $the_query = new WP_Query($args); 
-        if($the_query->have_posts()):
 ?>
 
-                    <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 pt-5">
-                        <div>
-                            <div class="news-img">
-                                <a href="<?php the_permalink(); ?>">
-                                    <?php the_post_thumbnail('medium'); ?></a>
-                            </div>
-                            <p class="news-time text-muted pt-2"><?php the_time('Y.m.d(D)'); ?></p>
-                            <div class="">
-                                <a class="url" href="<?php the_permalink(); ?>">
-                                    <p class="font-weight-bold py-2 news-title"><?php echo get_the_title(); ?></p>
-                                </a>
-                            </div>
+                    <div class="top-index-padding">
+                    <div class="top-index-grid">
+
+                    <?php if($the_query->have_posts()): while ($the_query->have_posts()): $the_query->the_post(); ?>
+
+                    <div>
+                        <div class="rbn">
+                            <p class="news-time font-weight-bold text-white"><?php the_time('Y.m.d'); ?></p>
                         </div>
+                        <?php if(has_post_thumbnail()): ?>
+                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+                        <?php else: ?>
+                        <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
+                        <?php endif; ?>
+
+                        <a class="works-text url" href="<?php the_permalink(); ?>">
+                            <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
+                        </a>
                     </div>
+
                     <?php endwhile; ?>
 
                     <?php else: ?>
                     <!-- 投稿が無い場合の処理 -->
                     <?php endif; ?>
 
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
-                        <a href="<?php echo get_template_directory_uri(); ?>/news" class="h5 url border-btn">More</a>
-                    </div><!-- お知らせ end -->
-                    
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!-- 不動産情報 -->
-                        <h4 class="top-title">不動産情報<span class="h6"> -Real&nbsp;Estate-</span></h4>
-                    </div>
+                    </div>	<!-- top-index-grid -->
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
+                            <a href="<?php echo get_template_directory_uri(); ?>/news" class="url border-btn">もっとみる</a>
+                        </div><!-- お知らせ end -->
+
+                    </div>	<!-- top-index-padding -->
+
+
+                    <div class="h5 bold text-center top-midashi-back top-index-padding" style="background-color: #00762C; margin-top: 60px;">不動産情報</div>
+
                     <?php
   $args = array(
     'post_type' => 'real_estate', // 投稿タイプのスラッグを指定
@@ -74,7 +80,7 @@ Template Name: 川端工務店フロントページ
         if($the_query->have_posts()):
 ?>
                    <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-2 top-index-width">
                     <div class="rbn">
                         <p class="realestate-time font-weight-bold text-white"><?php the_time('Y.m.d'); ?></p>
                     </div>
@@ -182,7 +188,7 @@ Template Name: 川端工務店フロントページ
                 
                 </div><!-- main row end-->
         </div><!-- メイン部分 end-->
-        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 pl-5 mb-5"><!-- サイドバー -->
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 pl-5 mb-5"><!-- サイドバー -->
             <div class="row">
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-test my-5">
                     <div class="bg-mask">
