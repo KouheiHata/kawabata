@@ -9,7 +9,6 @@ Template Name: 川端工務店フロントページ
 
 <!-- スマホサイト -->
 <img src="<?php echo get_template_directory_uri(); ?>/images/top-img2.jpg" alt="自分らしく素直になれる家" class="top-img2-res" />
-<a href="<?php echo home_url('/zkuutyou/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/top-zkuchou.jpg" alt="新時代冷暖房システム Z空調" class="top-zkuchou-res" /></a>
 
 <!-- PCサイト -->
 <img src="<?php echo get_template_directory_uri(); ?>/images/top-pc.png" usemap="#ImageMap" alt="自分らしく素直になれる家" class="top-img2-pc" />
