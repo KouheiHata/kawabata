@@ -5,7 +5,6 @@ Template Name: 川端工務店フロントページ
 */
 ?>
 
-
 <?php get_header(); ?>
 
 <!-- スマホサイト -->
@@ -43,13 +42,15 @@ Template Name: 川端工務店フロントページ
                         <div class="rbn">
                             <p class="news-time font-weight-bold text-white"><?php the_time('Y.m.d'); ?></p>
                         </div>
+                        <div class="news-img">
                         <?php if(has_post_thumbnail()): ?>
                         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
                         <?php else: ?>
                         <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
                         <?php endif; ?>
+                        </div>
 
-                        <a class="works-text url" href="<?php the_permalink(); ?>">
+                        <a class="url" href="<?php the_permalink(); ?>">
                             <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
                         </a>
                     </div>
@@ -64,55 +65,62 @@ Template Name: 川端工務店フロントページ
 
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
                             <a href="<?php echo get_template_directory_uri(); ?>/news" class="url border-btn">もっとみる</a>
-                        </div><!-- お知らせ end -->
+                        </div>
 
                     </div>	<!-- top-index-padding -->
-
+                    <!-- お知らせ end -->
 
                     <div class="h5 bold text-center top-midashi-back top-index-padding" style="background-color: #00762C; margin-top: 60px;">不動産情報</div>
 
                     <?php
   $args = array(
     'post_type' => 'real_estate', // 投稿タイプのスラッグを指定
-    'posts_per_page' => '4' // 投稿件数の指定
+    'posts_per_page' => '6' // 投稿件数の指定
   );
   $the_query = new WP_Query($args); 
         if($the_query->have_posts()):
 ?>
+
+                    <div class="top-index-padding">
+                    <div class="top-index-grid">
+
                    <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-2 top-index-width">
-                    <div class="rbn">
-                        <p class="realestate-time font-weight-bold text-white"><?php the_time('Y.m.d'); ?></p>
-                    </div>
-                    <div class="realestate-img">
+
+                    <div>
+                        <div class="rbn">
+                            <p class="realestate-time font-weight-bold text-white"><?php the_time('Y.m.d'); ?></p>
+                        </div>
+                        <div class="realestate-img">
                         <?php if(has_post_thumbnail()): ?>
                         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
                         <?php else: ?>
                         <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
                         <?php endif; ?>
-                    </div>
-                    <div class="">
-                        <a class="works-text url" href="<?php the_permalink(); ?>">
-                            <p class="font-weight-bold py-2 works-title"><?php echo get_the_title(); ?></p>
+                        </div>
+
+                        <a class="url" href="<?php the_permalink(); ?>">
+                            <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
                         </a>
                     </div>
-                </div>
-                <?php endwhile; ?>
 
-                <?php else: ?>
-                <!-- 投稿が無い場合の処理 -->
-                <?php endif; ?>
+                    <?php endwhile; ?>
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
-                    <div class="text-center">
-                        <a href="<?php echo home_url('/realestate/') ?>" class="h5 url border-btn">More</a>
-                    </div>
-                </div><!-- 不動産情報 end -->
+                    <?php else: ?>
+                    <!-- 投稿が無い場合の処理 -->
+                    <?php endif; ?>
+
+                    </div>	<!-- top-index-grid -->
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
+                            <a href="<?php echo home_url('/realestate/'); ?>" class="url border-btn">もっとみる</a>
+                        </div>
+
+                    </div>	<!-- top-index-padding -->
+                    <!-- 不動産情報 end -->
 
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="top-title">施工実績<span class="h6"> -Works-</span></h4>
-                </div>
+                    <div class="h5 bold text-center top-midashi-back top-index-padding" style="background-color: #2B303A; margin-top: 60px;">施工実績</div>
+
                 <?php
   $args = array(
     'post_type' => 'works', // 投稿タイプのスラッグを指定
@@ -122,35 +130,45 @@ Template Name: 川端工務店フロントページ
         if($the_query->have_posts()):
 ?>
 
+                <div class="top-index-padding">
+                <div class="top-index-grid">
+
                 <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5">
+
+                <div>
                     <div class="rbn">
                         <p class="works-time font-weight-bold text-white"><?php the_time('Y.m.d'); ?></p>
                     </div>
                     <div class="works-img">
-                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+                    <?php if(has_post_thumbnail()): ?>
+                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+                    <?php else: ?>
+                    <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
+                    <?php endif; ?>
                     </div>
-                    <div class="">
-                        <a class="works-text url" href="<?php the_permalink(); ?>">
-                            <p class="font-weight-bold py-2 works-title"><?php echo get_the_title(); ?></p>
-                        </a>
-                    </div>
+
+                    <a class="url" href="<?php the_permalink(); ?>">
+                        <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
+                    </a>
                 </div>
+
                 <?php endwhile; ?>
 
                 <?php else: ?>
                 <!-- 投稿が無い場合の処理 -->
                 <?php endif; ?>
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
-                    <div class="text-center">
-                        <a href="<?php echo get_template_directory_uri(); ?>/works" class="h5 url border-btn">More</a>
-                    </div>
-                </div>
+                </div>	<!-- top-index-grid -->
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="top-title">リフォーム実績<span class="h6"> -Renovation-</span></h4>
-                </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
+                        <a href="<?php echo get_template_directory_uri(); ?>/works" class="url border-btn">もっとみる</a>
+                    </div>
+
+                </div>	<!-- top-index-padding -->
+                <!-- 施工実績 end -->
+
+                <div class="h5 bold text-center top-midashi-back top-index-padding" style="background-color: #D64933; margin-top: 60px;">リフォーム実績</div>
+
                 <?php
   $args = array(
     'post_type' => 'renovation', // 投稿タイプのスラッグを指定
@@ -160,48 +178,53 @@ Template Name: 川端工務店フロントページ
         if($the_query->have_posts()):
 ?>
 
+                <div class="top-index-padding">
+                <div class="top-index-grid">
+
                 <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5">
+
+                <div>
                     <div class="rbn">
                         <p class="rnb-time font-weight-bold text-white"><?php the_time('Y.m.d'); ?></p>
                     </div>
                     <div class="rnb-img">
-                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+                    <?php if(has_post_thumbnail()): ?>
+                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+                    <?php else: ?>
+                    <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
+                    <?php endif; ?>
                     </div>
-                    <div class="">
-                        <a class="rnb-text url" href="<?php the_permalink(); ?>">
-                            <p class="font-weight-bold py-2 rnb-title"><?php echo get_the_title(); ?></p>
-                        </a>
-                    </div>
+
+                    <a class="url" href="<?php the_permalink(); ?>">
+                        <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
+                    </a>
                 </div>
+
                 <?php endwhile; ?>
 
                 <?php else: ?>
                 <!-- 投稿が無い場合の処理 -->
                 <?php endif; ?>
                 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
-                    <div class="text-center">
-                        <a href="<?php echo get_template_directory_uri(); ?>/renovation" class="h5 url border-btn">More</a>
+                </div>	<!-- top-index-grid -->
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
+                        <a href="<?php echo get_template_directory_uri(); ?>/renovation" class="url border-btn">もっとみる</a>
                     </div>
-                </div><!-- リフォーム実績 end -->
-                
-                </div><!-- main row end-->
-        </div><!-- メイン部分 end-->
-        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 pl-5 mb-5"><!-- サイドバー -->
-            <div class="row">
-                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-test my-5">
-                    <div class="bg-mask">
-                        <h5 class="font-weight-bold text-white">家づくりの流れ</h5>
-                    </div>
-                    <a href="<?php echo home_url('/nagare/') ?>"></a>
-                </div><!-- 家づくりの流れ end -->
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-test my-5">
-                    <div class="bg-mask">
-                        <h5 class="font-weight-bold text-white">長期優良住宅について</h5>
-                    </div>
-                    <a href="<?php echo home_url('/longlife') ?>"></a>
-                </div><!-- 長期優良住宅について end -->
+
+                </div>	<!-- top-index-padding -->
+                <!-- リフォーム実績 end -->
+
+                </div><!-- row（メイン部分内） end-->
+        </div><!-- col-xl-8 col-lg-8 col-md-12 col-sm-12（メイン部分） end-->
+
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 pl-0 mb-5"><!-- サイドバー -->
+
+                <div class="sidebar-step">
+                <iframe class="sidebar-video" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sidebar_step.png" alt="家づくりの５ステップ">
+                <!-- 家づくりのステップ end -->
 
                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 pr-3">
                    <h4 class="text-left inst"><a href="https://www.instagram.com/kawabatakoumuten226577/"><i class="fab fa-instagram fa-fw"></i>instagram</a></h4>
@@ -235,7 +258,6 @@ Template Name: 川端工務店フロントページ
                     <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
                 </div><!-- LINE end -->
 
-            </div>
         </div><!-- サイドバー end-->
     </div><!--  row end -->
 </div><!-- container end -->

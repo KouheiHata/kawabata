@@ -670,18 +670,21 @@ nav {
 }
 
 .top-index-padding {
-    padding-left: 110px;
+    padding-left: 9.2vw;
 }
 
 .news-img img,
-.realestate-img img {
-    width: 200px!important;
+.realestate-img img,
+.works-img img,
+.rnb-img img {
     transition: .6s;
 }
 
 .news-img img:hover,
-.realestate-img img:hover {
-    opacity: .7;
+.realestate-img img:hover,
+.works-img img:hover,
+.rnb-img img:hover {
+    opacity: .5;
     transition: .6s;
 }
 
@@ -783,9 +786,9 @@ nav {
 
 .top-index-grid {
     display: grid;
-    grid-template-rows: 20vw;
-    grid-template-columns: 17vw 17vw 17vw;
-    grid-gap: 20px;
+    grid-template-rows: 22vw;
+    grid-template-columns: 17.5vw 17.5vw 17.5vw;
+    grid-gap: 5px;
 }
 
 .rbn {
@@ -812,15 +815,15 @@ nav {
 }
 
 .realestate-time {
-    background-color: #008000;
+    background-color: #00762C;
 }
 
 .works-time {
-    background-color: #00ABE9;
+    background-color: #2B303A;
 }
 
 .rnb-time {
-    background-color: #606363;
+    background-color: #D64933;
 }
 
 .works-title,
@@ -850,29 +853,6 @@ nav {
 .face,
 .inst {
     color: #393d3f;
-}
-
-.works-img,
-.rnb-img {
-    overflow: hidden;
-    box-shadow: 2px 2px 4px;
-    display: inline-block;
-    height: 190px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
-
-.works-img img,
-.rnb-img img {
-    display: block;
-    transition-duration: 1s;
-    height: 100%;
-}
-
-.works-img img:hover,
-.rnb-img img:hover {
-    transform: scale(1.1);
-    transition-duration: 1s;
 }
 
 .border-btn {
@@ -910,6 +890,17 @@ nav {
 .love-fukui {
     margin-top: 150px;
     margin-bottom: 50px;
+}
+
+.sidebar-video {
+    position: absolute;
+    top: 40px;
+    left: 4.5vw;
+    width: 230px;
+}
+
+.sidebar-step {
+    width: 100%;
 }
 
 /* ご挨拶 */
@@ -2256,31 +2247,10 @@ div .fadein:nth-of-type(2) {
     transition: .5s;
 }
 
-.bg-photo:hover,
-.bg-mask h5:hover + .bg-photo {
+.bg-photo:hover {
     transform: scale(1.05);
     opacity: 1;
     transition: 1s;
-}
-
-.bg-mask {
-    width: auto;
-    height: 100%;
-    overflow: hidden;
-    background: rgba(7, 75, 93, 1);
-}
-
-.bg-mask h5 {
-    z-index: 99;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    pointer-events: none;
-    letter-spacing: .03em;
-    transition: .5s;
 }
 
 .introduction-box {
