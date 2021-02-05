@@ -495,6 +495,13 @@ nav {
     height: 40px;
     cursor: pointer;
 }
+.sns-menu {
+    position: absolute;
+    top: .5rem;
+    left: 70%;
+    height: 40px;
+    cursor: pointer;
+}
 
 .ham_line {
     position: absolute;
@@ -623,6 +630,17 @@ nav {
 }
 #navbar {
     transition: .5s;
+}
+.sns-menu-contents {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.sns-menu-contents ul li {
+    display: block;
+    width: 100%;
 }
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button
