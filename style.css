@@ -798,6 +798,11 @@ nav {
     border-bottom: 2px solid #00ABE9;
 }
 
+.top-frame-grid {
+    display: grid;
+    grid-template-columns: 66.67vw 33.33vw;
+}
+
 .top-index-grid {
     display: grid;
     grid-template-rows: 22vw;
@@ -908,13 +913,15 @@ nav {
 
 .sidebar-video {
     position: absolute;
-    top: 40px;
-    left: 4.5vw;
-    width: 230px;
+    top: 55px;
+    left: 2.5vw;
+    width: 240px;
+    z-index: 999;
 }
 
-.sidebar-step {
-    width: 100%;
+.sidebar-width {
+    padding-left: 3vw;
+    float: none;
 }
 
 /* ご挨拶 */

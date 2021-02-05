@@ -20,7 +20,7 @@ Template Name: 川端工務店フロントページ
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+        <div class="top-frame-grid">
                 <div class="row">
                     <div class="h5 bold text-center top-midashi-back top-index-padding" style="background-color: #58A4B0;">お知らせ</div>
 
@@ -62,7 +62,7 @@ Template Name: 川端工務店フロントページ
 
                     </div>	<!-- top-index-grid -->
 
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
+                        <div class="text-center mt-3 mb-5">
                             <a href="<?php echo get_template_directory_uri(); ?>/news" class="url border-btn">もっとみる</a>
                         </div>
 
@@ -110,7 +110,7 @@ Template Name: 川端工務店フロントページ
 
                     </div>	<!-- top-index-grid -->
 
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
+                        <div class="text-center mt-3 mb-5">
                             <a href="<?php echo home_url('/realestate/'); ?>" class="url border-btn">もっとみる</a>
                         </div>
 
@@ -159,7 +159,7 @@ Template Name: 川端工務店フロントページ
 
                 </div>	<!-- top-index-grid -->
 
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
+                    <div class="text-center mt-3 mb-5">
                         <a href="<?php echo get_template_directory_uri(); ?>/works" class="url border-btn">もっとみる</a>
                     </div>
 
@@ -207,7 +207,7 @@ Template Name: 川端工務店フロントページ
                 
                 </div>	<!-- top-index-grid -->
 
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 mb-5">
+                    <div class="text-center mt-3 mb-5">
                         <a href="<?php echo get_template_directory_uri(); ?>/renovation" class="url border-btn">もっとみる</a>
                     </div>
 
@@ -215,38 +215,39 @@ Template Name: 川端工務店フロントページ
                 <!-- リフォーム実績 end -->
 
                 </div><!-- row（メイン部分内） end-->
-        </div><!-- col-xl-8 col-lg-8 col-md-12 col-sm-12（メイン部分） end-->
 
-        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 pl-0 mb-5"><!-- サイドバー -->
+                <div class="row ml-3 mb-5"><!-- row （サイドバー） -->
 
-                <div class="sidebar-step">
+                <div style="position: relative;">
                 <iframe class="sidebar-video" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/sidebar_step.png" alt="家づくりの５ステップ">
                 <!-- 家づくりのステップ end -->
 
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 pr-3">
+               <div class="pt-2 pr-3 sidebar-width">
                    <h4 class="text-left inst"><a href="https://www.instagram.com/kawabatakoumuten226577/"><i class="fab fa-instagram fa-fw"></i>instagram</a></h4>
                     <?php echo do_shortcode('[instagram-feed width=115]'); ?>
                </div><!-- instagram end -->
                 
-                <div class="col-lg-12 col-md-6 col-sm-12 col-xs-12 pt-5">
+                <div class="pt-2 sidebar-width">
                     <h4 class="text-left inst pb-3"><a href="https://www.facebook.com/kawabata.koumuten/"><i class="fab fa-facebook fa-fw"></i>facebook</a></h4>
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkawabata.koumuten%2F&tabs=timeline&width=285&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="285" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div><!-- facebook end -->
                 <!-- Youtube -->
-                <div class="col-lg-12 col-md-6 col-sm-12 col-xs-12 pt-5">
+                <div class="pt-2 sidebar-width">
                     <h4 class="text-left inst"><a href="https://www.youtube.com/channel/UCE4kChI3_d2FFjFHA3Hj8Iw"><i class="fab fa-youtube fa-fw"></i>YouTube</a></h4><br />
-                    <iframe width="285" height="157" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="285" height="157" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]
                 </div><!-- Youtube end -->
-                <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 pt-5">
+                <div class="pt-2 sidebar-width">
                     <h4 class="text-left inst pb-3">
                         <i class="fab fa-pinterest"></i>
                         <a href="https://www.pinterest.jp/kawabatakoumuten226577/">Pinterest</a>
                     </h4>
-                    <a data-pin-do="embedUser" data-pin-lang="ja" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.jp/kawabatakoumuten226577/"></a>
+                    <div style="width: 25vw!important">
+                    <a data-pin-do="embedUser" data-pin-lang="ja" data-pin-board-width="25vw" data-pin-scale-height="240" data-pin-scale-width="7vw" href="https://www.pinterest.jp/kawabatakoumuten226577/"></a>
+                    </div>
                 </div>
-                <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 pt-5">
+                <div class="pt-2 sidebar-width">
                     <h4 class="text-left inst pb-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon_line.png" width="30px">
                         LINE@
@@ -257,8 +258,8 @@ Template Name: 川端工務店フロントページ
                     <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
                 </div><!-- LINE end -->
 
-        </div><!-- サイドバー end-->
-    </div><!--  row end -->
+        </div><!-- row （サイドバー） end-->
+    </div><!--  top-frame-grid end -->
 </div><!-- container end -->
 
 <?php get_footer(); ?>
