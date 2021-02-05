@@ -115,6 +115,15 @@ ham.addEventListener('click', function() {
     menu_wrapper.classList.toggle('clicked');
 });
 </script>
+
+<script>
+    $(function(){
+        $(".sns-menu-contents").hide();
+        $(".menubtn").click(function(){
+        $(".sns-menu-contents").toggle(200);
+        });
+    });
+</script>    
     
 <script>
 $(function() {

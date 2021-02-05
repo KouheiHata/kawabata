@@ -96,8 +96,18 @@
             </div>
         </div>
     </div>
-</header>
+</header>  
 <nav>
+    <div class="sns-menu d-lg-none">
+    <p class="menubtn"><img src="<?php echo get_template_directory_uri(); ?>/images/sns2.png" alt="menu"></p>
+    </div>
+    <div class="sns-menu-contents">
+        <ul>
+            <li>contents</li>
+            <li>contents</li>
+            <li>contents</li>
+        </ul> 
+    </div> 
        <div id="ham" class="ham d-lg-none">
            <span class="ham_line ham_line1"></span>
            <span class="ham_line ham_line2"></span>

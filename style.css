@@ -495,6 +495,13 @@ nav {
     height: 40px;
     cursor: pointer;
 }
+.sns-menu {
+    position: absolute;
+    top: .5rem;
+    left: 70%;
+    height: 40px;
+    cursor: pointer;
+}
 
 .ham_line {
     position: absolute;
@@ -576,13 +583,13 @@ nav {
 .menu-item a:hover {
     color: #58A4B0;
 }
-.current-menu-item,.current_page_item {
+.menu-item-home {
     background-color: #58A4B0;
 }
-.current-menu-item a,.current_page_item a {
+.menu-item-home a {
     color: #fff;
 }
-.current-menu-item a:hover,.current_page_item a:hover {
+.menu-item-home a:hover {
     color: #fff !important;
 }
 .sub-menu {
@@ -599,10 +606,10 @@ nav {
 .sub-menu .menu-item a:hover {
     color: #58A4B0;
 }
-.current-menu-item .sub-menu .menu-item {
+.menu-item-home .sub-menu .menu-item {
     background-color: rgba(88, 164, 176, .4);
 }
-.current-menu-item .sub-menu .menu-item a {
+.menu-item-home .sub-menu .menu-item a {
     color: #fff;
 }
 .menu-item-has-children:hover .sub-menu,
@@ -623,6 +630,17 @@ nav {
 }
 #navbar {
     transition: .5s;
+}
+.sns-menu-contents {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.sns-menu-contents ul li {
+    display: block;
+    width: 100%;
 }
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button
