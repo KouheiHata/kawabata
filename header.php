@@ -103,9 +103,47 @@
     </div>
     <div class="sns-menu-contents">
         <ul>
-            <li>contents</li>
-            <li>contents</li>
-            <li>contents</li>
+            <li>
+                <div class="pt-2 pr-3 sidebar-width">
+                   <h4 class="text-left inst"><a href="https://www.instagram.com/kawabatakoumuten226577/"><i class="fab fa-instagram fa-fw"></i>instagram</a></h4>
+                    <?php echo do_shortcode('[instagram-feed width=115]'); ?>
+               </div>
+            </li>
+            <li>
+                <div class="pt-2 sidebar-width">
+                    <h4 class="text-left inst pb-3"><a href="https://www.facebook.com/kawabata.koumuten/"><i class="fab fa-facebook fa-fw"></i>facebook</a></h4>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkawabata.koumuten%2F&tabs=timeline&width=285&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="285" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </li>
+            <li>
+                <div class="pt-2 sidebar-width">
+                    <h4 class="text-left inst"><a href="https://www.youtube.com/channel/UCE4kChI3_d2FFjFHA3Hj8Iw"><i class="fab fa-youtube fa-fw"></i>YouTube</a></h4><br />
+                    <iframe width="285" height="157" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]
+                </div>
+            </li>
+            <li>
+                <div class="pt-2 sidebar-width">
+                    <h4 class="text-left inst pb-3">
+                        <i class="fab fa-pinterest"></i>
+                        <a href="https://www.pinterest.jp/kawabatakoumuten226577/">Pinterest</a>
+                    </h4>
+                    <div style="width: 25vw!important">
+                    <a data-pin-do="embedUser" data-pin-lang="ja" data-pin-board-width="25vw" data-pin-scale-height="240" data-pin-scale-width="7vw" href="https://www.pinterest.jp/kawabatakoumuten226577/"></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="pt-2 sidebar-width">
+                    <h4 class="text-left inst pb-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icon_line.png" width="30px">
+                        LINE@
+                    </h4>
+                    <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@kawabata0778226577" data-count="true" data-home="true" style="display: none;"></div>
+                    <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script><br /><br />
+                    <div class="line-it-button" data-lang="ja" data-type="like" data-url="https://www.kawabata-koumuten.com/" data-share="true" style="display: none;"></div>
+                    <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+                </div>
+            </li>
         </ul> 
     </div> 
        <div id="ham" class="ham d-lg-none">
