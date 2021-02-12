@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/96a293b6a6.js" crossorigin="anonymous"></script>    
 <!-- CSS -->
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css?20200807" rel="stylesheet">
 <!-- Responsive CSS -->
@@ -92,12 +93,15 @@
             <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 logo d-none d-md-block text-right">
                 <p class="d-none d-sm-inline-block font-weight-bold text-md-right h5 mt-3 pr-2"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a></p>
                 <p class="d-inline-block font-weight-bold text-md-right h5 mt-3">
-                <a href="tel:0778-22-6577"><i class="fas fa-phone-square"></i>&nbsp;0778-22-6577</a></p>
+                <a href="tel:0778-22-6577"><i class="fas fa-phone-alt"></i>&nbsp;0778-22-6577</a></p>
             </div>
         </div>
     </div>
 </header>  
 <nav>
+    <div class="tell-menu d-lg-none">
+        <p class="menubtn"><a href="tel:0778-22-6577"><img src="<?php echo get_template_directory_uri(); ?>/images/tel2.png" alt="menu"></a></p>
+    </div>
     <div class="sns-menu d-lg-none">
     <p class="menubtn"><img src="<?php echo get_template_directory_uri(); ?>/images/sns2.png" alt="menu"></p>
     </div>
