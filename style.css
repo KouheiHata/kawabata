@@ -798,11 +798,6 @@ nav {
     border-bottom: 2px solid #00ABE9;
 }
 
-.top-frame-grid {
-    display: grid;
-    grid-template-columns: 66.67vw 33.33vw;
-}
-
 .top-index-grid {
     display: grid;
     grid-template-rows: 22vw;
@@ -913,15 +908,13 @@ nav {
 
 .sidebar-video {
     position: absolute;
-    top: 55px;
-    left: 2.5vw;
-    width: 240px;
-    z-index: 999;
+    top: 40px;
+    left: 4.2vw;
+    width: 220px;
 }
 
-.sidebar-width {
-    padding-left: 3vw;
-    float: none;
+.sidebar-step {
+    width: 100%;
 }
 
 /* ご挨拶 */
@@ -1306,7 +1299,6 @@ dd.con:after {
 
 .news-box-img {
     overflow: hidden;
-    max-width: 150px;
     margin-left: auto;
 }
 

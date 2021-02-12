@@ -26,7 +26,7 @@ Template Name: 川端工務店お知らせページ
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-4">
             <div class="row d-flex align-items-center mews-box">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <div class="news-box-img"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail'); ?></a></div>
+                    <div class="news-box-img"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a></div>
                 </div>
                 <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-12">
                     <div class="news-text">
