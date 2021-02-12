@@ -236,6 +236,17 @@
     .menu-item-home .sub-menu .menu-item {
         background-color: transparent;
     }
+    .line-it-button {
+        width: 100% !important;
+        height: 25px !important;
+    }
+    .sns-sm {
+        display: table;
+        padding: 0;
+    }
+    .menu_wrapper {
+        border: none;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
