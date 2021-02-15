@@ -155,7 +155,7 @@
            <span class="ham_line ham_line2"></span>
            <span class="ham_line ham_line3"></span>
        </div>
-       <div id="menu_wrapper" class="menu_wrapper">
+       <div id="menu_wrapper" class="menu_wrapper justify-content-center">
         <?php
           $args = array(
             'theme_location' => 'global_nav',
