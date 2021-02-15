@@ -177,7 +177,7 @@ Template Name: 川端工務店フロントページ
         if($the_query->have_posts()):
 ?>
 
-                <div class="top-index-padding">
+                <div class="top-index-padding" style="padding-bottom: 95px;">
                 <div class="top-index-grid">
 
                 <?php while ($the_query->have_posts()): $the_query->the_post(); ?>
@@ -217,9 +217,9 @@ Template Name: 川端工務店フロントページ
                 </div><!-- row（メイン部分内） end-->
         </div><!-- （メイン部分） end-->
 
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 pl-0 mb-5"><!-- サイドバー -->
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 pl-0 sidebar-border"><!-- サイドバー -->
 
-                <div class="sidebar-step">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <iframe class="sidebar-video" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/sidebar_step.png" alt="家づくりの５ステップ">

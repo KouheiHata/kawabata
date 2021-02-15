@@ -818,7 +818,7 @@ nav {
 
 .top-index-grid {
     display: grid;
-    grid-template-rows: 22vw;
+    grid-template-rows: 23.5vw;
     grid-template-columns: 17.5vw 17.5vw 17.5vw;
     grid-gap: 5px;
 }
@@ -931,8 +931,8 @@ nav {
     width: 220px;
 }
 
-.sidebar-step {
-    width: 100%;
+.sidebar-border {
+    border-left: solid 1px #707070;
 }
 
 /* ご挨拶 */
