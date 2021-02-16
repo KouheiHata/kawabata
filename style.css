@@ -596,10 +596,10 @@ nav {
 .menu-item a:hover {
     color: #58A4B0;
 }
-.menu-item-home {
+.global_menu > .menu-item:first-of-type, .footer_menu > .menu-item:first-of-type {
     background-color: #58A4B0;
 }
-.menu-item-home a {
+.menu-item-1188 a {
     color: #fff;
 }
 .menu-item-home a:hover {
@@ -619,10 +619,10 @@ nav {
 .sub-menu .menu-item a:hover {
     color: #58A4B0;
 }
-.menu-item-home .sub-menu .menu-item {
+.menu-item-1188 .sub-menu .menu-item {
     background-color: rgba(88, 164, 176, .4);
 }
-.menu-item-home .sub-menu .menu-item a {
+.menu-item-1188 .sub-menu .menu-item a {
     color: #fff;
 }
 .menu-item-has-children:hover .sub-menu,
