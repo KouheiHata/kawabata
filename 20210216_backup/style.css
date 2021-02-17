@@ -433,119 +433,232 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	6.	Menu Navigation
 /* -------------------------------------------------------------------------------- */
-.navbar {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    transition: .5s
-}
-.navbar a {
-    text-decoration: none;
+.logo,
+nav {
+    z-index: 1000;
 }
 
-/* nav上段 */
-.nav-top {
-    display: block;
-    width: 100%;
-    max-height: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
 .logo-img {
-    max-width: 250px;
+    max-width: 300px;
 }
-.navbar-logo,.navbar-tel {
+
+.navbar {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.bg-dark, .dropdown-menu {
+    /* ドロップダウンメニューの背景を黒に指定 */
+    background-color: rgba( 0, 0, 0, .5 ) !important;
+}
+
+.dropdown-menu {
+    margin: 0;
+    border: none;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-link,
+.dropdown-item {
+    color: #fff !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    color: #CCC !important;
+}
+
+.nav-item {
+    border-right: 1.2px solid #EEE;
+}
+
+.end {
+    border: none;
+}
+
+.dropdown-toggle::after {
+    border: none !important;
+}
+.menu_wrapper {
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+
+/* ハンバーガーメニュー */
+.ham {
+    position: relative;
+    top: 0;
+    left: 87%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.sns-menu {
+    position: absolute;
+    top: .5rem;
+    left: 80%;
+    height: 40px;
+    cursor: pointer;
+}
+.tell-menu {
+    position: absolute;
+    top: .7rem;
+    left: 70%;
+    height: 40px;
+    cursor: pointer;
+}
+.ham_line {
+    position: absolute;
+    left: 24%;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+.ham_line1 {
+    top: 20%;
+}
+
+.ham_line2 {
+    top: 45%;
+}
+
+.ham_line3 {
+    top: 69%;
+}
+
+/*クリック後の処理*/
+.navi-btn-on .ham_line1 {
+    transform: rotate(45deg);
+    top: 50%;
+}
+
+.navi-btn-on .ham_line2 {
+    width: 0;
+}
+
+.navi-btn-on .ham_line3 {
+    transform: rotate(-45deg);
+    top: 50%;
+}
+
+
+/* カスタムメニュー */
+.global_nav {
+	display:block;
+}
+
+.global_menu,
+.footer_menu {
+    font-size: 0;
+    width: 100%;
+    line-height: 1;
+}
+
+.global_menu > .menu-item,
+.footer_menu > .menu-item {
     display: inline-block;
 }
-.navbar-tel {
-    float: right;
-    margin: 10px 0 10px 0;
-}
-.navbar-tel a {
-    font-size: 20px;
+
+.global_menu .menu-item,
+.footer_menu .menu-item {
+    width: 20%;
 }
 
-/* nav下段 */
-.nav-bottom {
-    width: 100%;
-    max-height: 50px;
-    height: 50px;
-}
-.navbar-nav {
-    flex-direction: inherit;
-    border-top: thin solid #707070;
-    border-bottom: thin solid #707070;
-}
-.nav-item {
-    position: relative;
-    width: 20vw;
-    height: 50px;
+.menu-item {
+    color: #000;
+    font-weight: bold;
     text-align: center;
-    font-size: 20px;
-    font-weight: 600;
+    max-height: 50px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    font-size: 18px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: #fff;
 }
-.item01 {
-    width: calc(20vw + 100px);
-}
-.item05 {
-    width: calc(20vw + 100px);
-    text-align: left;
-}
-.item05 a {
-    padding-left: 60px !important;
-}
-.nav-link {
-    height: 50px;
-    padding-top: 10px;
+.footer_menu .menu-item {
+    font-size: 14px;
 }
 
-/* ドロップダウン */
-.item01 .dropdown-hover {
-    color: #fff;
-    padding-left: 100px !important;
-    padding-right: 20px !important;
+.menu-item a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+.menu-item a:hover {
+    color: #58A4B0;
+}
+.global_menu > .menu-item:first-of-type, .footer_menu > .menu-item:first-of-type {
     background-color: #58A4B0;
 }
-.item01 .dropdown-hover:hover {
+.menu-item-1188 a,.menu-item-51 a {
     color: #fff;
 }
-.dropdown-list {
-    position: absolute;
-    width: 100%;
-    visibility: hidden;
-    opacity: 0;
-    transition: .3s;
+.menu-item-1188 a:hover,.menu-item-51 a:hover {
+    color: #fff !important;
 }
-.item01 .dropdown-list {
+.sub-menu {
+    margin-top: .9em;
+    display: none;
+    position: absolute;
+}
+.sub-menu .menu-item {
+    background-color: rgba(255, 255, 255, .6);
+}
+.sub-menu .menu-item a {
+    color: #666;
+}
+.sub-menu .menu-item a:hover {
+    color: #58A4B0;
+}
+.menu-item-1188 .sub-menu .menu-item,.menu-item-51 .sub-menu .menu-item {
     background-color: rgba(88, 164, 176, .4);
 }
-.dropdown-link {
-    text-align: center;
-}
-.item01 .dropdown-link {
-    padding: 10px 0 10px 100px;
-}
-.item04 .dropdown-link {
-    padding: 10px 0 10px 0;
-}
-.dropdown-link a {
-    font-size: 20px;
-    font-weight: 600;
-}
-.item01 .dropdown-link a {
+.menu-item-1188 .sub-menu .menu-item a,.menu-item-51 .sub-menu .menu-item a {
     color: #fff;
 }
-.dropdown-hover:hover + .dropdown-list,
-.dropdown-list:hover {
-    visibility: visible;
-    opacity: 1;
-    transition: .3s;
+.menu-item-has-children:hover .sub-menu,
+.menu-item-has-children:active .sub-menu {
+    display: block;
 }
 
-/* nav余白 */
-.ml-15 {
-    margin-left: 15px;
+.sub-menu .menu-item {
+    width: 20vw;
+}
+.footer_menu .sub-menu .menu-item {
+    width: 222px;
+}
+
+.hide {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+#navbar {
+    transition: .5s;
+}
+.sns-menu-contents {
+    display: block;
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    -webkit-overflow-scrolling: touch;
+}
+.sns-menu-contents ul li {
+    display: block;
+    width: 100%;
 }
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button
