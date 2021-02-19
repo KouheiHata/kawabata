@@ -106,6 +106,28 @@ $(function($){
 
 </script>
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+<script>
+    $(window).on('load resize', function(){
+  var winW = $(window).width();
+  var devW = 991.98;
+  if (winW <= devW) {
+    $(".nav-bottom").addClass("hide");
+  } else {
+    $(".nav-bottom").removeClass("hide");
+  }
+});
+</script>
+
+<script>
+    $(function(){
+        $(".ham-trigger").click(function(){
+        $(".nav-bottom").fadeToggle(300);
+        $(".ham-trigger").toggleClass("p-fixed");    
+        });
+    });
+</script>      
+    
 <script>
     $(function(){
         $(".sns-menu-contents").hide();
@@ -113,6 +135,15 @@ $(function($){
         $(".sns-menu-contents").toggle(200);
         });
     });
+</script>     
+    
+<script>
+    $(function(){
+  $('.ham-trigger').on('click', function() {
+    $(this).toggleClass('active');
+    return false;
+  });
+});
 </script>    
     
 <script>

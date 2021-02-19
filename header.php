@@ -44,8 +44,13 @@
                 <img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="株式会社_川端工務店">
             </a>
         </div>
-        <div class="navbar-tel">
+        <div class="navbar-tel d-none d-lg-block">
             <p class="font-weight-bold"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a><a class="ml-15" href="tel:0778-22-6577"><i class="fas fa-phone-alt"></i>&nbsp;0778-22-6577</a></p>
+        </div>
+        <div class="ham-trigger d-lg-none" id="ham">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
     <div class="nav-bottom">
@@ -69,8 +74,8 @@
         <li class="nav-item item04">
         <a class="nav-link dropdown-hover" href="#">実績</a>
             <ul class="dropdown-list">
-              <li class="dropdown-link"><a href="#">リフォーム実績</a></li>
-              <li class="dropdown-link"><a href="#">施工実績</a></li>
+                <li class="dropdown-link"><a href="#">施工実績</a></li>
+                <li class="dropdown-link"><a href="#">リフォーム実績</a></li>
           </ul>
       </li>
       <li class="nav-item item05">
