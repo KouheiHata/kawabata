@@ -173,32 +173,6 @@
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
-	.sidebar-video {
-		top: 4vh;
-		width: 180px;
-		height: 120px;
-	}
-
-	.youtube-video {
-		width: 220px;
-		height: 120px;
-	}
-}
-
-@media screen and (min-width: 576px) and (max-width: 767.98px) {
-	.sidebar-video {
-		top: 4vh;
-		width: 140px;
-		height: 90px;
-	}
-
-	.youtube-video {
-		width: 160px;
-		height: 110px;
-	}
-}
-
 @media screen and (max-width: 575.98px) {
     .top-img2-pc {
         display: none;
@@ -208,17 +182,6 @@
         display: block;
         width: 100%;
     }
-
-	.sidebar-video {
-		top: 20px;
-		width: 100px;
-		height: 80px;
-	}
-
-	.youtube-video {
-		width: 120px;
-		height: 75px;
-	}
 }
 
 /* -------------------------------------------------------------------------------- */

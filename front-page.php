@@ -237,7 +237,7 @@ Template Name: 川端工務店フロントページ
                 <!-- Youtube -->
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5">
                     <h4 class="text-left inst"><a href="https://www.youtube.com/channel/UCE4kChI3_d2FFjFHA3Hj8Iw"><i class="fab fa-youtube fa-fw"></i>YouTube</a></h4><br />
-                    <iframe class="youtube-video" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="285" height="157" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div><!-- Youtube end -->
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5">
                     <h4 class="text-left inst pb-3">
