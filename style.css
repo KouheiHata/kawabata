@@ -534,7 +534,8 @@ img {
     color: #58A4B0;
 }
 .dropdown-hover:hover + .dropdown-list,
-.dropdown-list:hover {
+.dropdown-list:hover,
+.dropdown-hover:active + .dropdown-list {
     visibility: visible;
     opacity: 1;
     transition: .3s;
