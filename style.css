@@ -773,7 +773,7 @@ img {
 .rnb-time {
     z-index: 999;
     display: inline-block;
-    font-size: 13px;
+    font-size: 1vw;
     padding: 5px 10px;
     height: 30px;
     width: 90px;
@@ -866,6 +866,11 @@ img {
     top: 40px;
     left: 4.2vw;
     width: 220px;
+}
+
+.youtube-video {
+	width: 285;
+	height: 157;
 }
 
 .sidebar-border {
