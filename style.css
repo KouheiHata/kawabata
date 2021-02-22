@@ -869,6 +869,11 @@ img {
     width: 220px;
 }
 
+.youtube-video {
+	width: 285px;
+	height: 157px;
+}
+
 .sidebar-border {
     border-left: solid 1px #707070;
 }
