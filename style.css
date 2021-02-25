@@ -495,9 +495,6 @@ img {
     color: #fff;
     background-color: #58A4B0;
 }
-.item01 .dropdown-hover:hover {
-    color: #fff;
-}
 .dropdown-list {
     position: absolute;
     width: 100%;
@@ -508,7 +505,7 @@ img {
 .item01 .dropdown-list {
     background-color: rgba(88, 164, 176, .3);
 }
-.item04 .dropdown-list {
+.item04 .dropdown-list,.item05 .dropdown-list {
     background-color: rgba(255, 255, 255, .3);
 }
 .dropdown-link {
@@ -518,7 +515,11 @@ img {
     padding: 10px 0 10px 100px;
 }
 .item04 .dropdown-link {
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
+}
+.item05 .dropdown-link {
+    text-align: left;
+    padding: 10px 0;
 }
 .dropdown-link a {
     font-size: 20px;
@@ -527,71 +528,54 @@ img {
 .item01 .dropdown-link a {
     color: #fff;
 }
-.item04 .dropdown-link a {
+.item04 .dropdown-link a,.item05 .dropdown-link a {
     color: #909090;
-}
-.item04 .dropdown-link a:hover {
-    color: #58A4B0;
-}
-.dropdown-hover:hover + .dropdown-list,
-.dropdown-list:hover,
-.dropdown-hover:active + .dropdown-list {
-    visibility: visible;
-    opacity: 1;
-    transition: .3s;
 }
 
 /* ハンバーガーメニュー */
 .hide {
     display: none;
 }
-.p-fixed {
-    position: fixed !important;
-}
 .ham-trigger {
     position: absolute;
-    width: 24px;
-    height: 20px;
-    top: 20px;
+    display: inline-block;
+    top: 0;
     right: 0;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-right: 18px;
+    z-index: 999;
+}
+.ham-img2 {
+    margin-right: 7px;
+}
+
+/* snsメニュー */
+.sns-trigger {
+    position: absolute;
+    top: 6px;
+    right: 63px;
+    height: 43px;
     cursor: pointer;
     z-index: 999;
 }
-.ham-trigger span {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #000;
-    border-radius: 4px;
-}
-.ham-trigger, .ham-trigger span {
-    display: inline-block;
-    transition: all .5s;
-    box-sizing: border-box;
-}
-.ham-trigger span:nth-of-type(1) {
+.sns-menu-contents {
+    display: block;
+    position: relative;
+    overflow-y: scroll;
+    width: 100vh;
+    height: 100vh;
     top: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    -webkit-overflow-scrolling: touch;
 }
-.ham-trigger span:nth-of-type(2) {
-    top: 9px;
+.snsmenubtn2 {
+    margin-top: 4px;
 }
-.ham-trigger span:nth-of-type(3) {
-    bottom: 0;
-}
-
-/*クリック後の処理*/
-#ham.active span:nth-of-type(1) {
-    -webkit-transform: translateY(7px) rotate(-45deg);
-    transform: translateY(7px) rotate(-45deg);
-}
-#ham.active span:nth-of-type(2) {
-    opacity: 0;
-}
-#ham.active span:nth-of-type(3) {
-    -webkit-transform: translateY(-11px) rotate(45deg);
-    transform: translateY(-11px) rotate(45deg);
+.sns-menu-contents ul li {
+    display: block;
+    width: 100%;
 }
 
 /* nav余白 */

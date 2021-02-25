@@ -117,13 +117,14 @@ $(function($){
     $(".nav-bottom").removeClass("hide");
   }
 });
-</script>
-
+</script>  
+    
 <script>
     $(function(){
         $(".ham-trigger").click(function(){
-        $(".nav-bottom").fadeToggle(300);
-        $(".ham-trigger").toggleClass("p-fixed");    
+            $(".nav-bottom").fadeToggle(300); 
+            $(".ham-img1").toggleClass("hide");
+            $(".ham-img2").toggleClass("hide");
         });
     });
 </script>      
@@ -131,8 +132,10 @@ $(function($){
 <script>
     $(function(){
         $(".sns-menu-contents").hide();
-        $(".menubtn").click(function(){
-        $(".sns-menu-contents").toggle(200);
+        $(".sns-trigger").click(function(){
+            $(".sns-menu-contents").fadeToggle(300);
+            $(".snsmenubtn").toggleClass("hide");
+            $(".snsmenubtn2").toggleClass("hide");
         });
     });
 </script>     
@@ -161,6 +164,29 @@ $(function() {
 	});
 });	
 </script> 
+
+<script>
+$(".item01 a").click(function(){
+    $(".item01-list").toggleClass("list-active"); 
+    $(".item01").toggleClass("item01-active"); 
+    $(".item02").toggleClass("mt-283");
+});
+</script>
+
+<script>
+$(".item04 a").click(function(){
+    $(".item04-list").toggleClass("list-active"); 
+    $(".item04").toggleClass("item04-active bb-gray"); 
+    $(".item05").toggleClass("mt-113");
+});
+</script> 
+
+<script>
+$(".item05 a").click(function(){
+    $(".item05-list").toggleClass("list-active"); 
+    $(".item05").toggleClass("item04-active"); 
+});
+</script>     
     
 <script>
 $(function () {
