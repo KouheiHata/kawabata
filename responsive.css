@@ -185,7 +185,12 @@
     }
     .sns-sm {
         display: table;
+        margin: 0 auto;
         padding: 0;
+    }
+    .line-it-button {
+        width: 100% !important;
+        height: 25px !important;
     }
     .mt-283 {
         margin-top: 283px;
@@ -286,7 +291,12 @@
     }
     .sns-sm {
         display: table;
+        margin: 0 auto;
         padding: 0;
+    }
+    .line-it-button {
+        width: 100% !important;
+        height: 25px !important;
     }
     .mt-283 {
         margin-top: 283px;
@@ -393,7 +403,12 @@
     }
     .sns-sm {
         display: table;
+        margin: 0 auto;
         padding: 0;
+    }
+    .line-it-button {
+        width: 100% !important;
+        height: 25px !important;
     }
     .mt-283 {
         margin-top: 283px;

@@ -125,6 +125,7 @@ $(function($){
             $(".nav-bottom").fadeToggle(300); 
             $(".ham-img1").toggleClass("hide");
             $(".ham-img2").toggleClass("hide");
+            $(".sns-trigger").toggleClass("hide");
         });
     });
 </script>      
@@ -136,6 +137,7 @@ $(function($){
             $(".sns-menu-contents").fadeToggle(300);
             $(".snsmenubtn").toggleClass("hide");
             $(".snsmenubtn2").toggleClass("hide");
+            $(".ham-trigger").toggleClass("hide");
         });
     });
 </script>     

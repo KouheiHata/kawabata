@@ -51,30 +51,33 @@
             <img class="snsmenubtn" src="<?php echo get_template_directory_uri(); ?>/images/sns.png" alt="メニューボタン">
             <img class="snsmenubtn2 hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.png" alt="メニューボタン">
         </div>
+        <div class="tell-menu d-lg-none">
+            <p class="menubtn"><a href="tel:0778-22-6577"><img src="<?php echo get_template_directory_uri(); ?>/images/tel.png" alt="menu"></a></p>
+        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 sns-menu-contents">
         <ul>
             <li>
-                <div class="pt-5 pr-3 sidebar-width mx-auto sns-sm">
+                <div class="pt-5 sidebar-width sns-sm">
                    <h4 class="text-left inst"><a href="https://www.instagram.com/kawabatakoumuten226577/"><i class="fab fa-instagram fa-fw"></i>instagram</a></h4>
                     <?php echo do_shortcode('[instagram-feed width=115]'); ?>
                </div>
             </li>
             <li>
-                <div class="pt-5 sidebar-width mx-auto sns-sm">
+                <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst pb-3"><a href="https://www.facebook.com/kawabata.koumuten/"><i class="fab fa-facebook fa-fw"></i>facebook</a></h4>
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkawabata.koumuten%2F&tabs=timeline&width=285&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="285" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </li>
             <li>
-                <div class="pt-5 sidebar-width mx-auto sns-sm">
+                <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst"><a href="https://www.youtube.com/channel/UCE4kChI3_d2FFjFHA3Hj8Iw"><i class="fab fa-youtube fa-fw"></i>YouTube</a></h4><br />
                     <iframe width="285" height="157" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]
                 </div>
             </li>
             <li>
-                <div class="pt-5 sidebar-width mx-auto sns-sm">
+                <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst pb-3">
                         <i class="fab fa-pinterest"></i>
                         <a href="https://www.pinterest.jp/kawabatakoumuten226577/">Pinterest</a>
@@ -85,7 +88,7 @@
                 </div>
             </li>
             <li>
-                <div class="pt-5 sidebar-width mx-auto sns-sm">
+                <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst pb-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon_line.png" width="30px">
                         LINE@

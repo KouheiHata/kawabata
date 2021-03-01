@@ -538,7 +538,6 @@ img {
 }
 .ham-trigger {
     position: absolute;
-    display: inline-block;
     top: 0;
     right: 0;
     margin-top: 10px;
@@ -560,7 +559,7 @@ img {
 }
 .sns-menu-contents {
     display: block;
-    position: relative;
+    position: absolute;
     overflow-y: scroll;
     width: 100vh;
     height: 100vh;
@@ -578,6 +577,14 @@ img {
     width: 100%;
 }
 
+/* tellメニュー */
+.tell-menu {
+    position: absolute;
+    top: 9px;
+    right: 100px;
+    height: 40px;
+    cursor: pointer;
+}
 /* nav余白 */
 .ml-15 {
     margin-left: 15px;
