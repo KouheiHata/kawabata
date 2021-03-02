@@ -497,6 +497,12 @@
 		width: 220px;
 		height: 120px;
 	}
+
+	.news-time, .realestate-time,
+	.works-time, .rnb-time {
+		padding: 0.2vw 0.7vw;
+		width: 8.3vw;
+	}
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -510,6 +516,21 @@
 		width: 160px;
 		height: 110px;
 	}
+
+	.top-index-grid {
+		grid-template-rows: 30vw;
+	}
+
+	.rbn {
+		top: 6.8vw;
+		left: 5px;
+	}
+
+	.news-time, .realestate-time,
+	.works-time, .rnb-time {
+		padding: 0.1vw 0.7vw;
+		width: 10.5vw;
+	}
 }
 
 @media screen and (max-width: 575.98px) {
@@ -522,15 +543,71 @@
         width: 100%;
     }
 
-	.sidebar-video {
-		top: 20px;
-		width: 100px;
-		height: 80px;
-	}
-
 	.youtube-video {
 		width: 120px;
 		height: 75px;
+	}
+
+	.news-title {
+		font-size: 12px;
+		line-height: 2;
+	}
+
+	.top-index-padding {
+		margin: 0 auto;
+	}
+
+	.top-index-grid {
+		grid-template-rows: 295px;
+		grid-template-columns: 200px;
+	}
+
+	.top-index-grid > div:nth-of-type(3) {
+		display: none;
+	}
+
+	.top-index-grid > div:nth-of-type(4) {
+		display: none;
+	}
+
+	.top-index-grid > div:nth-of-type(5) {
+		display: none;
+	}
+
+	.top-index-grid > div:nth-of-type(6) {
+		display: none;
+	}
+
+	.rbn {
+		top: 60px;
+	}
+
+	.news-time,
+	.realestate-time,
+	.works-time,
+	.rnb-time {
+		font-size: 14px;
+		padding: 5px 9px;
+		height: 30px;
+		width: 90px;
+	}
+
+	.border-btn {
+		font-size: 12px;
+	}
+
+	.sidebar-option {
+		border-left: none;
+		text-align: center;
+		padding-bottom: 100px;
+	}
+
+	.sidebar-video {
+		left: calc(50vw - 140px);
+	}
+
+	#side-sns {
+		display: none;
 	}
 }
 

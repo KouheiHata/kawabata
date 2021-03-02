@@ -755,7 +755,7 @@ img {
 .rbn {
     z-index: 999;
     position: relative;
-    top: 58px;
+    top: 4.8vw;
     left: 12px;
 }
 
@@ -765,10 +765,10 @@ img {
 .rnb-time {
     z-index: 999;
     display: inline-block;
-    font-size: 13px;
-    padding: 5px 10px;
-    height: 30px;
-    width: 90px;
+    font-size: 1vw;
+    padding: 0.4vw 0.8vw;
+    height: 2.2vw;
+    width: 7.5vw;
 }
 
 .news-time {
@@ -865,7 +865,7 @@ img {
 	height: 157px;
 }
 
-.sidebar-border {
+.sidebar-option {
     border-left: solid 1px #707070;
 }
 

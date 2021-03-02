@@ -20,7 +20,7 @@ Template Name: 川端工務店フロントページ
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8"><!-- （メイン部分） start-->
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12"><!-- （メイン部分） start-->
                 <div class="row"><!-- row（メイン部分内） -->
                     <div class="h5 bold text-center top-midashi-back top-index-padding" style="background-color: #58A4B0;">お知らせ</div>
 
@@ -62,7 +62,7 @@ Template Name: 川端工務店フロントページ
 
                     </div>	<!-- top-index-grid -->
 
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-3 mb-5">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-4 mb-5">
                             <a href="<?php echo get_template_directory_uri(); ?>/news" class="url border-btn">もっとみる</a>
                         </div>
 
@@ -110,7 +110,7 @@ Template Name: 川端工務店フロントページ
 
                     </div>	<!-- top-index-grid -->
 
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-3 mb-5">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-4 mb-5">
                             <a href="<?php echo home_url('/realestate/'); ?>" class="url border-btn">もっとみる</a>
                         </div>
 
@@ -159,7 +159,7 @@ Template Name: 川端工務店フロントページ
 
                 </div>	<!-- top-index-grid -->
 
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-3 mb-5">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-4 mb-5">
                         <a href="<?php echo get_template_directory_uri(); ?>/works" class="url border-btn">もっとみる</a>
                     </div>
 
@@ -207,7 +207,7 @@ Template Name: 川端工務店フロントページ
                 
                 </div>	<!-- top-index-grid -->
 
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-3 mb-5">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-4 mb-5">
                         <a href="<?php echo get_template_directory_uri(); ?>/renovation" class="url border-btn">もっとみる</a>
                     </div>
 
@@ -217,7 +217,7 @@ Template Name: 川端工務店フロントページ
                 </div><!-- row（メイン部分内） end-->
         </div><!-- （メイン部分） end-->
 
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 pl-0 sidebar-border"><!-- サイドバー -->
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 sidebar-option"><!-- サイドバー -->
 
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <iframe class="sidebar-video" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -225,6 +225,7 @@ Template Name: 川端工務店フロントページ
                 <img src="<?php echo get_template_directory_uri(); ?>/images/sidebar_step.png" alt="家づくりの５ステップ">
                 <!-- 家づくりのステップ end -->
 
+               <div id="side-sns">
                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5 pr-3">
                    <h4 class="text-left inst"><a href="https://www.instagram.com/kawabatakoumuten226577/"><i class="fab fa-instagram fa-fw"></i>instagram</a></h4>
                     <?php echo do_shortcode('[instagram-feed width=115]'); ?>
@@ -256,6 +257,8 @@ Template Name: 川端工務店フロントページ
                     <div class="line-it-button" data-lang="ja" data-type="like" data-url="https://www.kawabata-koumuten.com/" data-share="true" style="display: none;"></div>
                     <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
                 </div><!-- LINE end -->
+
+            </div><!-- side-sns -->
 
         </div><!-- サイドバー end-->
     </div><!--  row end -->
