@@ -622,6 +622,10 @@ img {
     text-decoration: none !important;
 }
 
+.pop-area {
+    display: none;
+}
+
 .top-midashi-back {
     width: 100%;
     height: 40px;

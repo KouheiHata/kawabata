@@ -534,6 +534,31 @@
 }
 
 @media screen and (max-width: 575.98px) {
+
+    .pop-area {
+        display: block;
+        background-color: #ffffff;
+        height: 600px;
+    }
+
+    .pop1 {
+        position: absolute;
+        top: 22px;
+        right: 0px;
+    }
+    
+    .pop2 {
+        position: absolute;
+        top: 190px;
+        left: 0px;
+    }
+    
+    .pop3 {
+        position: absolute;
+        top: 380px;
+        right: 0px;
+    }
+
     .top-img2-pc {
         display: none;
     }

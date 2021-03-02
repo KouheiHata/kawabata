@@ -22,6 +22,13 @@ Template Name: 川端工務店フロントページ
     <div class="row">
         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12"><!-- （メイン部分） start-->
                 <div class="row"><!-- row（メイン部分内） -->
+                    <div class="pop-area">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/pop1.png" class="pop1" alt="補助金に関する情報はこちら">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/pop2.png" class="pop2" alt="Z空調に関する情報はこちら">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/pop3.png" class="pop3" alt="長期優良住宅に関する情報はこちら">
+                    </div><!-- pop-area -->
+                </div>
+                <div class="row">
                     <div class="h5 bold text-center top-midashi-back top-index-padding" style="background-color: #58A4B0;">お知らせ</div>
 
                     <?php
