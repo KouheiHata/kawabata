@@ -535,6 +535,12 @@
 
 @media screen and (max-width: 575.98px) {
 
+    .fadein {
+      opacity : 0;
+      transform: translateY(50px);
+      transition: all 1s;
+    }
+
     .pop-area {
         display: block;
         background-color: #ffffff;
