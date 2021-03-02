@@ -538,6 +538,7 @@ img {
 }
 .trigger-hide {
     opacity: 0;
+    visibility: hidden;
     transition: .3s;
 }
 .p-fixed {

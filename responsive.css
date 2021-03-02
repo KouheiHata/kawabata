@@ -445,6 +445,12 @@
         opacity: 1;
         transition: .3s;
     }
+    .item01 .dropdown-link {
+        padding: 10px 0;
+    }
+    .item05 .dropdown-link {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width:1200px) {

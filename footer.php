@@ -174,9 +174,9 @@ $(function() {
     $('.navbar-nav').on('scroll',function(){
     winScrollTop = $(this).scrollTop();
     if (winScrollTop >= startPos) {
-        $('.ham-img2').addClass('trigger-hide');
+        $('.ham-trigger').addClass('trigger-hide');
     } else {
-        $('.ham-img2').removeClass('trigger-hide');
+        $('.ham-trigger').removeClass('trigger-hide');
     }
     startPos = winScrollTop;
 });
@@ -187,9 +187,9 @@ $(function() {
     $('.sns-menu-contents').on('scroll',function(){
     winScrollTop = $(this).scrollTop();
     if (winScrollTop >= startPos) {
-        $('.snsmenubtn2').addClass('trigger-hide');
+        $('.sns-trigger').addClass('trigger-hide');
     } else {
-        $('.snsmenubtn2').removeClass('trigger-hide');
+        $('.sns-trigger').removeClass('trigger-hide');
     }
     startPos = winScrollTop;
 });
