@@ -125,6 +125,7 @@ $(function($){
             $(".nav-bottom").fadeToggle(300); 
             $(".ham-img1").toggleClass("hide");
             $(".ham-img2").toggleClass("hide");
+            $(".ham-trigger").toggleClass("p-fixed");
             $(".sns-trigger").toggleClass("hide");
         });
     });
@@ -137,6 +138,7 @@ $(function($){
             $(".sns-menu-contents").fadeToggle(300);
             $(".snsmenubtn").toggleClass("hide");
             $(".snsmenubtn2").toggleClass("hide");
+            $(".sns-trigger").toggleClass("p-fixed");
             $(".ham-trigger").toggleClass("hide");
         });
     });
@@ -165,7 +167,33 @@ $(function() {
 		startPos = scrollPos;
 	});
 });	
+</script>   
+    
+<script>
+    var startPos = 0,winScrollTop = 0;
+    $('.navbar-nav').on('scroll',function(){
+    winScrollTop = $(this).scrollTop();
+    if (winScrollTop >= startPos) {
+        $('.ham-trigger').addClass('trigger-hide');
+    } else {
+        $('.ham-trigger').removeClass('trigger-hide');
+    }
+    startPos = winScrollTop;
+});
 </script> 
+    
+<script>
+    var startPos = 0,winScrollTop = 0;
+    $('.sns-menu-contents').on('scroll',function(){
+    winScrollTop = $(this).scrollTop();
+    if (winScrollTop >= startPos) {
+        $('.sns-trigger').addClass('trigger-hide');
+    } else {
+        $('.sns-trigger').removeClass('trigger-hide');
+    }
+    startPos = winScrollTop;
+});
+</script>      
 
 <script>
 $(".item01 a").click(function(){
