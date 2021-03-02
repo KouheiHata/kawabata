@@ -536,6 +536,13 @@ img {
 .hide {
     display: none;
 }
+.trigger-hide {
+    opacity: 0;
+    transition: .3s;
+}
+.p-fixed {
+    position: fixed !important;
+}
 .ham-trigger {
     position: absolute;
     top: 0;
@@ -546,6 +553,7 @@ img {
 }
 .ham-img2 {
     margin-right: 7px;
+    transition: .3s;
 }
 
 /* snsメニュー */
@@ -561,7 +569,6 @@ img {
     display: block;
     position: absolute;
     overflow-y: scroll;
-    width: 100vh;
     height: 100vh;
     top: 0;
     padding-top: 50px;
@@ -571,6 +578,7 @@ img {
 }
 .snsmenubtn2 {
     margin-top: 4px;
+    transition: .3s;
 }
 .sns-menu-contents ul li {
     display: block;

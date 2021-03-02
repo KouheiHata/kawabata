@@ -106,7 +106,7 @@
         
         <div class="ham-trigger d-lg-none" id="ham">
             <img class="ham-img1" src="<?php echo get_template_directory_uri(); ?>/images/menu.png" alt="メニューボタン">
-            <img class="ham-img2 hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.png" alt="メニューボタン">
+            <img class="ham-img2  hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.png" alt="メニューボタン">
         </div>
     </div>
     <div class="nav-bottom">
