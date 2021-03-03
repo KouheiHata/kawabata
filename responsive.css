@@ -1224,6 +1224,45 @@
 /*	12. Footer
 /* -------------------------------------------------------------------------------- */
 
+@media screen and (max-width: 575.98px) {}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .footer-box .item01 {
+        width: 20vw;
+    }
+    .footer-box .item01 .dropdown-hover {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .footer-box .item05 {
+        width: 20vw;
+        text-align: center !important;
+    }
+    .footer-box .item05 a {
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .footer-box .item01 {
+        width: 20vw;
+    }
+    .footer-box .item01 .dropdown-hover {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .footer-box .item05 {
+        width: 20vw;
+        text-align: center !important;
+    }
+    .footer-box .item05 a {
+        padding-left: 0 !important;
+    }
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	13. Craftsman

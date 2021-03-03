@@ -4,8 +4,8 @@
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none d-lg-inline-block my-5 py-3 navbar_footer">
             <ul class="navbar-nav">
       <li class="nav-item item01">
-        <a class="nav-link dropdown-hover" href="#">建築検討中の方へ</a>
-          <ul class="dropdown-list item01-list">
+        <a class="nav-link footer-dropdown-hover" href="#">建築検討中の方へ</a>
+          <ul class="footer-dropdown-list item01-list">
               <li class="dropdown-link"><a href="#">家づくりの流れ</a></li>
               <li class="dropdown-link"><a href="#">Z空調の家</a></li>
               <li class="dropdown-link"><a href="#">長期優良住宅</a></li>
@@ -20,15 +20,15 @@
         <a class="nav-link" href="#">不動産情報</a>
       </li>
         <li class="nav-item item04">
-        <a class="nav-link dropdown-hover" href="#">実績</a>
-            <ul class="dropdown-list item04-list">
+        <a class="nav-link footer-dropdown-hover" href="#">実績</a>
+            <ul class="footer-dropdown-list item04-list">
                 <li class="dropdown-link"><a href="#">施工実績</a></li>
                 <li class="dropdown-link"><a href="#">リフォーム実績</a></li>
           </ul>
       </li>
       <li class="nav-item item05">
-        <a class="nav-link dropdown-hover" href="#">会社案内</a>
-          <ul class="dropdown-list item05-list">
+        <a class="nav-link footer-dropdown-hover" href="#">会社案内</a>
+          <ul class="footer-dropdown-list item05-list">
               <li class="dropdown-link"><a href="#">ご挨拶</a></li>
               <li class="dropdown-link"><a href="#">企業情報</a></li>
               <li class="dropdown-link"><a href="#">スタッフ紹介</a></li>
@@ -40,20 +40,20 @@
       </li>
     </ul>
   </div>
-	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 center txtWhite">
-	<img src="<?php echo get_template_directory_uri(); ?>/images/logo_w.png" width="400px" alt="株式会社　川端工務店"><br />
-		<div class="h5">
-		〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline">福井県越前市四郎丸町31-2-9<br>
-		<a href="tel:0778-22-6577" class="text-white"><i class="fas fa-phone-square"></i>&nbsp;0778-22-6577</a>
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
+	<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="400px" alt="株式会社　川端工務店"><br />
+		<div class="h5 pt-4 pb-3">
+		〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline medium">福井県越前市四郎丸町31-2-9<br>
+		<a href="tel:0778-22-6577"><i class="fas fa-phone-square medium"></i>&nbsp;0778-22-6577</a>
 		</div>
 	</div>
-	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-		<a class="btn btn-ghost my-4  white" role="button" href="<?php echo home_url('/access/') ?>"><i class="fas fa-map-marker-alt "></i>&nbsp;アクセス</a>
-		<a class="btn btn-ghost my-2 white" role="button" href="<?php echo home_url('/contact/') ?>"><i class="far fa-envelope"></i>&nbsp;お問い合わせ</a><br />
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pb-4">
+		<a class="btn btn-ghost" role="button" href="<?php echo home_url('/access/') ?>"><i class="fas fa-map-marker-alt "></i>&nbsp;アクセス</a>
+		<a class="btn btn-ghost" role="button" href="<?php echo home_url('/contact/') ?>"><i class="far fa-envelope"></i>&nbsp;お問い合わせ</a><br />
 	</div>
 
-	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center md-5 txtWhite">
-		<div class="mb-5">Copyright&nbsp;&#169;&nbsp;株式会社川端工務店.&nbsp;All&nbsp;Rights&nbsp;Reserved.<br />
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center md-5">
+		<div class="mb-5 medium">Copyright&nbsp;&#169;&nbsp;株式会社川端工務店.&nbsp;All&nbsp;Rights&nbsp;Reserved.<br />
 	</div>
 
 	</div>
@@ -168,12 +168,12 @@ $(function($){
     
 <script>
 $(function() {
-	var headerHeight = $('#navbar').outerHeight(),
+	var headerHeight = $('#navbar').outerHeight(true),
 		startPos = 0;
 	$(window).on('load scroll', function() {
 		var scrollPos = $(this).scrollTop();
 		if ( scrollPos > startPos && scrollPos > headerHeight ) {
-			$('#navbar').css('top', '-' + headerHeight + 'px');
+			$('#navbar').css('top', '-92px');
 		} else {
 			$('#navbar').css('top', '0');
 		}
@@ -186,7 +186,7 @@ $(function() {
     var startPos = 0,winScrollTop = 0;
     $('.navbar-nav').on('scroll',function(){
     winScrollTop = $(this).scrollTop();
-    if (winScrollTop >= startPos) {
+    if (winScrollTop >= startPos && winScrollTop > 100) {
         $('.ham-trigger').addClass('trigger-hide');
     } else {
         $('.ham-trigger').removeClass('trigger-hide');
@@ -199,7 +199,7 @@ $(function() {
     var startPos = 0,winScrollTop = 0;
     $('.sns-menu-contents').on('scroll',function(){
     winScrollTop = $(this).scrollTop();
-    if (winScrollTop >= startPos) {
+    if (winScrollTop >= startPos && winScrollTop > 100) {
         $('.sns-trigger').addClass('trigger-hide');
     } else {
         $('.sns-trigger').removeClass('trigger-hide');

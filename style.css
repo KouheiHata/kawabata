@@ -476,6 +476,7 @@ img {
     flex-direction: inherit;
     border-top: thin solid #707070;
     border-bottom: thin solid #707070;
+    background-color: #fff;
 }
 .nav-item {
     position: relative;
@@ -598,6 +599,7 @@ img {
 .ml-15 {
     margin-left: 15px;
 }
+
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button
 /* -------------------------------------------------------------------------------- */
@@ -1688,15 +1690,55 @@ div.wpcf7 input.wpcf7-submit:hover {
     margin-bottom: 50px;
 }
 .bgWood {
-    background-image: url("images/back_wood.jpg");
+    background-image: url("images/back_wood.png");
     background-size: cover;
 }
-
+.footer-box .navbar-nav {
+    flex-direction: inherit;
+    border: none;
+    background-color: rgba(255, 255, 255, .3 );
+}
+.footer-dropdown-list {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+    transition: .3s;
+}
+.footer-dropdown-list a {
+    text-decoration: none;
+}
+.footer-dropdown-hover:hover + .footer-dropdown-list, .footer-dropdown-list:hover, .footer-dropdown-hover:active + .footer-dropdown-list {
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+}
+.footer-box .item01 .dropdown-link {
+    padding: 10px 0;
+}
+.item01 .footer-dropdown-hover {
+    color: #fff;
+    background-color: #58A4B0;
+}
+.item01 .footer-dropdown-list {
+    background-color: rgba(88, 164, 176, .3);
+}
+.footer-box .item05 .dropdown-link {
+    text-align: center;
+    padding: 10px 0;
+}
+.item04 .footer-dropdown-list, .item05 .footer-dropdown-list {
+    background-color: rgba(255, 255, 255, .3);
+}
+.item04 .footer-dropdown-link a:hover, .item05 .footer-dropdown-link a:hover {
+    color: #58A4B0;
+}
 .btn-ghost {
     background: transparent;
     border-radius: 0;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #000;
+    border: 1px solid #000;
     width: 180px;
 }
 
