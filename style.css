@@ -569,13 +569,13 @@ img {
 .sns-menu-contents {
     display: block;
     position: absolute;
-    overflow-y: scroll;
+    overflow-y: scroll !important;
     height: 100vh;
     top: 0;
     padding-top: 50px;
     padding-bottom: 100px;
     background-color: #fff;
-    -webkit-overflow-scrolling: touch;
+    transform: translateZ(0);
 }
 .snsmenubtn2 {
     margin-top: 4px;

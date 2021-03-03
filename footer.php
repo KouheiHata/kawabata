@@ -1,32 +1,45 @@
 <footer class="bgWood">
 <div class="container footer-box">
 	<div class="row text-center">
-
-	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-5 py-3 navbar_footer" style="font-size: 0.85rem;">
-
-    <nav class="sticky-top">
-        <div id="menu_wrapper" class="menu_wrapper">
-        <?php
-          $args = array(
-            'theme_location' => 'footer_nav',
-            'container' => 'div',
-            'container_class' => 'footer_nav',
-            'container_id' => 'footer_nav',
-            'menu_class' => 'footer_menu',
-            'menu_id' => 'footer_menu',
-            'before' => '', // 各メニューテキストの前に表示される要素
-            'after' => '', // 各メニューテキストの後ろに表示される要素
-            'link_before' => '', // <a>タグの前に付ける要素
-            'link_after' => '', // <a>タグの後ろに付ける要素
-          );
-          wp_nav_menu($args); ?>
-          </div>
-    </nav>
-
-
-
-	</div>
-
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none d-lg-inline-block my-5 py-3 navbar_footer">
+            <ul class="navbar-nav">
+      <li class="nav-item item01">
+        <a class="nav-link dropdown-hover" href="#">建築検討中の方へ</a>
+          <ul class="dropdown-list item01-list">
+              <li class="dropdown-link"><a href="#">家づくりの流れ</a></li>
+              <li class="dropdown-link"><a href="#">Z空調の家</a></li>
+              <li class="dropdown-link"><a href="#">長期優良住宅</a></li>
+              <li class="dropdown-link"><a href="#">お得な補助金制度</a></li>
+              <li class="dropdown-link"><a href="#">お問い合わせ</a></li>
+          </ul>
+      </li>
+      <li class="nav-item item02">
+        <a class="nav-link" href="#">お知らせ</a>
+      </li>
+      <li class="nav-item item03">
+        <a class="nav-link" href="#">不動産情報</a>
+      </li>
+        <li class="nav-item item04">
+        <a class="nav-link dropdown-hover" href="#">実績</a>
+            <ul class="dropdown-list item04-list">
+                <li class="dropdown-link"><a href="#">施工実績</a></li>
+                <li class="dropdown-link"><a href="#">リフォーム実績</a></li>
+          </ul>
+      </li>
+      <li class="nav-item item05">
+        <a class="nav-link dropdown-hover" href="#">会社案内</a>
+          <ul class="dropdown-list item05-list">
+              <li class="dropdown-link"><a href="#">ご挨拶</a></li>
+              <li class="dropdown-link"><a href="#">企業情報</a></li>
+              <li class="dropdown-link"><a href="#">スタッフ紹介</a></li>
+              <li class="dropdown-link"><a href="#">採用情報</a></li>
+              <li class="dropdown-link"><a href="#">職人紹介</a></li>
+              <li class="dropdown-link"><a href="#">アクセス</a></li>
+              <li class="dropdown-link"><a href="#">なるほど住まい館</a></li>
+          </ul>
+      </li>
+    </ul>
+  </div>
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 center txtWhite">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/logo_w.png" width="400px" alt="株式会社　川端工務店"><br />
 		<div class="h5">

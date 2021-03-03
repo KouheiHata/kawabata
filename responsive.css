@@ -120,11 +120,12 @@
     .navbar-nav {
         height: 100vh;
         flex-direction: column;
-        overflow-y: scroll;
+        overflow-y: scroll !important;
         padding-top: 55px;
         border-top: none;
         border-bottom: none;
         background-color: #fff;
+        transform: translateZ(0);
     }
     .nav-item {
         display: block;
@@ -232,11 +233,12 @@
     .navbar-nav {
         height: 100vh;
         flex-direction: column;
-        overflow-y: scroll;
+        overflow-y: scroll !important;
         padding-top: 55px;
         border-top: none;
         border-bottom: none;
         background-color: #fff;
+        transform: translateZ(0);
     }
     .nav-item {
         display: block;
@@ -344,11 +346,12 @@
     .navbar-nav {
         height: 100vh;
         flex-direction: column;
-        overflow-y: scroll;
+        overflow-y: scroll !important;
         padding-top: 55px;
         border-top: none;
         border-bottom: none;
         background-color: #fff;
+        transform: translateZ(0);
     }
     .nav-item {
         display: block;
