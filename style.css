@@ -1690,7 +1690,7 @@ div.wpcf7 input.wpcf7-submit:hover {
     margin-bottom: 50px;
 }
 .bgWood {
-    background-image: url("images/back_wood.png");
+    background-image: url("images/footer_background.png");
     background-size: cover;
 }
 .footer-box .navbar-nav {
@@ -1738,7 +1738,7 @@ div.wpcf7 input.wpcf7-submit:hover {
     background: transparent;
     border-radius: 0;
     color: #000;
-    border: 1px solid #000;
+    border: 1px solid #707070;
     width: 180px;
 }
 
