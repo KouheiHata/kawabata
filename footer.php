@@ -41,19 +41,18 @@
     </ul>
   </div>
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
-	<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="400px" alt="株式会社　川端工務店"><br />
-		<div class="h5 pt-4 pb-3">
-		〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline medium">福井県越前市四郎丸町31-2-9<br>
+	<img class="logo-footer" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="400px" alt="株式会社　川端工務店"><br />
+		<div class="h5 pt-4 pb-3 footer-text">〒915-0857&nbsp;福井県越前市四郎丸町31-2-9<br>
 		<a href="tel:0778-22-6577"><i class="fas fa-phone-alt"></i>&nbsp;0778-22-6577</a>
 		</div>
 	</div>
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pb-4">
 		<a class="btn btn-ghost" role="button" href="<?php echo home_url('/access/') ?>"><i class="fas fa-map-marker-alt "></i>&nbsp;アクセス</a>
-		<a class="btn btn-ghost" role="button" href="<?php echo home_url('/contact/') ?>"><i class="far fa-envelope"></i>&nbsp;お問い合わせ</a><br />
+		<a class="btn btn-ghost" role="button" href="<?php echo home_url('/contact/') ?>"><i class="far fa-envelope-open"></i>&nbsp;お問い合わせ</a><br />
 	</div>
 
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center md-5">
-		<div class="mb-5 medium">Copyright&nbsp;&#169;&nbsp;株式会社川端工務店.&nbsp;All&nbsp;Rights&nbsp;Reserved.<br />
+		<div class="mb-5 medium footer-subtext">Copyright&nbsp;&#169;&nbsp;株式会社川端工務店.&nbsp;All&nbsp;Rights&nbsp;Reserved.<br />
 	</div>
 
 	</div>

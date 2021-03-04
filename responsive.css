@@ -1224,11 +1224,86 @@
 /*	12. Footer
 /* -------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 575.98px) {}
+@media screen and (max-width: 575.98px) {
+    .footer-box {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .logo-footer {
+        width: 186px;
+    }
+    .footer-text {
+        font-size: 14px;
+        font-weight: medium;
+        padding: 15px 0 5px 0 !important;
+    }
+    .footer-subtext {
+        margin-bottom: 0 !important;
+        font-size: 8px;
+    }
+    .btn-ghost {
+        background: transparent;
+        border-radius: 0;
+        color: #000;
+        font-size: 11px;
+        border: 1px solid #707070;
+        width: 115px;
+    }
+}
 
-@media screen and (min-width: 576px) and (max-width: 767.98px) {}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .footer-box {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .logo-footer {
+        width: 186px;
+    }
+    .footer-text {
+        font-size: 14px;
+        font-weight: medium;
+        padding: 15px 0 5px 0 !important;
+    }
+    .footer-subtext {
+        margin-bottom: 0 !important;
+        font-size: 8px;
+    }
+    .btn-ghost {
+        background: transparent;
+        border-radius: 0;
+        color: #000;
+        font-size: 11px;
+        border: 1px solid #707070;
+        width: 115px;
+    }
+}
 
-@media screen and (min-width: 768px) and (max-width: 991.98px) {}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .footer-box {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .logo-footer {
+        width: 186px;
+    }
+    .footer-text {
+        font-size: 14px;
+        font-weight: medium;
+        padding: 15px 0 5px 0 !important;
+    }
+    .footer-subtext {
+        margin-bottom: 0 !important;
+        font-size: 8px;
+    }
+    .btn-ghost {
+        background: transparent;
+        border-radius: 0;
+        color: #000;
+        font-size: 11px;
+        border: 1px solid #707070;
+        width: 115px;
+    }
+}
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     .footer-box .item01 {
