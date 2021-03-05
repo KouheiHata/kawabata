@@ -13,9 +13,9 @@ Template Name: 川端工務店フロントページ
 <!-- PCサイト -->
 <img src="<?php echo get_template_directory_uri(); ?>/images/top-pc.png" usemap="#ImageMap" alt="自分らしく素直になれる家" class="top-img2-pc" />
 <map name="ImageMap">
-  <area shape="rect" coords="151,331,401,537" href="<?php echo home_url('/hojyokin/'); ?>" alt="補助金" />
-  <area shape="rect" coords="478,329,722,534" href="<?php echo home_url('/zkuutyou/'); ?>" alt="Z空調" />
-  <area shape="rect" coords="802,333,1041,535" href="<?php echo home_url('/longlife/'); ?>" alt="長期優良住宅" />
+  <area shape="rect" coords="312,660,792,1070" href="<?php echo home_url('/hojyokin/'); ?>" alt="補助金" />
+  <area shape="rect" coords="958,663,1441,1070" href="<?php echo home_url('/zkuutyou/'); ?>" alt="Z空調" />
+  <area shape="rect" coords="1601,663,2082,1069" href="<?php echo home_url('/longlife/'); ?>" alt="長期優良住宅" />
 </map>
 
 <div class="container-fluid">

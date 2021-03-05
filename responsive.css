@@ -560,18 +560,21 @@
         position: absolute;
         top: 22px;
         right: 0px;
+        width: 340px;
     }
     
     .pop2 {
         position: absolute;
         top: 190px;
         left: 0px;
+        width: 340px;
     }
     
     .pop3 {
         position: absolute;
         top: 380px;
         right: 0px;
+        width: 340px;
     }
 
     .top-img2-pc {
