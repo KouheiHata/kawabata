@@ -254,7 +254,7 @@ Template Name: 川端工務店フロントページ
                     </h4>
                     <a data-pin-do="embedUser" data-pin-lang="ja" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.jp/kawabatakoumuten226577/"></a>
                 </div>
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5 pb-3">
                     <h4 class="text-left inst pb-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon_line.png" width="30px">
                         LINE@
