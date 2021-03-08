@@ -639,6 +639,10 @@
 		font-size: 12px;
 	}
 
+	.sidebar-option img {
+		position: static;
+	}
+
 	.sidebar-option {
 		border-left: none;
 		text-align: center;
