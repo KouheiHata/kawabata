@@ -870,9 +870,10 @@ img {
 
 .sidebar-video {
     position: absolute;
-    top: 40px;
-    left: 4.2vw;
+    top: 45px;
+    left: 2vw;
     width: 220px;
+    z-index: 1;
 }
 
 .youtube-video {
@@ -882,6 +883,12 @@ img {
 
 .sidebar-option {
     border-left: solid 1px #707070;
+}
+
+.sidebar-option img {
+    position: relative;
+    left: -15px;
+    z-index: 0;
 }
 
 /* ご挨拶 */
