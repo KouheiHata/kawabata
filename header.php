@@ -48,11 +48,11 @@
             <p class="font-weight-bold"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a><a class="ml-15" href="tel:0778-22-6577"><i class="fas fa-phone-alt"></i>&nbsp;0778-22-6577</a></p>
         </div>
         <div class="sns-trigger d-lg-none">
-            <img class="snsmenubtn" src="<?php echo get_template_directory_uri(); ?>/images/sns.png" alt="メニューボタン">
-            <img class="snsmenubtn2 hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.png" alt="メニューボタン">
+            <img class="snsmenubtn" src="<?php echo get_template_directory_uri(); ?>/images/sns.svg" alt="メニューボタン">
+            <img class="snsmenubtn2 hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.svg" alt="メニューボタン">
         </div>
         <div class="tell-menu d-lg-none">
-            <p class="menubtn"><a href="tel:0778-22-6577"><img src="<?php echo get_template_directory_uri(); ?>/images/tel.png" alt="menu"></a></p>
+            <p class="menubtn"><a href="tel:0778-22-6577"><img src="<?php echo get_template_directory_uri(); ?>/images/tel.svg" alt="menu"></a></p>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -105,14 +105,19 @@
         </div>
         
         <div class="ham-trigger d-lg-none" id="ham">
-            <img class="ham-img1" src="<?php echo get_template_directory_uri(); ?>/images/menu.png" alt="メニューボタン">
-            <img class="ham-img2  hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.png" alt="メニューボタン">
+            <img class="ham-img1" src="<?php echo get_template_directory_uri(); ?>/images/menu.svg" alt="メニューボタン">
+            <img class="ham-img2  hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.svg" alt="メニューボタン">
         </div>
     </div>
     <div class="nav-bottom">
     <ul class="navbar-nav">
       <li class="nav-item item01">
-        <a class="nav-link dropdown-hover" href="#">建築検討中の方へ</a>
+        <a class="nav-link dropdown-hover item01-box" href="#">建築検討中の方へ
+            <div class="d-block d-lg-none tri-box">
+              <img class="tri01" src="<?php echo get_template_directory_uri(); ?>/images/triangle1.png" alt="ボタン">
+              <img class="tri02 hide" src="<?php echo get_template_directory_uri(); ?>/images/triangle2.png" alt="ボタン">
+          </div>
+          </a>
           <ul class="dropdown-list item01-list">
               <li class="dropdown-link"><a href="#">家づくりの流れ</a></li>
               <li class="dropdown-link"><a href="#">Z空調の家</a></li>
@@ -122,20 +127,30 @@
           </ul>
       </li>
       <li class="nav-item item02">
-        <a class="nav-link" href="#">お知らせ</a>
+        <a class="nav-link item02-box" href="#">お知らせ</a>
       </li>
       <li class="nav-item item03">
-        <a class="nav-link" href="#">不動産情報</a>
+        <a class="nav-link item03-box" href="#">不動産情報</a>
       </li>
         <li class="nav-item item04">
-        <a class="nav-link dropdown-hover" href="#">実績</a>
+        <a class="nav-link dropdown-hover item04-box" href="#">実績
+            <div class="d-block d-lg-none tri-box">
+                <img class="tri03" src="<?php echo get_template_directory_uri(); ?>/images/triangle3.png" alt="ボタン">
+                <img class="tri04 hide" src="<?php echo get_template_directory_uri(); ?>/images/triangle4.png" alt="ボタン">
+            </div>
+            </a>
             <ul class="dropdown-list item04-list">
                 <li class="dropdown-link"><a href="#">施工実績</a></li>
                 <li class="dropdown-link"><a href="#">リフォーム実績</a></li>
           </ul>
       </li>
       <li class="nav-item item05">
-        <a class="nav-link dropdown-hover" href="#">会社案内</a>
+        <a class="nav-link dropdown-hover item05-box" href="#">会社案内
+            <div class="d-block d-lg-none tri-box">
+              <img class="tri05" src="<?php echo get_template_directory_uri(); ?>/images/triangle3.png" alt="ボタン">
+              <img class="tri06 hide" src="<?php echo get_template_directory_uri(); ?>/images/triangle4.png" alt="ボタン">
+            </div>
+          </a>
           <ul class="dropdown-list item05-list">
               <li class="dropdown-link"><a href="#">ご挨拶</a></li>
               <li class="dropdown-link"><a href="#">企業情報</a></li>

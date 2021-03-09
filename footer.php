@@ -4,7 +4,7 @@
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none d-lg-inline-block my-5 py-3 navbar_footer">
             <ul class="navbar-nav">
       <li class="nav-item item01">
-        <a class="nav-link footer-dropdown-hover" href="#">建築検討中の方へ</a>
+        <a class="nav-link footer-dropdown-hover item01-box-f" href="#">建築検討中の方へ</a>
           <ul class="footer-dropdown-list item01-list">
               <li class="dropdown-link"><a href="#">家づくりの流れ</a></li>
               <li class="dropdown-link"><a href="#">Z空調の家</a></li>
@@ -14,20 +14,20 @@
           </ul>
       </li>
       <li class="nav-item item02">
-        <a class="nav-link" href="#">お知らせ</a>
+        <a class="nav-link item02-box-f" href="#">お知らせ</a>
       </li>
       <li class="nav-item item03">
-        <a class="nav-link" href="#">不動産情報</a>
+        <a class="nav-link item03-box-f" href="#">不動産情報</a>
       </li>
         <li class="nav-item item04">
-        <a class="nav-link footer-dropdown-hover" href="#">実績</a>
+        <a class="nav-link footer-dropdown-hover item04-box-f" href="#">実績</a>
             <ul class="footer-dropdown-list item04-list">
                 <li class="dropdown-link"><a href="#">施工実績</a></li>
                 <li class="dropdown-link"><a href="#">リフォーム実績</a></li>
           </ul>
       </li>
       <li class="nav-item item05">
-        <a class="nav-link footer-dropdown-hover" href="#">会社案内</a>
+        <a class="nav-link footer-dropdown-hover item05-box-f" href="#">会社案内</a>
           <ul class="footer-dropdown-list item05-list">
               <li class="dropdown-link"><a href="#">ご挨拶</a></li>
               <li class="dropdown-link"><a href="#">企業情報</a></li>
@@ -210,25 +210,89 @@ $(function() {
 <script>
 $(".item01 a").click(function(){
     $(".item01-list").toggleClass("list-active"); 
-    $(".item01").toggleClass("item01-active"); 
     $(".item02").toggleClass("mt-283");
+    $(".tri01").toggleClass("hide");
+    $(".tri02").toggleClass("hide");
 });
 </script>
 
 <script>
 $(".item04 a").click(function(){
     $(".item04-list").toggleClass("list-active"); 
-    $(".item04").toggleClass("item04-active bb-gray"); 
+    $(".item04").toggleClass("bb-gray"); 
     $(".item05").toggleClass("mt-113");
+    $(".tri03").toggleClass("hide");
+    $(".tri04").toggleClass("hide");
 });
 </script> 
 
 <script>
 $(".item05 a").click(function(){
     $(".item05-list").toggleClass("list-active"); 
-    $(".item05").toggleClass("item04-active"); 
+    $(".tri05").toggleClass("hide");
+    $(".tri06").toggleClass("hide");
 });
 </script>     
+
+<script>
+    $(function() {
+  $('.item01-list').hover(function() {
+    $('.item01-box').addClass('item01-hover');
+  }, function() {
+    $('.item01-box').removeClass('item01-hover');
+  });
+});
+</script>
+    
+<script>
+    $(function() {
+  $('.item04-list').hover(function() {
+    $('.item04-box').addClass('text-lightblue');
+  }, function() {
+    $('.item04-box').removeClass('text-lightblue');
+  });
+});
+</script>
+    
+<script>
+    $(function() {
+  $('.item05-list').hover(function() {
+    $('.item05-box').addClass('text-lightblue');
+  }, function() {
+    $('.item05-box').removeClass('text-lightblue');
+  });
+});
+</script>
+    
+<script>
+    $(function() {
+  $('.footer-box .item01-list').hover(function() {
+    $('.item01-box-f').addClass('item01-hover');
+  }, function() {
+    $('.item01-box-f').removeClass('item01-hover');
+  });
+});
+</script>
+    
+<script>
+    $(function() {
+  $('.footer-box .item04-list').hover(function() {
+    $('.item04-box-f').addClass('text-lightblue');
+  }, function() {
+    $('.item04-box-f').removeClass('text-lightblue');
+  });
+});
+</script>
+    
+<script>
+    $(function() {
+  $('.footer-box .item05-list').hover(function() {
+    $('.item05-box-f').addClass('text-lightblue');
+  }, function() {
+    $('.item05-box-f').removeClass('text-lightblue');
+  });
+});
+</script>    
     
 <script>
 $(function () {
