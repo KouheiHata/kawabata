@@ -118,23 +118,11 @@ $(function($){
 
 </script>
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-
-<script>
-    $(window).on('load resize', function(){
-  var winW = $(window).width();
-  var devW = 991.98;
-  if (winW <= devW) {
-    $(".nav-bottom").addClass("hide");
-  } else {
-    $(".nav-bottom").removeClass("hide");
-  }
-});
-</script>  
     
 <script>
     $(function(){
         $(".ham-trigger").click(function(){
-            $(".nav-bottom").fadeToggle(300); 
+            $(".nav-bottom").toggleClass("visible"); 
             $(".ham-img1").toggleClass("hide");
             $(".ham-img2").toggleClass("hide");
             $(".ham-trigger").toggleClass("p-fixed");

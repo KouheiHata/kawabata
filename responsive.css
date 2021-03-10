@@ -186,6 +186,10 @@
     .mt-113 {
         margin-top: 113px;
     }
+    .visible {
+        display: block !important;
+        transition: .3s;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -280,6 +284,10 @@
     .mt-113 {
         margin-top: 113px;
     }
+    .visible {
+        display: block !important;
+        transition: .3s;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -373,6 +381,10 @@
     }
     .mt-113 {
         margin-top: 113px;
+    }
+    .visible {
+        display: block !important;
+        transition: .3s;
     }
 }
 

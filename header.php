@@ -109,7 +109,7 @@
             <img class="ham-img2  hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.svg" alt="メニューボタン">
         </div>
     </div>
-    <div class="nav-bottom">
+    <div class="nav-bottom d-none d-lg-block">
     <ul class="navbar-nav">
       <li class="nav-item item01">
         <a class="nav-link dropdown-hover item01-box" href="#">建築検討中の方へ
