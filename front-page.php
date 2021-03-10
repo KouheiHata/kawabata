@@ -54,11 +54,14 @@ Template Name: 川端工務店フロントページ
                         <?php else: ?>
                         <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
                         <?php endif; ?>
-                        </div>
 
+                        <div class="news-width">
                         <a class="url" href="<?php the_permalink(); ?>">
                             <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
                         </a>
+                        </div>
+
+                        </div>
                     </div>
 
                     <?php endwhile; ?>
@@ -104,9 +107,11 @@ Template Name: 川端工務店フロントページ
                         <?php endif; ?>
                         </div>
 
+                        <div class="news-width">
                         <a class="url" href="<?php the_permalink(); ?>">
                             <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
                         </a>
+                        </div>
                     </div>
 
                     <?php endwhile; ?>
@@ -153,9 +158,11 @@ Template Name: 川端工務店フロントページ
                     <?php endif; ?>
                     </div>
 
+                    <div class="news-width">
                     <a class="url" href="<?php the_permalink(); ?>">
                         <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
                     </a>
+                    </div>
                 </div>
 
                 <?php endwhile; ?>
@@ -201,9 +208,11 @@ Template Name: 川端工務店フロントページ
                     <?php endif; ?>
                     </div>
 
+                    <div class="news-width">
                     <a class="url" href="<?php the_permalink(); ?>">
                         <p class="font-weight-bold news-title"><?php echo get_the_title(); ?></p>
                     </a>
+                    </div>
                 </div>
 
                 <?php endwhile; ?>

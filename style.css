@@ -682,9 +682,12 @@ img {
     background: #00ABE9;
 }
 
+.news-width {
+    width: 14vw;
+    margin: 0 auto;
+}
+
 .news-title {
-    display: flex;
-    align-items: center;
     font-size: 1.2vw;
     line-height: 1.8;
     letter-spacing: .03em;
