@@ -68,17 +68,8 @@
 <!-- sticky navbar -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/sticky.js"></script>
 
-<!-- match height -->
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.matchHeight.js"></script>
-
 <!-- JQuery-rwdImageMaps -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js" integrity="sha512-eZB7hQa0bRlrKMQ2njpP0d/Klu6o30Gsr8e5FUCjUT3fSlnVkm/1J14n58BuwgaMuObrGb7SvUfQuF8qFsPU4g==" crossorigin="anonymous"></script>
-
-<script>
-$(function($){
-	$('.news-img').matchHeight();
-});
-</script>
 
 <!-- スマホ用メニューのフェードイン・フェードアウト -->
 <script>
@@ -93,13 +84,6 @@ $(function() {
     }
   });
 });
-</script>
-
-<!-- Yamm3 -->
-<script>
-jQuery(document).on('click', '.yamm .dropdown-menu', function(e) {
-   e.stopPropagation()
-})
 </script>
 
 <!-- ナビゲーションのアニメーション -->    
@@ -134,7 +118,8 @@ $(function() {
 	});
 });	
 </script> 
-    
+
+<!-- ピンタレスト -->
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
 <!-- メニューのアニメーション -->    
@@ -289,27 +274,12 @@ $(".item05 a").click(function(){
 });
 </script>    
     
-<script>
-$(function () {
-    setTimeout('arrow()'); //アニメーションを実行
-});
-
-function arrow() {
-    $('#arrow').animate({
-        marginTop: '-=20px'
-    }, 800).animate({
-        marginTop: '+=20px'
-    }, 800);
-    setTimeout('arrow()', 1600); //アニメーション
-}
-</script>
-
 <!-- rwdImageMaps -->
 <script>
 	$('img[usemap]').rwdImageMaps();
 </script>
 
-<!-- rwdImageMaps -->
+<!-- ふわっと画像表示 -->
 <script>
 $(function(){
     $(window).scroll(function (){
