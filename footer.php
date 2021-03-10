@@ -102,6 +102,7 @@ jQuery(document).on('click', '.yamm .dropdown-menu', function(e) {
 })
 </script>
 
+<!-- ナビゲーションのアニメーション -->    
 <script>
 $(function($){
     $(window).scroll(function (){
@@ -117,42 +118,7 @@ $(function($){
 });
 
 </script>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-    
-<script>
-    $(function(){
-        $(".ham-trigger").click(function(){
-            $(".nav-bottom").toggleClass("visible"); 
-            $(".ham-img1").toggleClass("hide");
-            $(".ham-img2").toggleClass("hide");
-            $(".ham-trigger").toggleClass("p-fixed");
-            $(".sns-trigger").toggleClass("hide");
-        });
-    });
-</script>      
-    
-<script>
-    $(function(){
-        $(".sns-menu-contents").hide();
-        $(".sns-trigger").click(function(){
-            $(".sns-menu-contents").fadeToggle(300);
-            $(".snsmenubtn").toggleClass("hide");
-            $(".snsmenubtn2").toggleClass("hide");
-            $(".sns-trigger").toggleClass("p-fixed");
-            $(".ham-trigger").toggleClass("hide");
-        });
-    });
-</script>     
-    
-<script>
-    $(function(){
-  $('.ham-trigger').on('click', function() {
-    $(this).toggleClass('active');
-    return false;
-  });
-});
-</script>    
-    
+
 <script>
 $(function() {
 	var headerHeight = $('#navbar').outerHeight(true),
@@ -167,7 +133,31 @@ $(function() {
 		startPos = scrollPos;
 	});
 });	
-</script>   
+</script> 
+    
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+<!-- メニューのアニメーション -->    
+<script>
+    $(function(){
+        $(".ham-trigger").click(function(){
+            $(".nav-bottom").toggleClass("visible"); 
+            $(".ham-img1").toggleClass("hide");
+            $(".ham-img2").toggleClass("hide");
+            $(".ham-trigger").toggleClass("p-fixed");
+            $(".sns-trigger").toggleClass("hide");
+        });
+    });
+</script>
+    
+<script>
+    $(function(){
+  $('.ham-trigger').on('click', function() {
+    $(this).toggleClass('active');
+    return false;
+  });
+});
+</script>
     
 <script>
     var startPos = 0,winScrollTop = 0;
@@ -180,8 +170,22 @@ $(function() {
     }
     startPos = winScrollTop;
 });
-</script> 
+</script>     
     
+<!-- SNSメニューのアニメーション -->    
+<script>
+    $(function(){
+        $(".sns-menu-contents").hide();
+        $(".sns-trigger").click(function(){
+            $(".sns-menu-contents").fadeToggle(300);
+            $(".snsmenubtn").toggleClass("hide");
+            $(".snsmenubtn2").toggleClass("hide");
+            $(".sns-trigger").toggleClass("p-fixed");
+            $(".ham-trigger").toggleClass("hide");
+        });
+    });
+</script>     
+  
 <script>
     var startPos = 0,winScrollTop = 0;
     $('.sns-menu-contents').on('scroll',function(){
@@ -193,8 +197,9 @@ $(function() {
     }
     startPos = winScrollTop;
 });
-</script>      
-
+</script>    
+    
+<!-- ハンバーガーメニュー -->
 <script>
 $(".item01 a").click(function(){
     $(".item01-list").toggleClass("list-active"); 
@@ -251,7 +256,8 @@ $(".item05 a").click(function(){
   });
 });
 </script>
-    
+
+<!-- フッターメニュー -->    
 <script>
     $(function() {
   $('.footer-box .item01-list').hover(function() {
@@ -261,6 +267,7 @@ $(".item05 a").click(function(){
   });
 });
 </script>
+
     
 <script>
     $(function() {
