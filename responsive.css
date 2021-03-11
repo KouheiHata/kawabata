@@ -535,8 +535,8 @@
 @media screen and (max-width: 575.98px) {
 
     .fadein {
-      opacity : 0;
-      transform: translateY(50px);
+      opacity : 1;
+      transform: translateY(150px);
       transition: all 1s;
     }
 
