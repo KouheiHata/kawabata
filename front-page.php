@@ -261,7 +261,7 @@ Template Name: 川端工務店フロントページ
                         <i class="fab fa-pinterest"></i>
                         <a href="https://www.pinterest.jp/kawabatakoumuten226577/">Pinterest</a>
                     </h4>
-                    <a data-pin-do="embedUser" data-pin-lang="ja" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.jp/kawabatakoumuten226577/"></a>
+                    <a data-pin-do="embedUser" data-pin-lang="ja" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.jp/kawabatakoumuten226577/"></a>
                 </div>
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5 pb-3">
                     <h4 class="text-left inst pb-3">
