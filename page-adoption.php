@@ -22,6 +22,24 @@ Template Name: 川端工務店採用情報ページ
                 <p>当社は、建材から木材まで、幅広い建築資材の取り扱いのある会社や、各種協力業者様との連携で、分譲住宅を中心に、福井県内で建築/販売実績のある工務店です。<br>新たな人員の導入に際し、現場の指揮・監督の担当者として、ご活躍いただける方を募集します。</p>
             </div>
         </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 adop-card">
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-5 adop-card-imgbox">
+                        <div class="balloon-right-btm">
+                            MESSAGE
+                        </div>
+                        <img class="adop-card-img" src="<?php echo get_template_directory_uri(); ?>/images/MicrosoftTeams-image.png" alt="写真">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body balloon-left">
+                            <p>建築業界未経験の状態から入社しましたが、毎日が新しい経験で、人間的にも成長できると感じています。<br>日々進化していく技術に触れながら仕事ができることが魅力です。<br>一緒に仕事をする上司や先輩は気さくで話しやすく、打ち解けやすい職場環境です。</p>
+                            <p class="sub-text">入社1年目&nbsp;営業部・工事部&nbsp;渡辺真</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 table-box">
             <table class="table table-bordered">
                 <tbody>

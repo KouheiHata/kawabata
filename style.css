@@ -1678,7 +1678,85 @@ div.wpcf7 input.wpcf7-submit:hover {
 .lh-row {
 	padding-top: 160px;
 }
-
+.adop-card .card {
+    border: none !important;
+}
+.adop-card-imgbox {
+    text-align: right;
+    padding-right: 30px !important;
+}
+.balloon-left {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    margin: 1.5em 0 1.5em 15px;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #FFF;
+    border: solid 3px #555;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.balloon-left:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-right: 12px solid #FFF;
+    z-index: 2;
+}
+.balloon-left:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-right: 14px solid #555;
+    z-index: 1;
+}
+.balloon-left p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    letter-spacing: .08em;
+}
+.adop-card {
+    margin-top: 100px;
+}
+.adop-card-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+.balloon-right-btm {
+    position: absolute;
+    display: inline-block;
+    margin: .8em 15px 1.5em 0;
+    padding: 0 5px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    background: #58A4B0;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.adop-card .sub-text {
+    text-align: right;
+    color: #58A4B0;
+    font-size: 15px;
+    font-weight: bold;
+}
 /* -------------------------------------------------------------------------------- */
 /*	11.	Blog
 /* -------------------------------------------------------------------------------- */
