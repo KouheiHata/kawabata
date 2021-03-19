@@ -1689,8 +1689,8 @@ div.wpcf7 input.wpcf7-submit:hover {
     position: relative;
     display: inline-block;
     width: 500px;
-    margin: 1.5em 0 1.5em 15px;
-    padding: 7px 10px;
+    margin: 1em 0 1.5em 15px;
+    padding: 20px;
     min-width: 120px;
     max-width: 100%;
     color: #555;
@@ -1727,7 +1727,7 @@ div.wpcf7 input.wpcf7-submit:hover {
     letter-spacing: .08em;
 }
 .adop-card {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .adop-card-img {
     width: 250px;
@@ -1735,21 +1735,10 @@ div.wpcf7 input.wpcf7-submit:hover {
     object-fit: cover;
     margin-left: 50px;
 }
-.balloon-right-btm {
-    position: absolute;
-    display: inline-block;
-    margin: .8em 15px 1.5em 0;
-    padding: 0 5px;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    text-align: center;
-    color: #FFF;
-    font-size: 15px;
+.adop-card-toptext {
+    color: #58A4B0;
     font-weight: bold;
-    background: #58A4B0;
-    border-radius: 50%;
-    box-sizing: border-box;
+    padding: 10px 0;
 }
 .adop-card .sub-text {
     text-align: right;
