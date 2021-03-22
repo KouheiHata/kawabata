@@ -27,7 +27,7 @@ Template Name: 川端工務店採用情報ページ
             <div class="card">
                 <div class="row no-gutters">
                     <div class="col-md-5 adop-card-imgbox">
-                        <img class="adop-card-img" src="<?php echo get_template_directory_uri(); ?>/images/MicrosoftTeams-image.png" alt="写真">
+                        <img class="adop-card-img" src="<?php echo get_template_directory_uri(); ?>/images/senpai_mes.png" alt="写真">
                     </div>
                     <div class="col-md-7">
                         <div class="card-body balloon-left">

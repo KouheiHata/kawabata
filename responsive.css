@@ -870,6 +870,7 @@
         margin: .8em 0 1.5em -30px;
     }
     .balloon-left {
+        height: auto;
         margin: 1em 0;
     }
     .balloon-left:before {
@@ -1064,6 +1065,7 @@
         margin: .8em 0 1.5em -30px;
     }
     .balloon-left {
+        height: auto;
         margin: 1em 0;
     }
     .balloon-left:before {
@@ -1163,8 +1165,12 @@
         letter-spacing: 0.02em;
     }
     .adop-card-img {
-        width: 200px;
+        height: 250px;
         margin-top: 30px;
+        margin-left: 0;
+    }
+    .balloon-left {
+        height: auto;
     }
     .balloon-right-btm {
         margin: 2.7em 15px 1.5em 0;
