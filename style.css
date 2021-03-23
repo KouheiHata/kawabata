@@ -523,10 +523,7 @@ img {
 }
 .item05 .dropdown-link {
     text-align: center;
-    padding: 10px 100px 10px 0px;
-}
-.item05 .dropdown-link:nth-of-type(7) {
-    padding-right: 70px;
+    padding: 10px 70px 10px 0px;
 }
 .dropdown-link a {
     font-size: 20px;
