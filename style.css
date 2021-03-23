@@ -1774,7 +1774,7 @@ div.wpcf7 input.wpcf7-submit:hover {
 .footer-box .navbar-nav {
     flex-direction: inherit;
     border: none;
-    background-color: rgba(255, 255, 255, .3 );
+    background-color: rgba(255, 255, 255, .9 );
 }
 .footer-dropdown-list {
     position: absolute;
@@ -1800,14 +1800,14 @@ div.wpcf7 input.wpcf7-submit:hover {
     background-color: #58A4B0;
 }
 .item01 .footer-dropdown-list {
-    background-color: rgba(88, 164, 176, .3);
+    background-color: rgba(88, 164, 176, .9);
 }
 .footer-box .item05 .dropdown-link {
     text-align: center;
     padding: 10px 0;
 }
 .item04 .footer-dropdown-list, .item05 .footer-dropdown-list {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .9);
 }
 .item04 .footer-dropdown-link a:hover, .item05 .footer-dropdown-link a:hover {
     color: #58A4B0;
