@@ -507,10 +507,10 @@ img {
     transition: .3s;
 }
 .item01 .dropdown-list {
-    background-color: rgba(88, 164, 176, .3);
+    background-color: rgba(88, 164, 176, .9);
 }
 .item04 .dropdown-list,.item05 .dropdown-list {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .9);
 }
 .dropdown-link {
     text-align: center;
@@ -522,8 +522,11 @@ img {
     padding: 10px 0;
 }
 .item05 .dropdown-link {
-    text-align: left;
-    padding: 10px 0;
+    text-align: center;
+    padding: 10px 100px 10px 0px;
+}
+.item05 .dropdown-link:nth-of-type(7) {
+    padding-right: 70px;
 }
 .dropdown-link a {
     font-size: 20px;

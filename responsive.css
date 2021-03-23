@@ -403,7 +403,8 @@
         opacity: 1;
         transition: .3s;
     }
-    .item01 .dropdown-link {
+    .item01 .dropdown-link,
+    .item05 .dropdown-link {
         padding: 10px 0;
     }
     .item05 .dropdown-link {
@@ -440,7 +441,10 @@
     }
     .item05 {
         width: calc(20vw + 100px);
-        text-align: left;
+    }
+    .item05 .dropdown-hover {
+        padding-left: 60px !important;
+        padding-right: 100px !important;
     }
     .item05 a {
         padding-left: 60px !important;
