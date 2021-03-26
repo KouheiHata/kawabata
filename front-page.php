@@ -235,10 +235,7 @@ Template Name: 川端工務店フロントページ
 
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 sidebar-option"><!-- サイドバー -->
 
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <iframe class="sidebar-video" src="https://www.youtube.com/embed/videoseries?list=PLzNCnTkLCFG2jdO8TXtuxAbTeohvRD5BS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/sidebar_step.png" alt="家づくりの５ステップ">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sidebar_step_tmp.png" alt="家づくりの５ステップ">
                 <!-- 家づくりのステップ end -->
 
                <div id="side-sns">
@@ -264,7 +261,7 @@ Template Name: 川端工務店フロントページ
                     <a data-pin-do="embedUser" data-pin-lang="ja" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.jp/kawabatakoumuten226577/"></a>
                 </div>
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5 pb-3">
-                    <h4 class="text-left inst pb-3">
+                    <h4 class="text-left inst pb-3 pl-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon_line.png" width="30px">
                         LINE@
                     </h4>

@@ -119,18 +119,18 @@
           </div>
           </a>
           <ul class="dropdown-list item01-list">
-              <li class="dropdown-link"><a href="#">家づくりの流れ</a></li>
-              <li class="dropdown-link"><a href="#">Z空調の家</a></li>
-              <li class="dropdown-link"><a href="#">長期優良住宅</a></li>
-              <li class="dropdown-link"><a href="#">お得な補助金制度</a></li>
-              <li class="dropdown-link"><a href="#">お問い合わせ</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/nagare/' ); ?>">家づくりの流れ</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/zkuutyou/' ); ?>">Z空調の家</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/longlife/' ); ?>">長期優良住宅</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/hojyokin/' ); ?>">お得な補助金制度</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/contact/' ); ?>">お問い合わせ</a></li>
           </ul>
       </li>
       <li class="nav-item item02">
-        <a class="nav-link item02-box" href="#">お知らせ</a>
+        <a class="nav-link item02-box" href="<?php echo home_url( '/news/' ); ?>">お知らせ</a>
       </li>
       <li class="nav-item item03">
-        <a class="nav-link item03-box" href="#">不動産情報</a>
+        <a class="nav-link item03-box" href="<?php echo home_url( '/realestate/' ); ?>">不動産情報</a>
       </li>
         <li class="nav-item item04">
         <a class="nav-link dropdown-hover item04-box" href="#">実績
@@ -140,8 +140,8 @@
             </div>
             </a>
             <ul class="dropdown-list item04-list">
-                <li class="dropdown-link"><a href="#">施工実績</a></li>
-                <li class="dropdown-link"><a href="#">リフォーム実績</a></li>
+                <li class="dropdown-link"><a href="<?php echo get_template_directory_uri(); ?>/works/">施工実績</a></li>
+                <li class="dropdown-link"><a href="<?php echo get_template_directory_uri(); ?>/renovation/">リフォーム実績</a></li>
           </ul>
       </li>
       <li class="nav-item item05">
@@ -152,13 +152,13 @@
             </div>
           </a>
           <ul class="dropdown-list item05-list">
-              <li class="dropdown-link"><a href="#">ご挨拶</a></li>
-              <li class="dropdown-link"><a href="#">企業情報</a></li>
-              <li class="dropdown-link"><a href="#">スタッフ紹介</a></li>
-              <li class="dropdown-link"><a href="#">採用情報</a></li>
-              <li class="dropdown-link"><a href="#">職人紹介</a></li>
-              <li class="dropdown-link"><a href="#">アクセス</a></li>
-              <li class="dropdown-link"><a href="#">なるほど住まい館</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/greeting/' ); ?>">ご挨拶</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/gaiyou/' ); ?>">企業情報</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/staff/' ); ?>">スタッフ紹介</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/recruit/' ); ?>">採用情報</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/syokunin/' ); ?>">職人紹介</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/access/' ); ?>">アクセス</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/naruhodo/' ); ?>">なるほど住まい館</a></li>
           </ul>
       </li>
     </ul>
