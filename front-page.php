@@ -52,7 +52,7 @@ Template Name: 川端工務店フロントページ
                         <?php if(has_post_thumbnail()): ?>
                         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
                         <?php else: ?>
-                        <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
+                        <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image-i.png" alt="画像なし"></a>
                         <?php endif; ?>
 
                         <div class="news-width">
@@ -103,7 +103,7 @@ Template Name: 川端工務店フロントページ
                         <?php if(has_post_thumbnail()): ?>
                         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
                         <?php else: ?>
-                        <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
+                        <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image-i.png" alt="画像なし"></a>
                         <?php endif; ?>
                         </div>
 
@@ -154,7 +154,7 @@ Template Name: 川端工務店フロントページ
                     <?php if(has_post_thumbnail()): ?>
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
                     <?php else: ?>
-                    <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
+                    <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image-i.png" alt="画像なし"></a>
                     <?php endif; ?>
                     </div>
 
@@ -204,7 +204,7 @@ Template Name: 川端工務店フロントページ
                     <?php if(has_post_thumbnail()): ?>
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
                     <?php else: ?>
-                    <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image.png" alt="画像なし"></a>
+                    <a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/no-image-i.png" alt="画像なし"></a>
                     <?php endif; ?>
                     </div>
 

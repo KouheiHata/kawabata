@@ -656,7 +656,11 @@ img {
 .top-index-padding {
     padding-left: 9.2vw;
 }
-
+.news-img, .realestate-img,
+.works-img, .rnb-img {
+    max-width: 14vw;
+    margin: 0 auto;
+}
 .news-img img,
 .realestate-img img,
 .works-img img,
