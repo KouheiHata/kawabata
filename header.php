@@ -15,8 +15,6 @@
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css?20200807" rel="stylesheet">
 <!-- Responsive CSS -->
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/responsive.css?20200807" rel="stylesheet">
-<!-- Noto Sans Web font -->
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
 <!-- Yamm3 -->
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/yamm.css" rel="stylesheet">
 <!-- print CSS -->

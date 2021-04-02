@@ -23,9 +23,9 @@ Template Name: 川端工務店フロントページ
         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12"><!-- （メイン部分） start-->
                 <div class="row">
                     <div class="pop-area">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/pop1.svg" class="pop1 fadein" alt="補助金に関する情報はこちら">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/pop2.svg" class="pop2 fadein" alt="Z空調に関する情報はこちら">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/pop3.svg" class="pop3 fadein" alt="長期優良住宅に関する情報はこちら">
+                        <a href="<?php echo home_url('/hojyokin/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/pop1.svg" class="pop1 fadein" alt="補助金に関する情報はこちら"></a>
+                        <a href="<?php echo home_url('/zkuutyou/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/pop2.svg" class="pop2 fadein" alt="Z空調に関する情報はこちら"></a>
+                        <a href="<?php echo home_url('/longlife/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/pop3.svg" class="pop3 fadein" alt="長期優良住宅に関する情報はこちら"></a>
                     </div><!-- pop-area -->
                 </div>
                 <div class="row"><!-- row（メイン部分内） -->

@@ -617,6 +617,7 @@
 
 	.rbn {
 		top: 60px;
+		left: -20px;
 	}
 
 	.news-time,
@@ -626,11 +627,16 @@
 		font-size: 14px;
 		padding: 5px 9px;
 		height: 30px;
-		width: 90px;
+		width: 110px;
+	}
+
+	.news-img, .realestate-img,
+	.works-img, .rnb-img {
+	    max-width: 210px;
 	}
 
 	.news-width {
-		width: 165px;
+		width: 210px;
 	}
 
 	.border-btn {
