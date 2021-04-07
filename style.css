@@ -409,6 +409,10 @@ img {
     line-height: 1.5;
 }
 
+.lh17 {
+    line-height: 1.7;
+}
+
 .lh20 {
     line-height: 2;
 }
@@ -1509,7 +1513,7 @@ div.wpcf7 input.wpcf7-submit:hover {
 .subsidy-box p,.subsidy-box a {
     color: #231815;
     font-weight: 500;
-    line-height: 1.04;
+    line-height: 1.7;
     letter-spacing: 0.04em;
 }
 .subsidy-box h3 {

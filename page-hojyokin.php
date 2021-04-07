@@ -31,8 +31,8 @@ Template Name: 補助金ページ
                 <img src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img14.png" alt="最大140万円が補助されます">
             </div>
             <div class="mt-5">
-                <p>※1&emsp;2020年4月1日時点で婚姻から3年経過しない夫婦</p>
-                <p>※2&emsp;福井県内他市町から：2020年4月1日時点で越前市<span class="d-inline d-sm-none"><br>&emsp;&emsp;&ensp;</span>に転入して半年を経過していないもの<br>&emsp;&emsp;&ensp;福井県外から：2020年4月1日時点で越前市に転入<span class="d-inline d-sm-none"><br>&emsp;&emsp;&ensp;</span>して3年を経過していないもの</p>
+                <p>※1&emsp;2021年4月1日時点で婚姻から3年経過しない夫婦</p>
+                <p>※2&emsp;福井県内他市町から：2021年4月1日時点で越前市<span class="d-inline d-sm-none"><br>&emsp;&emsp;&ensp;</span>に転入して半年を経過していないもの<br>&emsp;&emsp;&ensp;福井県外から：2021年4月1日時点で越前市に転入<span class="d-inline d-sm-none"><br>&emsp;&emsp;&ensp;</span>して3年を経過していないもの</p>
             </div>
             <div class="my150 text-center">
                 <img class="d-none d-md-inline" src="<?php echo get_template_directory_uri(); ?>/images/subsidy/subsidy-img4.png" alt="吹き出し">
