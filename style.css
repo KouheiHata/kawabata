@@ -1679,7 +1679,8 @@ div.wpcf7 input.wpcf7-submit:hover {
     margin-bottom: 10px;
 }
 
-.news_video iframe {
+.news_video iframe,
+.pic360 {
     width: 992px;
     height: 558px;
 }

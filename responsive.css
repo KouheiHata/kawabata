@@ -599,10 +599,6 @@
 		grid-template-columns: 200px;
 	}
 
-	.top-index-grid > div:nth-of-type(3) {
-		display: none;
-	}
-
 	.top-index-grid > div:nth-of-type(4) {
 		display: none;
 	}
@@ -1238,7 +1234,8 @@
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width: 1024px) {
-    .news_video iframe {
+    .news_video iframe,
+    .pic360 {
         width: 768px;
         height: 432px;
     }
@@ -1251,14 +1248,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    .news_video iframe {
+    .news_video iframe,
+    .pic360 {
         width: 580px;
         height: 326px;
     }
 }
 
 @media screen and (max-width: 580px) {
-    .news_video iframe {
+    .news_video iframe,
+    .pic360 {
         width: 300px;
         height: 180px;
     }
