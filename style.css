@@ -248,7 +248,7 @@ summary {
 
 body {
     background: #fff;
-    color: #707070;
+    color: #1d1d1f;
     font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, メイリオ,"Hiragino Kaku Gothic ProN", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     font-size: 1em;
     font-weight: 400;
@@ -263,12 +263,12 @@ body {
 
 a {
     text-decoration: none;
-    color: #707070;
+    color: #1d1d1f;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #707070;
+    color: #1d1d1f;
 }
 
 .noline a:hover {
