@@ -156,7 +156,7 @@
     }
     .dropdown-link {
         padding:12px 0 15px 75px !important;
-        text-align: left;
+        text-align: left !important;
     }
     .item02,.item03,.item05 {
         border-bottom: 1px solid #F0F0F0;
@@ -254,7 +254,7 @@
     }
     .dropdown-link {
         padding:12px 0 15px 75px !important;
-        text-align: left;
+        text-align: left !important;
     }
     .item02,.item03,.item05 {
         border-bottom: 1px solid #F0F0F0;
