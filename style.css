@@ -560,7 +560,7 @@ img {
 .ham-trigger {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10px;
     margin-top: 10px;
     margin-right: 18px;
     z-index: 999;
@@ -574,7 +574,7 @@ img {
 .sns-trigger {
     position: absolute;
     top: 6px;
-    right: 63px;
+    right: 73px;
     height: 43px;
     cursor: pointer;
     z-index: 999;
@@ -603,7 +603,7 @@ img {
 .tell-menu {
     position: absolute;
     top: 9px;
-    right: 100px;
+    right: 115px;
     height: 40px;
     cursor: pointer;
 }
