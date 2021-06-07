@@ -590,6 +590,10 @@ img {
     background-color: #fff;
     transform: translateZ(0);
 }
+.snsmenubtn {
+    margin-top: 5px;
+    transition: .3s;
+}
 .snsmenubtn2 {
     margin-top: 4px;
     transition: .3s;
@@ -602,7 +606,7 @@ img {
 /* tellメニュー */
 .tell-menu {
     position: absolute;
-    top: 9px;
+    top: 10px;
     right: 115px;
     height: 40px;
     cursor: pointer;
