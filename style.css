@@ -1788,7 +1788,51 @@ div.wpcf7 input.wpcf7-submit:hover {
 .staff-name .name {
     font-size: 24px;
 }
-/* -------------------------------------------------------------------------------- */
+.staffpage-box {
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+.staffpage-border {
+    display: flex;
+    align-items: center;
+    color: #00762C;
+    font-size: 24px;
+}
+.staffpage-border:after {
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    background-color: #00762C;
+}
+.staffpage-border:after {
+    margin-left: 1rem;
+}
+.staffpage-text {
+    margin: 30px 0;
+}
+.staffpage-text p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.staffpage-certification {
+    margin: 30px 0;
+}
+.staffpage-certification a {
+    font-size: 24px;
+    font-weight: 500;
+}
+.staffpage-more {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.staffpage-box .staff-card {
+    margin: 0;
+}
+.text-green {
+    color: #00762C !important;
+}
+/*--------------------------------------------------------------------------- */
 /*	11.	Blog
 /* -------------------------------------------------------------------------------- */
 
