@@ -133,7 +133,7 @@ $(function() {
             $(".sns-trigger").toggleClass("hide");
         });
     });
-</script>
+</script> 
     
 <script>
     $(function(){
@@ -296,6 +296,70 @@ $(function(){
 });
 </script>
 
+<!-- 資格ページ -->    
+<script>
+$(".certification01").click(function(){
+    $(".certification01-img").toggleClass("hide");
+    $(".certification01").toggleClass("text-green");
+    $(".stafftri-01").toggleClass("hide");
+    $(".stafftri-02").toggleClass("hide");
+});
+</script>
+    
+<script>
+$(".certification02").click(function(){
+    $(".certification02-img").toggleClass("hide");
+    $(".certification02").toggleClass("text-green");
+    $(".stafftri-03").toggleClass("hide");
+    $(".stafftri-04").toggleClass("hide");
+});
+</script>
+    
+<script>
+$(".certification03").click(function(){
+    $(".certification03-img").toggleClass("hide");
+    $(".certification03").toggleClass("text-green");
+    $(".stafftri-05").toggleClass("hide");
+    $(".stafftri-06").toggleClass("hide");
+});
+</script>
+
+<script>
+$(".certification04").click(function(){
+    $(".certification04-img").toggleClass("hide");
+    $(".certification04").toggleClass("text-green");
+    $(".stafftri-07").toggleClass("hide");
+    $(".stafftri-08").toggleClass("hide");
+});
+</script>
+    
+<script>
+$(".certification05").click(function(){
+    $(".certification05-img").toggleClass("hide");
+    $(".certification05").toggleClass("text-green");
+    $(".stafftri-09").toggleClass("hide");
+    $(".stafftri-10").toggleClass("hide");
+});
+</script>       
+
+<script>
+$(".certification06").click(function(){
+    $(".certification06-img").toggleClass("hide");
+    $(".certification06").toggleClass("text-green");
+    $(".stafftri-11").toggleClass("hide");
+    $(".stafftri-12").toggleClass("hide");
+});
+</script>
+
+<script>
+$(".certification07").click(function(){
+    $(".certification07-img").toggleClass("hide");
+    $(".certification07").toggleClass("text-green");
+    $(".stafftri-13").toggleClass("hide");
+    $(".stafftri-14").toggleClass("hide");
+});
+</script>       
+    
 <?php wp_footer(); ?>
 </body>
 </html>
