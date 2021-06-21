@@ -52,6 +52,7 @@
         <div class="tell-menu d-lg-none">
             <p class="menubtn"><a href="tel:0778-22-6577"><img src="<?php echo get_template_directory_uri(); ?>/images/tel.svg" alt="menu"></a></p>
         </div>
+        <!-- SNSスペース -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 sns-menu-contents">
@@ -63,18 +64,21 @@
                </div>
             </li>
             <li>
+            <!-- facebook -->
                 <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst pb-3"><a href="https://www.facebook.com/kawabata.koumuten/"><i class="fab fa-facebook fa-fw"></i>facebook</a></h4>
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkawabata.koumuten%2F&tabs=timeline&width=285&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="285" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </li>
             <li>
+            <!-- Youtube -->
                 <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst"><a href="https://www.youtube.com/channel/UCE4kChI3_d2FFjFHA3Hj8Iw"><i class="fab fa-youtube fa-fw"></i>YouTube</a></h4><br />
-                    <iframe width="285" height="157" src="https://www.youtube.com/embed/zjLKzeA4F1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="285" height="157" src="https://www.youtube.com/embed/wTwE5UYUOtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </li>
             <li>
+            <!-- pinterest -->
                 <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst pb-3">
                         <i class="fab fa-pinterest"></i>
@@ -86,6 +90,7 @@
                 </div>
             </li>
             <li>
+            <!-- LINE -->
                 <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst pb-3">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon_line.png" width="30px">
@@ -101,7 +106,7 @@
         </div> 
             </div>
         </div>
-        
+        <!-- SNSスペース end -->
         <div class="ham-trigger d-lg-none" id="ham">
             <img class="ham-img1" src="<?php echo get_template_directory_uri(); ?>/images/menu.svg" alt="メニューボタン">
             <img class="ham-img2  hide" src="<?php echo get_template_directory_uri(); ?>/images/menu_open.svg" alt="メニューボタン">
