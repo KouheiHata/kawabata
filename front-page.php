@@ -244,7 +244,7 @@ Template Name: 川端工務店フロントページ
             <div id="side-sns">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5 pr-3">
                     <h4 class="text-left inst"><a href="https://www.instagram.com/kawabatakoumuten226577/"><i class="fab fa-instagram fa-fw"></i>instagram</a></h4>
-                    <?php echo do_shortcode('[instagram-feed width=115]'); ?>
+                    <?php echo do_shortcode('[instagram-feed]'); ?>
                 </div><!-- instagram end -->
 
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5">
