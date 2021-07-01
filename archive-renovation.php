@@ -30,7 +30,6 @@ Template Name: リフォーム アーカイブ
                 </div>
                 <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-12">
                     <div class="news-text">
-                        <p class="font-weight-bold text-muted"><?php the_time('Y/m/d(D)'); ?></p>
                         <a class="url" href="<?php the_permalink(); ?>"><h5 class="font-weight-bold py-2 news-title"><?php echo get_the_title(); ?></h5></a>
                     </div>
                 </div>
