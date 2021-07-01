@@ -198,7 +198,7 @@ Template Name: 川端工務店フロントページ
 
                                     <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 
-                                        <div>
+                                        <div class="mt-5">
                                             <div class="rnb-img">
                                                 <?php if (has_post_thumbnail()) : ?>
                                                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
