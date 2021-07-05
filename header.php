@@ -74,7 +74,7 @@
             <!-- Youtube -->
                 <div class="pt-5 sidebar-width sns-sm">
                     <h4 class="text-left inst"><a href="https://www.youtube.com/channel/UCE4kChI3_d2FFjFHA3Hj8Iw"><i class="fab fa-youtube fa-fw"></i>YouTube</a></h4><br />
-                    <iframe width="285" height="157" src="https://www.youtube.com/embed/wTwE5UYUOtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="285" height="157" src="https://www.youtube.com/embed/waNOewgz4wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </li>
             <li>
