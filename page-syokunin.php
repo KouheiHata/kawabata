@@ -115,7 +115,7 @@ Template Name: 新職人紹介
                 <div class="bg-photo04 bg-photo"></div>
             </div>
         </div>
-        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4 photobox38">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-4 photobox38">
             <div class="bg-mask">
                 <h5 class="font-weight-bold text-white">(株)タッセイ</h5>
                 <div class="bg-photo38 bg-photo"></div>
