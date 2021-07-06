@@ -55,12 +55,6 @@ Template Name: 新職人紹介
                 <div class="bg-photo33 bg-photo"></div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-4 photobox31">
-            <div class="bg-mask">
-                <h5 class="font-weight-bold text-white">佐々木建築</h5>
-                <div class="bg-photo31 bg-photo"></div>
-            </div>
-        </div>
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4 photobox24">
             <div class="bg-mask">
                 <h5 class="font-weight-bold text-white">たなべ工務店</h5>
@@ -294,12 +288,6 @@ Template Name: 新職人紹介
                 <div class="bg-photo21 bg-photo"></div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-4 photobox09">
-            <div class="bg-mask">
-                <h5 class="font-weight-bold text-white">(有)田口電機</h5>
-                <div class="bg-photo09 bg-photo"></div>
-            </div>
-        </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-4 photobox15">
             <div class="bg-mask">
                 <h5 class="font-weight-bold text-white">丸福木材(株)</h5>
@@ -312,22 +300,16 @@ Template Name: 新職人紹介
                 <div class="bg-photo07 bg-photo"></div>
             </div>
         </div>
-        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4 photobox03">
-            <div class="bg-mask">
-                <h5 class="font-weight-bold text-white">遊亀クレーン工業(株)</h5>
-                <div class="bg-photo03 bg-photo"></div>
-            </div>
-        </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-4 photobox41">
             <div class="bg-mask">
                 <h5 class="font-weight-bold text-white">(株)ヒカリ商会</h5>
                 <div class="bg-photo41 bg-photo"></div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-4 photobox18">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4 photobox03">
             <div class="bg-mask">
-                <h5 class="font-weight-bold text-white">(株)松竹開発</h5>
-                <div class="bg-photo18 bg-photo"></div>
+                <h5 class="font-weight-bold text-white">遊亀クレーン工業(株)</h5>
+                <div class="bg-photo03 bg-photo"></div>
             </div>
         </div>
     </div>
