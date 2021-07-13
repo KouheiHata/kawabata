@@ -10,7 +10,7 @@ Template Name: 川端工務店スタッフ紹介修正
 
 <div class="container-fluid" style="padding: 0px;">
     <div>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top.png" alt="スタッフ紹介ページ">
+        <?php echo do_shortcode('[metaslider id="146"]'); ?>
     </div>
 </div>
 
