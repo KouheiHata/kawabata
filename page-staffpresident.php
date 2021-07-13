@@ -10,7 +10,7 @@ Template Name: 川端工務店スタッフ紹介個別ページ
 
 <div class="container-fluid" style="padding: 0px;">
     <div>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/staff/01.png" alt="スタッフ紹介TOP画像">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/staff/01.png" width="100%" alt="スタッフ紹介TOP画像">
     </div>
 </div>
 
