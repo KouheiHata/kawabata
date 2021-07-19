@@ -78,7 +78,7 @@ Template Name: Z空調の家ページテンプレート
                 </div>
                 <div class="text-center">
                     <div>
-                        <a href="https://www.hinokiya.jp/z/" class="url z-btn z-bg2" target="_blank" rel="noopener">詳しくはこちら</a>
+                        <a href="https://www.z-kucho.jp/" class="url z-btn z-bg2" target="_blank" rel="noopener">詳しくはこちら</a>
                         <p class="text-center pt30">※別サイトにジャンプします</p>
                     </div>
                 </div>
