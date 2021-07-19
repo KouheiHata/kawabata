@@ -893,6 +893,31 @@
     .adop-card-toptext {
         font-size: 18px;
     }
+    .staff-box {
+        padding: 32px 0 12px 0;
+    }
+    .staff-title p {
+        font-size: 14px;
+    }
+    .staff-card {
+        margin-top: 20px;
+    }
+    .staff-card-box {
+        width: 130px;
+        margin: 0 auto;
+    }
+    .staff-cardbox {
+        margin: 0;
+    }
+    .staff-position {
+        font-size: 14px;
+    }
+    .staff-name .sub-text {
+        font-size: 9px;
+    }
+    .staff-name .name {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {

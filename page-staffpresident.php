@@ -30,8 +30,8 @@ Template Name: 川端工務店スタッフ紹介個別ページ
             </div>
             <div class="staffpage-certification">
                 <a class="certification01" style="cursor:pointer;">一級建築士
-                    <span class="stafftri-01"><i class="fas fa-angle-down fa-lg fa-fw"></i></span>
-                    <span class="stafftri-02 hide"><i class="fas fa-angle-up fa-lg fa-fw"></i></span>
+                    <div class="stafftri-01"><img src="<?php echo get_template_directory_uri(); ?>/images/angle_down.jpg"></div>
+                    <div class="stafftri-02"><img src="<?php echo get_template_directory_uri(); ?>/images/angle_up.jpg"></div>
                 </a>
             </div>
             <div class="certification01-img hide">

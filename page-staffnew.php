@@ -21,9 +21,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 <p>スタッフ紹介</p>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
@@ -35,9 +35,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 </div>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
@@ -49,9 +49,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 </div>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
@@ -63,9 +63,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 </div>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
@@ -77,9 +77,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 </div>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
@@ -91,9 +91,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 </div>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
@@ -105,9 +105,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 </div>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
@@ -119,9 +119,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 </div>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
@@ -133,9 +133,9 @@ Template Name: 川端工務店スタッフ紹介修正
                 </div>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 staff-card text-center">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 staff-card text-center">
+            <div class="staff-card-box">
+                <img class="staff-img" src="<?php echo get_template_directory_uri(); ?>/images/staff_top2.png" width="250px" alt="スタッフ紹介画像">
                 <div class="staff-cardbox">
                     <div>
                         <p class="staff-position">代表取締役社長</p>
