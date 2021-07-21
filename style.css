@@ -1779,11 +1779,16 @@ div.wpcf7 input.wpcf7-submit:hover {
     color: #fff;
     font-size: 18px;
     margin-top: 15px;
+    padding: 1px 5px;
     background-color: #00762C;
+}
+.staff-name {
+    margin-top: 6px;
 }
 .staff-name .sub-text {
     color: #00762C;
     font-size: 12px;
+    margin-bottom: -5px;
 }
 .staff-name .name {
     font-size: 24px;
@@ -1815,6 +1820,7 @@ div.wpcf7 input.wpcf7-submit:hover {
     font-weight: 500;
 }
 .staffpage-certification {
+    position: relative;
     margin: 30px 0;
 }
 .staffpage-certification a {
@@ -1831,6 +1837,33 @@ div.wpcf7 input.wpcf7-submit:hover {
 }
 .text-green {
     color: #00762C !important;
+}
+.stafftri {
+    position: absolute;
+    bottom: 0;
+}
+.stafftri-01,.stafftri-02 {
+    left: 130px;
+}
+.stafftri-03,.stafftri-04,.stafftri-05,.stafftri-06 {
+    left: 250px;
+}
+.stafftri-07,.stafftri-08 {
+    left: 180px;
+}
+.stafftri-09,.stafftri-10 {
+    left: 280px;
+}
+.stafftri-11,.stafftri-12 {
+    left: 330px;
+}
+.stafftri-13,.stafftri-14 {
+    left: 80px;
+}
+.stafftri img {
+    width: 18px;
+    height: auto;
+    margin: 0 0 7px 0;
 }
 /*--------------------------------------------------------------------------- */
 /*	11.	Blog

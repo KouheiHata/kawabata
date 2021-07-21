@@ -894,7 +894,7 @@
         font-size: 18px;
     }
     .staff-box {
-        padding: 32px 0 12px 0;
+        padding: 32px 0 85px 0;
     }
     .staff-title p {
         font-size: 14px;
@@ -917,6 +917,39 @@
     }
     .staff-name .name {
         font-size: 20px;
+    }
+    .staffpage-border,.staffpage-text p,.staffpage-certification a,.staffpage-more {
+        font-size: 14px;
+    }
+    .staffpage-box {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .stafftri img {
+        width: 10px;
+        height: auto;
+        margin: 0 0 5px 0;
+    }
+    .stafftri-01,.stafftri-02 {
+        left: 80px;
+    }
+    .stafftri-03,.stafftri-04,.stafftri-05,.stafftri-06 {
+        left: 150px;
+    }
+    .stafftri-07,.stafftri-08 {
+        left: 105px;
+    }
+    .stafftri-09,.stafftri-10 {
+        left: 160px;
+    }
+    .stafftri-11,.stafftri-12 {
+        left: 190px;
+    }
+    .stafftri-13,.stafftri-14 {
+        left: 50px;
+    }
+    .staffpage-more {
+        margin: 20px 0;
     }
 }
 
